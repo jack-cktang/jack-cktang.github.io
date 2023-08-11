@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>REW &#8211; JNET Blog</title>
+	<atom:link href="/tag/rew/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 19 Feb 2021 09:19:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>【發燒心得】之⋯ 喇叭擺位</title>
+		<link>/speaker-positioning/</link>
+					<comments>/speaker-positioning/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 09:19:33 +0000</pubDate>
+				<category><![CDATA[發燒心得]]></category>
+		<category><![CDATA[REW]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=155</guid>
+
+					<description><![CDATA[講到喇叭擺位，其實第一樣係睇有冇地方可以擺先，如果冇，講都冇用！當然，成個空間可以任意擺，咁就可以繼續睇落去，咁又睇睇小弟有乜嘢心水方法⋯ [...]]]></description>
+										<content:encoded><![CDATA[
+<p>講到喇叭擺位，其實第一樣係睇有冇地方可以擺先，如果冇，講都冇用！當然，成個空間可以任意擺，咁就可以繼續睇落去，咁又睇睇小弟有乜嘢心水方法⋯</p>
+
+
+
+<p>講到擺位，亦即係表示你對這個空間的認識有多少，頻率的能量分佈，音頻消散時間，吸音或擴散等房間處理問題。而擺位的第一目的，就係想要整體平均的聲音效果，何謂平均？先由平衡開始，平衡即是高、中、低份量比例均衡，或者是音頻反應曲線平直，要做到平衡效果，空間當然是重要課題，擺位係因應空間而為，但當空間不能改變的情況下，擺位才是重要方向。</p>
+
+
+
+<p>通常小弟開始擺位之前，會研究一吓空間比例、喇叭距離、以及皇帝位位置等。現時科技先進，可以用 <a rel="noreferrer noopener" href="https://www.roomeqwizard.com/" target="_blank">REW</a> 的 Room Simulation，便很容易找到喇叭與皇帝位的最佳位置。當然這個是最初步建議做法，而最終因為有其他因素影響，會出現很多不確定情況。但一般用這個方法，很容易找到空間的 Room Mode 是哪幾個，也可以了解到 200Hz 以下的低頻情況，再應用於實際環境上，相信很快能夠找到比較合適的擺位，以及最佳的聆聽位置。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
+
+
+
+<p>以上方法當然係紙上談兵，一定要實地擺好喇叭，才知道真正情況如何。而大多數音樂都以樂器及人聲為主，理所當然擺位概念以準確中頻行先，小弟心目中係以 &#8220;左右對稱&#8221; 為原則，而 &#8220;左右對稱&#8221; 並不是指左邊放的東西和右邊完全做到鏡像效果，&#8221;左右對稱&#8221; 係以時間概念 (有時稱為相位、或者以距離作參考) 為準，亦即是最基本的等邊三角形擺法。除了喇叭與皇帝位的距離外，最短的第一反射點距離也要考慮在內 (如果用短邊擺法，指左右喇叭貼側牆的第一反射點與皇帝位的距離；如果用長邊擺法，指左右喇叭貼後牆的第一反射點與皇帝位的距離) ，所以做到 &#8220;左右對稱&#8221; 並不容易。在最佳的情況下，這個第一反射點與喇叭的距離最好超過1.7米，因為人耳能夠分辨到喇叭發出的直接聲與反射點的反射聲之間的時間差，相反如果太接近牆身，可能會做成音像模糊不清。</p>
+
+
+
+<div class="wp-block-group alignfull"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-6 column1-desktop-grid__row-1 column2-desktop-grid__span-6 column2-desktop-grid__start-7 column2-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column2-tablet-grid__span-4 column2-tablet-grid__start-5 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2">
+<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
+<figure class="wp-block-image size-large"><img decoding="async" width="402" height="600" src="/wp-content/uploads/2021/02/longset1stpos.jpg?w=402" alt="" class="wp-image-172" srcset="/wp-content/uploads/2021/02/longset1stpos.jpg 402w, /wp-content/uploads/2021/02/longset1stpos-201x300.jpg 201w" sizes="(max-width: 402px) 100vw, 402px" /><figcaption>短邊擺法，最短時間的第一反射點位於側牆。</figcaption></figure>
+</div>
+
+
+
+<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
+<figure class="wp-block-image size-large"><img decoding="async" width="404" height="557" src="/wp-content/uploads/2021/02/wideset1stpos.jpg?w=404" alt="" class="wp-image-173" srcset="/wp-content/uploads/2021/02/wideset1stpos.jpg 404w, /wp-content/uploads/2021/02/wideset1stpos-218x300.jpg 218w" sizes="(max-width: 404px) 100vw, 404px" /><figcaption>長邊擺法，最短時間的第一反射點位於後牆。</figcaption></figure>
+</div>
+</div>
+</div></div>
+
+
+
+<p>另一方面，擺位前也應充分閲讀說明書，因應各款喇叭設計不同，擺位也有不同方向，貼牆或者離牆、近聽或者要有固定距離、Toe-in 或 Toe-out 多少，每種設計分別很大。至於選取書架或座地喇叭，可以因應 Room Mode 的結果，如果集中在 20~80Hz 內，最好使用書架喇叭，如果使用座地喇叭，很難避免不出現房間共鳴 (Boom) 的情況。至於不同的器材或線材，也有著影響整體平衡度的元素，所以如果作出更換，也需要移動少少喇叭位置，以作調整。</p>
+
+
+
+<p>相信大家都明白到，每個擺位都有不同的直接聲與反射聲的比例，理想情況下，直接聲與反射聲的比例約為 3：7，直接聲是指由喇叭發聲單元到聆聽位置最短距離的音量，而經過房間6個不同反射面的反射聲音量，確實比直接聲高許多。直接聲比例高的話，音像比較明確、細節充足，反射聲比例高的話，音塲更見優勢。在一般喇叭設計當中，高頻多會集中在中軸線上，中頻有如菊花形散射，低頻方向不明顯等。所以當 Toe-in 多的時候，高頻比例會增加，但反射聲的比例也會減少，結果音像會相對較前，音塲亦較細。這和房間的反射面有直接關係，需要多嘗試，才會找到合適的 Toe-in 角度，除了 Toe-in 外，也可以嘗試將喇叭移前移後、或左或右些少，這樣也可以調整反射聲的比例。</p>
+
+
+
+<p>在大多數起居住生活環境下玩音響，實在沒有太多理想位置可以擺放喇叭，最常出現是左右不平均的情況。解決方法有：1) 用反射板將左右反射點反射時間調整為左右對稱；2) 增加直接聲，減少反射聲比例；3) 盡量拉開喇叭和側牆／後牆距離。又因為左右不對稱原故，總有一面的能量強過另一面，這時也需要考慮使用到左右不對稱擺法。低頻能量強的一面，需要離牆再遠些，高頻多的一面，可以 Toe-out 些少。但因為空間問題的情況，這些方法只能作出少許修正補償，不能完整地解決原本的問題，所以某程度上只能作出妥協。如果是反射聲的比例的問題，可以從房間報置物料方面入手，如果可以的話，加入少許聲學物料作處理，聲學物料好處是因為廠商已經提供足夠有用的頻應資料，用家比較容易選擇需要的產品。</p>
+
+
+
+<p>總結以上內容，先尋找出房間特性，避開引起房間共鳴的位置，盡量做到左右對稱，多嘗試不同擺位距離和角度，可以的話，做些少房間聲學處理。對於喇叭未能擺放出最理想位置，用家也要有心理預備，因為環境因素影響太多，出現未如理想的情況很常見，或許玩的同時也要作出妥協。以上是小弟對喇叭擺位的小小心得，如果各位師兄喜歡的，請除便分享，如果有作出提點的，請多多指教。</p>
+
+
+
+<p>* 心得呢樣，未必個個都會認同，不過都可以作為小小參考對象。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/speaker-positioning/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:25 by W3 Total Cache
+-->

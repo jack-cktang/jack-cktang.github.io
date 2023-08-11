@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AudioBtye Hydra VOX &#8211; JNET Blog</title>
+	<atom:link href="/tag/audiobtye-hydra-vox/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 12 Nov 2021 12:47:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>【圍物論】領先 1-bit 轉換技術 &#8212; AudioByte Hydra-VOX「驚喜」之作</title>
+		<link>/audiobyte-hydra-vox/</link>
+					<comments>/audiobyte-hydra-vox/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 12 Nov 2021 12:47:24 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[AudioBtye Hydra VOX]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=260</guid>
+
+					<description><![CDATA[「驚喜」之作，當然又驚又喜，部解碼新買返嚟一開聲，真係只有驚到流汗，普普通通，聲音一般到唔起眼，有種高科技中伏的感覺。不過到後來當其他器材改善的時候，才發現它的優點，真正的「驚喜」之作。]]></description>
+										<content:encoded><![CDATA[
+<p>「驚喜」之作，當然又驚又喜，部解碼新買返嚟一開聲，真係只有驚到流汗，普普通通，聲音一般到唔起眼，有種高科技中伏的感覺。不過到後來當其他器材改善的時候，才發現它的優點，真正的「驚喜」之作。</p>
+
+
+
+<p>Audiobyte Hydra-VOX 係一部獨特的 FPGA 解碼器，再加上耳機放大功能，用上同廠的 Hydra-ZAP 超級電容清潔電源供應器，淨睇技術已經想到聲音必然有驚喜。VOX 有專門的 DSP 訊號處理，結合 digital/ analog filters 相位修正技術，再經由 1-bit 處理的分立元件，完全自家技術底下，創造出領先科技的水平，聲稱能夠造到自然聲音的體驗。</p>
+
+
+
+<p>開始之時，使用了當時的參考系統接駁，Stenheim 三仔、Soulution 330、Uptone EtherRegen、Intel NUC streamer 等器材，用 USB 接 VOX 開聲，心想… 唔係呀！聲音速度特慢、拖泥帶水，唔緊要，煲多幾日再講。結果⋯ 好少可玩唔夠一個月就將佢放埋一邊，再次攞出嚟玩已經係一年之後嘅事。</p>
+
+
+
+<p>驚喜一：就喺前幾個月，見到提及 VOX 有新 Firmware 的討論，於是又試吓將手頭上嘅 VOX 升級，升級之後發現聲音有很大改善，終於有心機再玩好佢。又或者因為現時串流系統已經有了可聞的改善，於是再接上手頭上的器材，有 YG Carmel 2、Vitus SIA-025 mk2、Raspberry Pi 4 streamer、HQPlayer 等，還是用上 USB 接駁，音樂味特別出眾，但總是好像有些缺失似的，咁嘅情況下，又再思考吓其他因素，或者可能同 USB 接駁有關。</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="YG Carmel 2 + Vitus SIA025 mk2 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/-0Bseoa_77I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>驚喜二：既然要從接駁考量，而 VOX 只有三種輸入 USB、SPDIF、I2S，當中應該以 I2S 最理想，不過手頭上沒有 I2S 設備，於是又買了 Singxer SU-6 DDC (其實呢部機想買好耐，只不過未有觸發點) 和 iFi Stream 等器材。當接好 VOX 再開聲嘅時候，感覺當時嘅缺失已經沒有了，換來了自然的聲音，可能因為 I2S 有隔離功能，可以降低 jitter 對系統的影響，從而改善聲音的質素。VOX 有個 DSD 直出功能，當訊號是 DSD256 或 DSD512 輸入時，便可以做到直解，呢個功能相當適合玩 HQPlayer，iFi Stream 可以支援 HQPlayer NAA 行 DSD256，係最理想的軟件升頻直出嘅方法。</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Elac Uni-Fi U5 + NAD M10 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/gdKiriHQSxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>驚喜三：玩了一輪 I2S 接駁之後，又因為改變了系統的設置，今次輪到玩 Elac Uni-Fi 書架喇叭，改用 SPDIF 輸入，由 Wattson Emerson Digital 接 Chord M-Scaler 再接 VOX，估唔到原來 VOX 可以支援 384kHz 輸入，今次可以玩盡 M-Scaler 嘅升頻，有興趣可以入去睇吓 <a href="https://jacknetcf.wordpress.com/2021/10/16/unifisystem/">【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</a>，平價組合可玩到超身價幾倍的聲音，認真有驚喜。其實 VOX 會將 PCM 轉成 delta-sigma 形式去 1-bit 轉換器，而 PCM 轉 DSD 也有出色表現，可能 VOX 嘅 DSP 處理多 bit 運算比較成熟，digital filters 做得相當唔錯。</p>
+
+
+
+<p>結論：玩一件器材要玩得好，當然要花上十二分精力和時間，一時三刻未必掌握得到玩器材嘅方法，就因為千變萬化，所以音響才好玩，就算表面好簡單，配搭嘅過程都有好多變數，如果只聽一段短時間就判定器材的好壞，咁就可能過於片面，想要全面的話，就一定要充分了解各種可能性。</p>
+
+
+
+<p class="has-small-font-size">*<strong><em>串流參考設定：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)</em><br><em>HydraVOX USB 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi (NAA) -&gt; (USB) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> I2S 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; iFi Stream (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> SPDIF 設定：<br>Mac Mini M1 (Roon) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Emerson Digital (RoonBridge) -&gt; (SPDIF) -&gt; Chord M-Scaler -&gt; (SPDIF) -&gt; <em>HydraVOX</em></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/audiobyte-hydra-vox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</title>
+		<link>/unifisystem/</link>
+					<comments>/unifisystem/#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 16 Oct 2021 06:21:01 +0000</pubDate>
+				<category><![CDATA[音響拼圖]]></category>
+		<category><![CDATA[AudioBtye Hydra VOX]]></category>
+		<category><![CDATA[Chord Hugo M-Scaler]]></category>
+		<category><![CDATA[Elac Uni-Fi Slim]]></category>
+		<category><![CDATA[NAD M10]]></category>
+		<category><![CDATA[Wattson Audio Emerson DIGITAL]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=234</guid>
+
+					<description><![CDATA[通常一套平價音響組合在聲音上總有一種取向，音樂性出色但音響性會偏差，音響性好的又往往缺乏音樂性，或者兩頭唔到岸都唔定。如果兩者可以兼得的話，可能係一套高級組合，又或者要花好長時間去調試，咁啱呢排玩開一對平價高質嘅 Elac Uni-Fi Slim BS U5 書架喇叭，作為一對入門級喇叭，聲音表現一啲都唔失禮。]]></description>
+										<content:encoded><![CDATA[
+<p>通常一套平價音響組合在聲音上總有一種取向，音樂性出色但音響性會偏差，音響性好的又往往缺乏音樂性，或者兩頭唔到岸都唔定。如果兩者可以兼得的話，可能係一套高級組合，又或者要花好長時間去調試，咁啱呢排玩開一對平價高質嘅 Elac Uni-Fi Slim BS U5 書架喇叭，作為一對入門級喇叭，聲音表現一啲都唔失禮。</p>
+
+
+
+<p>幾年前留意到 Andrew Jones 設計的 Elac 平價同軸單元喇叭 Uni-Fi，雖然用料一般，但當年各地音展表現十分出眾，便萌生起收藏意慾。Andrew Jones 設計過幾款同軸單元喇叭，而廣為人知的就有 TAD、Pionner、KEF 等設計，而現在新的 Elac 也用上 Andrew Jones 新的同軸單元設計，雖然給人感覺風格不同於傳統的 Elac 喇叭，但其實也可以作為新系列喇叭看待。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" fetchpriority="high" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
+
+
+<p>同軸單元設計的優點在於可以做到類似現實生活中的單點發聲原理，對於喇叭設計當中的正確相位有著重要影響，但由於市場上同軸單元設計的喇叭選擇比較少，Elac Uni-Fi 可謂入門首選。而這對 Uni-Fi 有著傳統的美式風格 (流著 Andrew Jones 的設計理念，所以唔可以當佢係德國喇叭)，聽流行曲爆得十分過癮，聽幾件樂器的演奏亦十分出色，但某程度上比較粗獷，唔算係幼細類型，聽弦樂未必太理想。由於小弟聽古典比較多，為了改善 Uni-Fi 的搭配效果，先從平常使用的參考器材 (*見註腳) 入手配搭。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
+
+
+<p>由平時常聽的曲目開始試聽，發現 VA 的 Class A 輸出太過細緻幼滑，同 Uni-FI 大開大合爽直的性格有些不協調，即刻按鍵轉 Class AB，爽直性格出番嚟，但整體性格偏向比較斯文，少了些趣味。而解碼配置方面，「梅」比較率直、分析力強，但遇上分析能力較低的喇叭，太強的解碼分析能力會突顯喇叭本身的不足之處，變相做成音樂呆板，好在手上有幾套解碼系統，可以試試 Chord 解碼系統。為發掘更多可能性，這次只使用 Chord 系統中的 M-Scaler 升頻器，於是系統便成為 Emerson -&gt; M-Scaler -&gt; 「梅」，結果聲音變得細緻起來，但「梅」的聲音直接，反而感覺有些做作。之後轉至 AudioByte Hydra VOX 解碼，聽感又返回來，音樂感豐富了，細節也存在，感覺實在了。但跟以往聽開的 Uni-Fi 還有些出入，好像欠缺些什麼？於是把心一橫，用部 NAD M10 內的合併擴大功能 (即是 NCore 的放大部份) 來代替 VA 擴音機，NCore 強勁的驅動力配合爽直的 Uni-Fi 有種化學作用，書架喇叭也可以爆到七彩，連 subwoofer 也不需要使用，真係出乎意料之外。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
+
+
+<p>這個組合的串流解解碼系統有個優勢，串流部分先由簡單易用的 Emerson DIGITAL 開始，雖然 Emerson 的 SPDIF 只支援最高 24/192，但正常情況下，播 Tidal 串流已經十分足夠，而 Emerson 亦是 Roon Certified 的產品，所以 Tidal 串流音樂可以經由 Roon 系統傳送至 Emerson，再由 SPDIF 直接輸出至 M-Scaler 升頻器 ，途中可以不作任何數碼處理，而 MQA 也只用 Roon 做解碼，最高也可達到 24/96，不用擔心超出 SPDIF 的限制範圍，簡單而且直接。至於 Chord Hugo M-Scaler 升頻器的升頻效果，成效有目共睹，作為 Chord 的獨門絕技，升頻輸出頻率當然越高越好，M-Scaler 單個 BNC 輸出可達 384kHz，雙 BNC 最高可達 768kHz，不過一般只支援自家的解碼產品。但⋯ 神奇的事也出現在 Hydra VOX 解碼器上，說明書說 SPDIF 只支援 192kHz，但接了 M-Scaler 之後，發現 Hydra VOX 可以支援 384kHz 的輸入，在理想的情況下，M-Scaler 加 Hydra VOX 可以發揮出最極致的升頻表現。</p>
+
+
+
+<p>整套系統建位後，Uni-Fi 書架喇叭和 M10 擴音機配合而來的音響效果十分出眾，小型書架也有著小型座地的低頻表現，雖說 Uni-Fi 係平價入門書架喇叭，但傑出的音場水準 (正是同軸單元設計的特色)，出色的美式風格 (相對於其他高級美國喇叭品牌)，精準的還原度，以及活生的臨場感，足以媲美其他數萬元級的喇叭表現。當然這套系統另一重點在於串流解碼的配合，Hydra VOX 有著特色的音樂感，加上 M-Scaler 優美的升頻表現，令到整體細緻度、聲音質量有明顯的提升。相反，如果用回 NAD M10 的內置串流解碼部分，便失去原有的音樂感、流暢度，令音樂變得生硬，而且過份強調音像邊緣，反而更加不耐聽。綜合以上結論，Uni-Fi 雖然不能達到 High End 水平，因本身的分析能力和密度不足，但配合 NCore 使用後，輸出的動態以及準確性得以提高，再加上串流解碼系統的升頻表現，整套系統的音樂性有所提升，音效突出之餘又可以做到音樂性兼備，係一套喜出望外的組合。</p>
+
+
+
+<p> </p>
+
+
+
+<p class="has-small-font-size">*<strong><em>參考器材一覽：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)<br>解碼器：<strong>Holo Audio</strong>&nbsp;May, <strong>Chord</strong>&nbsp;Hugo TT2 + Hugo M-Scaler<br>擴音機：<strong>Vitus Audio&nbsp;</strong>SIA-025 mk.II<br>喇叭：<strong>STENHEIM</strong>&nbsp;Alumine THREE</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/unifisystem/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:25 by W3 Total Cache
+-->

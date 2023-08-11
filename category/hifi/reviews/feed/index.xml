@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>圍物論 &#8211; JNET Blog</title>
+	<atom:link href="/category/hifi/reviews/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 12 Nov 2021 12:47:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>【圍物論】領先 1-bit 轉換技術 &#8212; AudioByte Hydra-VOX「驚喜」之作</title>
+		<link>/audiobyte-hydra-vox/</link>
+					<comments>/audiobyte-hydra-vox/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 12 Nov 2021 12:47:24 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[AudioBtye Hydra VOX]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=260</guid>
+
+					<description><![CDATA[「驚喜」之作，當然又驚又喜，部解碼新買返嚟一開聲，真係只有驚到流汗，普普通通，聲音一般到唔起眼，有種高科技中伏的感覺。不過到後來當其他器材改善的時候，才發現它的優點，真正的「驚喜」之作。]]></description>
+										<content:encoded><![CDATA[
+<p>「驚喜」之作，當然又驚又喜，部解碼新買返嚟一開聲，真係只有驚到流汗，普普通通，聲音一般到唔起眼，有種高科技中伏的感覺。不過到後來當其他器材改善的時候，才發現它的優點，真正的「驚喜」之作。</p>
+
+
+
+<p>Audiobyte Hydra-VOX 係一部獨特的 FPGA 解碼器，再加上耳機放大功能，用上同廠的 Hydra-ZAP 超級電容清潔電源供應器，淨睇技術已經想到聲音必然有驚喜。VOX 有專門的 DSP 訊號處理，結合 digital/ analog filters 相位修正技術，再經由 1-bit 處理的分立元件，完全自家技術底下，創造出領先科技的水平，聲稱能夠造到自然聲音的體驗。</p>
+
+
+
+<p>開始之時，使用了當時的參考系統接駁，Stenheim 三仔、Soulution 330、Uptone EtherRegen、Intel NUC streamer 等器材，用 USB 接 VOX 開聲，心想… 唔係呀！聲音速度特慢、拖泥帶水，唔緊要，煲多幾日再講。結果⋯ 好少可玩唔夠一個月就將佢放埋一邊，再次攞出嚟玩已經係一年之後嘅事。</p>
+
+
+
+<p>驚喜一：就喺前幾個月，見到提及 VOX 有新 Firmware 的討論，於是又試吓將手頭上嘅 VOX 升級，升級之後發現聲音有很大改善，終於有心機再玩好佢。又或者因為現時串流系統已經有了可聞的改善，於是再接上手頭上的器材，有 YG Carmel 2、Vitus SIA-025 mk2、Raspberry Pi 4 streamer、HQPlayer 等，還是用上 USB 接駁，音樂味特別出眾，但總是好像有些缺失似的，咁嘅情況下，又再思考吓其他因素，或者可能同 USB 接駁有關。</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="YG Carmel 2 + Vitus SIA025 mk2 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/-0Bseoa_77I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>驚喜二：既然要從接駁考量，而 VOX 只有三種輸入 USB、SPDIF、I2S，當中應該以 I2S 最理想，不過手頭上沒有 I2S 設備，於是又買了 Singxer SU-6 DDC (其實呢部機想買好耐，只不過未有觸發點) 和 iFi Stream 等器材。當接好 VOX 再開聲嘅時候，感覺當時嘅缺失已經沒有了，換來了自然的聲音，可能因為 I2S 有隔離功能，可以降低 jitter 對系統的影響，從而改善聲音的質素。VOX 有個 DSD 直出功能，當訊號是 DSD256 或 DSD512 輸入時，便可以做到直解，呢個功能相當適合玩 HQPlayer，iFi Stream 可以支援 HQPlayer NAA 行 DSD256，係最理想的軟件升頻直出嘅方法。</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Elac Uni-Fi U5 + NAD M10 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/gdKiriHQSxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>驚喜三：玩了一輪 I2S 接駁之後，又因為改變了系統的設置，今次輪到玩 Elac Uni-Fi 書架喇叭，改用 SPDIF 輸入，由 Wattson Emerson Digital 接 Chord M-Scaler 再接 VOX，估唔到原來 VOX 可以支援 384kHz 輸入，今次可以玩盡 M-Scaler 嘅升頻，有興趣可以入去睇吓 <a href="https://jacknetcf.wordpress.com/2021/10/16/unifisystem/">【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</a>，平價組合可玩到超身價幾倍的聲音，認真有驚喜。其實 VOX 會將 PCM 轉成 delta-sigma 形式去 1-bit 轉換器，而 PCM 轉 DSD 也有出色表現，可能 VOX 嘅 DSP 處理多 bit 運算比較成熟，digital filters 做得相當唔錯。</p>
+
+
+
+<p>結論：玩一件器材要玩得好，當然要花上十二分精力和時間，一時三刻未必掌握得到玩器材嘅方法，就因為千變萬化，所以音響才好玩，就算表面好簡單，配搭嘅過程都有好多變數，如果只聽一段短時間就判定器材的好壞，咁就可能過於片面，想要全面的話，就一定要充分了解各種可能性。</p>
+
+
+
+<p class="has-small-font-size">*<strong><em>串流參考設定：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)</em><br><em>HydraVOX USB 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi (NAA) -&gt; (USB) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> I2S 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; iFi Stream (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> SPDIF 設定：<br>Mac Mini M1 (Roon) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Emerson Digital (RoonBridge) -&gt; (SPDIF) -&gt; Chord M-Scaler -&gt; (SPDIF) -&gt; <em>HydraVOX</em></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/audiobyte-hydra-vox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【圍物論】超級多合一DAC/Amp 之&#8230; Bel Canto E1X Integrated</title>
+		<link>/bel-canto-e1e-int/</link>
+					<comments>/bel-canto-e1e-int/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:37:40 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[All-in-One]]></category>
+		<category><![CDATA[Bel Canto E1X Integrated]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=43</guid>
+
+					<description><![CDATA[佢係一部多功能合併機，有串流、解碼以及唱頭放大功能，可以駁 Line in，有內置 Bass Management 可以接 Subwoofer，支援MM/MC唱頭，可以駁標準數碼輸入，包括同軸、光纖、AES等，可以接有線或無線網路，有 UPnP/DLNA、Roon 或 Tidal、Qobuz 串流服務可選，也支援MQA解碼，iOS 可下載 seek app 控制及選服務，絕對一部機攪掂。 [...]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large" id="block-3a3b8082-5013-4ae7-ba95-8fa71330239c"><img decoding="async" fetchpriority="high" width="1000" height="200" src="/wp-content/uploads/2021/02/e1x-dac-main-front.png?w=809" alt="" class="wp-image-67" srcset="/wp-content/uploads/2021/02/e1x-dac-main-front.png 1000w, /wp-content/uploads/2021/02/e1x-dac-main-front-300x60.png 300w, /wp-content/uploads/2021/02/e1x-dac-main-front-768x154.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p id="block-15579363-5197-4246-8a49-80bf23cbf402">各位師兄，如果想退燒，又想簡單地一部機攪掂，或者冇太多空間放機的話，呢部多功能一體機就係一個好選擇。e1X 系列直接由旗艦 Black 下放技術，數碼技術領先其他大廠，其聲音保持應有水平。小弟以為這個產品對準 Devialet 合併機，功能相差無幾，不過推動力及數碼技術分別頗大。</p>
+
+
+
+<figure class="wp-block-image size-large" id="block-64804d66-de6f-441b-be26-ce9e104df111"><img decoding="async" loading="lazy" width="1000" height="200" src="/wp-content/uploads/2021/02/e1x-int-main-back.png?w=809" alt="" class="wp-image-73" srcset="/wp-content/uploads/2021/02/e1x-int-main-back.png 1000w, /wp-content/uploads/2021/02/e1x-int-main-back-300x60.png 300w, /wp-content/uploads/2021/02/e1x-int-main-back-768x154.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<p id="block-ebb1badc-7903-4a34-86fe-b10489758b37">佢係一部多功能合併機，有串流、解碼以及唱頭放大功能，可以駁 Line in，有內置 Bass Management 可以接 Subwoofer，支援MM/MC唱頭，可以駁標準數碼輸入，包括同軸、光纖、AES等，可以接有線或無線網路，有 UPnP/DLNA、Roon 或 Tidal、Qobuz 串流服務可選，也支援MQA解碼，iOS 可下載 seek app 控制及選服務，絕對一部機攪掂。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-225869a8-17f6-426e-b82c-84f53a0873ab"><img decoding="async" loading="lazy" width="1606" height="1206" src="/wp-content/uploads/2022/06/e1x-inside-full.jpg?w=1024" alt="" class="wp-image-414" srcset="/wp-content/uploads/2022/06/e1x-inside-full.jpg 1606w, /wp-content/uploads/2022/06/e1x-inside-full-300x225.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-full-1024x769.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-full-768x577.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-full-1536x1153.jpg 1536w" sizes="(max-width: 1606px) 100vw, 1606px" /><figcaption>內部公開：左上面輸入處理、右上面解碼、左下面輸入和解碼線性供電、右下面後級放大部分。</figcaption></figure></div>
+
+
+<p id="block-40f8517e-a9f3-425d-9ef1-f39d77a18b11">上網睇資料 E1X 用上六粒處理器，兩粒XMOS、兩粒ARM、再加兩粒獨立DSP而成，用上非同步處理每個輸入裝置，超低噪時鐘系統，所有輸入包括模擬、唱頭都經由自家數碼處理，確保低失真、低抖動、高動態，而自家數碼處理可控音量、EQ、RIAA、低頻管理以及數位濾波等。好明顯佢對自家數碼處理非常有信心，而事實上佢嘅聲音非常實在、動態強、背景靜、分析力高。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-aba18345-21af-4611-b7ff-9b832bdbb083"><img decoding="async" loading="lazy" width="1612" height="1208" src="/wp-content/uploads/2022/06/e1x-inside-digital.jpg?w=1024" alt="" class="wp-image-415" srcset="/wp-content/uploads/2022/06/e1x-inside-digital.jpg 1612w, /wp-content/uploads/2022/06/e1x-inside-digital-300x225.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-digital-1024x767.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-digital-768x576.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-digital-1536x1151.jpg 1536w" sizes="(max-width: 1612px) 100vw, 1612px" /><figcaption>輸入部分：有線網路/USB-A無線網路、USB-B、SFDIP/TOSLink/AES數碼輪入，每個輸入都各自獨立，右邊是模擬輸入，會經過A/D處理，中間偏右是兩粒低噪主時鐘。</figcaption></figure></div>
+
+
+<p id="block-ba61ab2a-e960-4e23-a00c-aa49dfb9b156">如果以音頻數碼處理能力嚟講，呢部機比 Devialet 好好多，有分析力得嚟聲音又自然。雖然推動力唔差，但比起 Devialet 就差一截，Devialet 嘅 A+D 唔可以睇少，不過要去到 D200 以上先好，D140 以下推動力同 E1X 差唔多。雖然 Devialet 200 推動力強，但就唔可以開太大聲，開超過 0 啲聲會爭啲。E1X 內置最大音量為 85，可改到最大 100，同樣地低過 85 會好聽啲，唔知係咪同大家都係數位音量有關呢？</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-587fe732-08c5-4612-a34c-b2cbccd89acc"><img decoding="async" loading="lazy" width="1606" height="1208" src="/wp-content/uploads/2022/06/e1x-inside-dac.jpg?w=1024" alt="" class="wp-image-417" srcset="/wp-content/uploads/2022/06/e1x-inside-dac.jpg 1606w, /wp-content/uploads/2022/06/e1x-inside-dac-300x226.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-dac-1024x770.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-dac-768x578.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-dac-1536x1155.jpg 1536w" sizes="(max-width: 1606px) 100vw, 1606px" /><figcaption>解碼部分：整部機核心，DSP、另一個主時鐘、PCM1792解碼晶片</figcaption></figure></div>
+
+
+<p id="block-0716497d-d971-474e-b0db-41fb384f7736">開聲嘅時候係接 Falcon 3/5a，15Ω 嘅 3/5a 要求都唔低，除非用有 15/16Ω 嘅膽機推，否則要用到 150W 以上嘅石機先推到，不過 E1X 都唔失禮，有足夠力量去推 3/5a，但係推大座地喇叭要推得好，佢就顯得吃力。部機嘅分離度、立體感都好好，推 3/5a 明顯出到 3/5a 嘅優點，大件頭、細件頭都難唔到佢地。不過 E1X 同 Devialet 一樣，開始用嘅時候，聽感上數碼味比較重，要用一段時間之後，或者處理好電源方面嘅問題，咁啲聲就自然好多。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized" id="block-9160ddf0-8e68-4d8c-8ef0-18562834a380"><img decoding="async" loading="lazy" src="/wp-content/uploads/2022/06/e1x-inside-power.jpg?w=768" alt="" class="wp-image-418" width="576" height="767" srcset="/wp-content/uploads/2022/06/e1x-inside-power.jpg 908w, /wp-content/uploads/2022/06/e1x-inside-power-225x300.jpg 225w, /wp-content/uploads/2022/06/e1x-inside-power-768x1023.jpg 768w" sizes="(max-width: 576px) 100vw, 576px" /><figcaption>線性供電給輸入部分及數碼處理部分</figcaption></figure></div>
+
+
+<p id="block-58b62d19-069f-4726-b3a0-36ee73cced78">開始聽嘅時候聲音完全冇驚喜、好普通，不過玩機一定熱身，開返一、兩個星期先啦！唔使熄機係一個好處 (可能係壞處)，冇聲之後就 stand by。而過咗一段時間啲聲又好番啲，不過就喺駁電處、地盒之後，啲聲終於自然番好多，可以正式聽吓歌仔啦。佢有個另外一個好處，就係只需要用一對喇叭線、一條電線，咁就可以開聲，但唔好嘅就係&#8230; 少咗玩線嘅樂趣。上網用 Roon 行 Tidal，試咗有線網路，由光隔到 EtherRegen 用LPS加鐘再接AIM網線，比較只係跟機嚟嘅 WiFi dongle，無線只係質感差少少，但透明度又比有線高番少少，相比之下，無線似乎適合啲、簡單啲。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-d549edab-1d49-41e3-8703-4b87f4a313e2"><img decoding="async" loading="lazy" width="1612" height="1210" src="/wp-content/uploads/2022/06/e1x-inside-amp.jpg?w=1024" alt="" class="wp-image-419" srcset="/wp-content/uploads/2022/06/e1x-inside-amp.jpg 1612w, /wp-content/uploads/2022/06/e1x-inside-amp-300x225.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-amp-1024x769.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-amp-768x576.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-amp-1536x1153.jpg 1536w" sizes="(max-width: 1612px) 100vw, 1612px" /><figcaption>NCore NC252 後級部分：8Ω 180W、4Ω 250W、最低去到 2Ω</figcaption></figure></div>
+
+
+<p id="block-0bd28dcb-5a4e-4184-8fc7-7aea17b1c44d">之所以玩呢部機，因為佢簡單，駁對喇叭插電就可以出聲，亦因為佢支援 Roon，唔使理其他嘢，喺 Roon 度設定好就可以，<s>不過佢個 Roon 唔支援DSD，Roon-Ready 可能要再等吓</s> 新 Firmware 已經支援DSD，亦已經係 Roon-Ready。講真現時多功能嘅機種唔算好特別，Devialet 多年前已經有產品，而元祖有 Linn，高新科技有NAD，但講到解碼最強就係佢。如果唔想駁多機及線，呢部真正簡簡單單乜都得，聲音當然有保證。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/bel-canto-e1e-int/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【圍物論】網絡交換器之爭… 論 Uptone EtherRegen</title>
+		<link>/uptone-etherregen/</link>
+					<comments>/uptone-etherregen/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:30:05 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[EtherRegen]]></category>
+		<category><![CDATA[Network Switch]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=41</guid>
+
+					<description><![CDATA[其實呢件嘢主要係駁網絡用，亦主要用喺串流上面，而串流畀人感覺差，係因為網絡設計冇理會作為音響用途，而好多干擾來自網絡上，所以便需要呢類網絡隔離系統。如果你問我呢件嘢有冇用？我只會答："聽串流好聽過CD"，我知好多人會反對，但係我有啲朋友已經放棄玩CD，只玩串流。如果你玩串流玩得唔好，我只可以話："你冇用心去玩啫" ！ [...]]]></description>
+										<content:encoded><![CDATA[
+<p>當下有很多關於網絡交換器 (Network Switch) 成效的爭議，小弟有感而發，對於未曾使用過 Audio Grade Network Switch 的同好，請真正試清楚才下判斷，唔好人云亦云。</p>
+
+
+
+<p>對於有自我見解的同好，請不要用普通 IT &#8220;常識&#8221; 去判斷音響產品效果 (如果你只講 0 1 ，咁肯定係普通，連電壓高低都唔講，或者傳輸干擾也不提)，因為各家產品應用唔同，普通 Switch 係處理數據，唔需要理會對音響器材的干擾，而音響用 Switch 需要減少對音響器材造成影響。音響用 Switch 唔單只針對資料完整性 (呢㨾嘢求其一隻 Switch 都做到，所以誤以為資料正確係王道) ，而設計主要以減低干擾為原則。對於那些『Switch 無用論』的同好，其實同『線材無用論』的理念一樣，真心恭喜你。</p>
+
+
+
+<p>呢次「論物」主角係 Uptone 嘅 EtherRegen，佢有幾樣特點，有光纖插座、四個 1GbE、一個物理隔離嘅 10/100MbE，可以落地線，可以駁外置鐘，一件多玩味嘅產品，又唔貴，值得一試。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1025" height="927" src="/wp-content/uploads/2021/02/etherregen-inside.jpg?w=809" alt="" class="wp-image-65" srcset="/wp-content/uploads/2021/02/etherregen-inside.jpg 1025w, /wp-content/uploads/2021/02/etherregen-inside-300x271.jpg 300w, /wp-content/uploads/2021/02/etherregen-inside-768x695.jpg 768w" sizes="(max-width: 1025px) 100vw, 1025px" /></figure></div>
+
+
+<p>再嚟睇內涵，既然叫得做 Regen，本身就有 signal regeneration 功能，可以見到有條河喺 B頭附近，有兩條橋喺中間，完全係 isolation 嘅標準示範，另外可以見到右上邊有獨立穩壓，Isolation 做到足，再對落嘅都係穩壓，可見穩定度相當高，如果覺得呢樣隔離效果唔夠好，可以用埋光隔，咁樣應該更加理想。</p>
+
+
+
+<p>跟嚟隻SMPS已經唔錯，想更好可以換LPS，好嘅 Ethernet 線守後門當然唔少得，加埋鐘就更理想，唔好問點樣至好，有能力當然玩到盡。不過，佢亦有不足之處，佢對輸入電壓高低有反應，即係話穩壓未做得夠好，所以供電要畀好啲；佢比較熱，有啲用家會加散熱；佢比較輕，插粗嘅網線可能升起，要加重，又因為輕，墊嘢比較少選擇。</p>
+
+
+
+<p>其實呢件嘢主要係駁網絡用，亦主要用喺串流上面，而串流畀人感覺差，係因為網絡設計冇理會作為音響用途，而好多干擾來自網絡上，所以便需要呢類網絡隔離系統。如果你問我呢件嘢有冇用？我只會答：&#8221;聽串流好聽過CD&#8221;，我知好多人會反對，但係我有啲朋友已經放棄玩CD，只玩串流。如果你玩串流玩得唔好，我只可以話：&#8221;你冇用心去玩啫&#8221; ！</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/uptone-etherregen/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
+-->

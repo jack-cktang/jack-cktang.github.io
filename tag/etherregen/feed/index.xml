@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EtherRegen &#8211; JNET Blog</title>
+	<atom:link href="/tag/etherregen/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Wed, 03 Feb 2021 08:30:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>【圍物論】網絡交換器之爭… 論 Uptone EtherRegen</title>
+		<link>/uptone-etherregen/</link>
+					<comments>/uptone-etherregen/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:30:05 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[EtherRegen]]></category>
+		<category><![CDATA[Network Switch]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=41</guid>
+
+					<description><![CDATA[其實呢件嘢主要係駁網絡用，亦主要用喺串流上面，而串流畀人感覺差，係因為網絡設計冇理會作為音響用途，而好多干擾來自網絡上，所以便需要呢類網絡隔離系統。如果你問我呢件嘢有冇用？我只會答："聽串流好聽過CD"，我知好多人會反對，但係我有啲朋友已經放棄玩CD，只玩串流。如果你玩串流玩得唔好，我只可以話："你冇用心去玩啫" ！ [...]]]></description>
+										<content:encoded><![CDATA[
+<p>當下有很多關於網絡交換器 (Network Switch) 成效的爭議，小弟有感而發，對於未曾使用過 Audio Grade Network Switch 的同好，請真正試清楚才下判斷，唔好人云亦云。</p>
+
+
+
+<p>對於有自我見解的同好，請不要用普通 IT &#8220;常識&#8221; 去判斷音響產品效果 (如果你只講 0 1 ，咁肯定係普通，連電壓高低都唔講，或者傳輸干擾也不提)，因為各家產品應用唔同，普通 Switch 係處理數據，唔需要理會對音響器材的干擾，而音響用 Switch 需要減少對音響器材造成影響。音響用 Switch 唔單只針對資料完整性 (呢㨾嘢求其一隻 Switch 都做到，所以誤以為資料正確係王道) ，而設計主要以減低干擾為原則。對於那些『Switch 無用論』的同好，其實同『線材無用論』的理念一樣，真心恭喜你。</p>
+
+
+
+<p>呢次「論物」主角係 Uptone 嘅 EtherRegen，佢有幾樣特點，有光纖插座、四個 1GbE、一個物理隔離嘅 10/100MbE，可以落地線，可以駁外置鐘，一件多玩味嘅產品，又唔貴，值得一試。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" fetchpriority="high" width="1025" height="927" src="/wp-content/uploads/2021/02/etherregen-inside.jpg?w=809" alt="" class="wp-image-65" srcset="/wp-content/uploads/2021/02/etherregen-inside.jpg 1025w, /wp-content/uploads/2021/02/etherregen-inside-300x271.jpg 300w, /wp-content/uploads/2021/02/etherregen-inside-768x695.jpg 768w" sizes="(max-width: 1025px) 100vw, 1025px" /></figure></div>
+
+
+<p>再嚟睇內涵，既然叫得做 Regen，本身就有 signal regeneration 功能，可以見到有條河喺 B頭附近，有兩條橋喺中間，完全係 isolation 嘅標準示範，另外可以見到右上邊有獨立穩壓，Isolation 做到足，再對落嘅都係穩壓，可見穩定度相當高，如果覺得呢樣隔離效果唔夠好，可以用埋光隔，咁樣應該更加理想。</p>
+
+
+
+<p>跟嚟隻SMPS已經唔錯，想更好可以換LPS，好嘅 Ethernet 線守後門當然唔少得，加埋鐘就更理想，唔好問點樣至好，有能力當然玩到盡。不過，佢亦有不足之處，佢對輸入電壓高低有反應，即係話穩壓未做得夠好，所以供電要畀好啲；佢比較熱，有啲用家會加散熱；佢比較輕，插粗嘅網線可能升起，要加重，又因為輕，墊嘢比較少選擇。</p>
+
+
+
+<p>其實呢件嘢主要係駁網絡用，亦主要用喺串流上面，而串流畀人感覺差，係因為網絡設計冇理會作為音響用途，而好多干擾來自網絡上，所以便需要呢類網絡隔離系統。如果你問我呢件嘢有冇用？我只會答：&#8221;聽串流好聽過CD&#8221;，我知好多人會反對，但係我有啲朋友已經放棄玩CD，只玩串流。如果你玩串流玩得唔好，我只可以話：&#8221;你冇用心去玩啫&#8221; ！</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/uptone-etherregen/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
+-->

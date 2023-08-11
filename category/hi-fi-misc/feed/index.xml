@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hi Fi 雜談 &#8211; JNET Blog</title>
+	<atom:link href="/category/hi-fi-misc/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Mon, 12 Dec 2022 08:16:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>【Hi Fi 雜談】關於 Bit Perfect 與升頻&#8230; 而啟發對高分析系統的反思</title>
+		<link>/hi-res-consider/</link>
+					<comments>/hi-res-consider/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 12 Dec 2022 08:16:35 +0000</pubDate>
+				<category><![CDATA[Hi Fi 雜談]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=480</guid>
+
+					<description><![CDATA[忽然有種想法，究竟是傳統的CD直解方式，或者是近代升頻解碼，哪個才是最理想的數碼處理方式？傳統的 Bit Perfect 做法可以接近無音染效果，而升頻方式可以加強分析能力，兩者並沒有好壞之分，也許是只是個人喜好，但也足夠令自己有更多的反思！]]></description>
+										<content:encoded><![CDATA[
+<p><strong>前言</strong><br>玩了串流已經有相當日子，系統也是為了串流而進行優化，結果發現本已是穩定的CD/SACD系統，經已被優化的串流系統領先，究其原因串流系統經過多重減噪，以及升頻或時鐘優化下，當然可以超越傳統CD/SACD系統。由於某位師兄提醒下，於是有了改善傳統CD/SACD的想法，方法如下；<br>傳統接法：MSB UMT+ ➪ 「梅」解碼<br>優化方案：MSB UMT+ ➪ Denafrips Gaia Reclocker + Denafrips Aether 主時鐘 ➪ 「梅」解碼<br>結果是正面的，而且除了CD/SACD系統有所提升外，也可以容入到現有的串流系統，簡直是一舉兩得。</p>
+
+
+
+<p>使用這個升級方案期間，忽然有種想法，究竟是傳統的CD直解方式，或者是近代升頻解碼，哪個才是最理想的數碼處理方式？傳統的 Bit Perfect 做法可以接近無音染效果，而升頻方式可以加強分析能力，兩者並沒有好壞之分，也許只是個人喜好，但也足夠令自己有更多的反思！</p>
+
+
+
+<p><strong>Jitter對解碼系統的影響與及Reclock的能力</strong><br>高Jitter會影響數碼系統的穩定性，同時會令到A/D轉換時出現誤差，進而影響分析力以及音樂細節，高級系統就是需要充足的音樂細節，所以Jitter對整個系統影響甚大。要減低Jitter的話，可以使用更高級的訊源系統，同時也需要減低系統的噪音，充分提高訊源的準確度來提升品質。數位傳輸方面，大部分會使用PLL型式，好處是訊號易於處理，但同時也會受到上游的Jitter影響，於是便有工程師提出 Reclock 功能。現時有很多解碼都有內置 Reclock 功能，但 Reclock 時也會受到內部時鐘的影響，當然有些可以使用外部時鐘的，而且也會有些解碼利用內置升頻功能來減低Jitter的影響，多方面因素來提升音響表現。但有些情況下，未必可以使用到更高級的訊源或解碼，而使用 Reclocker 可能會是其中一種方法。</p>
+
+
+
+<p><strong>CD / Red book / 16bit 44.1kHz 直解方式播放是否已經到了極限？</strong><br>由於CD是40年前的產物，格式上完全沒有優勢，但慶幸現時的A/D編碼及D/A解碼技術提升，可以令今時今日的CD也有不錯的解析度。而以 Bit Perfect 方式（即是R-2R方式NOS的PCM直解）也可以做到足夠的密度，優點是在於聲音夠直接，易於表現音樂的內容，但相對於 HiRes 檔案或串流而言，CD格式無疑是有其不足之處。如果使用了升頻解碼技術（這個以 Chord Hugo M-Scaler + TT2 為測試個案），升了頻可以獲得更優質的分析力，更高的立體感，但也可能出現某些音樂性的缺失，或能量感也同樣減少，有些時候也不能完勝 Bit Perfect 方式。新的升頻解碼技術當然有其優勢，但傳統的直解也有好的方面，更好的 HiRes 當然更加理想，但在大部分仍然是 CD / Red book 格式下，用適當的處理方法才能體驗玩音響的樂趣。</p>
+
+
+
+<p><strong>高清檔與系統分析能力的關係</strong><br>小弟測試過與擁有的系統也不在少數，心中也清楚各種喇叭、器材及線材有著不同的分析能力，小弟會覺得高清系統需要全套高分析的構件組成，而不強調分析力的系統可由喜好所決定。在測試 <a href="https://jacknetcf.wordpress.com/2022/04/19/ls35a-diapason/">Falcon LS3/5a 的過程</a>中，發現了有趣的事情，膽機及傳統喇叭在升頻的情況下，某些傳統系統的特色會有所減少，結論是這類型系統不適宜使用太高分析能力的訊源系統，又或者對其分析力幫助不大。小弟會有這樣的理論，情況正如玩4K影音一樣，4K碟要在4K碟機、4K顯示及4K線材的情況下，才可以有4K的效果，音響分析能力也是一樣道理，高分析能力的訊源或高清檔也需要配合有高分析力的擴音機、以及高頻寛高分析力喇叭，才能發揮高清的優勢。</p>
+
+
+
+<p><strong>關於高級線材與高清系統的關係</strong><br>以往覺得線材都是一些調味的產品，但現時發現要達至高密度高分析力系統的話，高級或高頻寛的線材必不可少。事源於購入 Denafrips Aether 主時鐘的時候，試了不同的時鐘線，因為 Aether 輸出為 45/49MHz 超高頻率，一般的數碼線材不能應對其表現，唯有高頻寛及高級的線材才能滿足 Aether 的需要。或許，當系統到達一定程度時，高級線材是必須的，有一定高頻寛的線材才能發揮系統的能力。</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/hi-res-consider/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【Hi Fi 雜談】農夫地盒</title>
+		<link>/entreq-groundbox/</link>
+					<comments>/entreq-groundbox/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 18 Oct 2022 08:31:20 +0000</pubDate>
+				<category><![CDATA[Hi Fi 雜談]]></category>
+		<category><![CDATA[Entreq Olympus]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=443</guid>
+
+					<description><![CDATA[總括來說，玩地盒不是一件容易的事，想系統調整得好，需要花很多時間及心思，在不同的配置中，尋找最適合的選項，以現時家居種種不同的電磁波干擾下，地盒已經變成最不可或缺的音響基礎建設。]]></description>
+										<content:encoded><![CDATA[
+<p>用了農夫地盒也有一段時間，由最初的銅大地盒到前一代的 Olympus Ten 地盒，再由 Silver 地線到 Atlantis 地線，都已經有一段時間沒有進行升級。由於最近受到朋友影響，對新一代的 Olympus Ten T 特別有興趣，於是把心一橫，就入手 Olympus TenTen，一個盒子裡面有十個 Ten T 地盒，再加上 CleanUs 功能，玩法多變，十分適合小弟這類器材又多、玩得又雜之輩。</p>
+
+
+
+<p>提到地盒，以往有不少師兄覺得沒有用處，但也有師兄話不能沒有，相當兩極化的結果，而小弟覺得可能因為環境、設定、系統不同等因素有關。不過，根據小弟多年實際使用經驗，用了地盒的確可以提升系統的寧靜度，聲音自然更上一層。曾經在同一套系統測試過，有接地盒和無接完全是兩回事，如果無接的話，聲音甚至可以說是完全不能接受，對於這樣的結論，或許有些燒友會認為，這是完全沒有根據的！但結果就是令人驚訝。</p>
+
+
+
+<p>至於為何買的是農夫地盒？因為在以往沒有太多其他選擇的情況下，農夫是首選，也因為農夫沒有特別重的音色，容易夾上大部分系統，這是一個很重要的因素而選擇農夫地盒。但這種情況現在有所改變，新出的 Tungsten 版本、Peak 4 Cap、以及不同的地線，對音色及音場改變很大，在多樣化的配撘下，能改變系統的聲音取向。所以，現在可以透過這種改變，去調配各種音色喜好，確實是可玩性更高，但難度也更大。</p>
+
+
+
+<p>在玩地盒的過程中，小弟也有小小心得，玩地盒和玩電差不多，為避免互相干擾，要分不同的接駁位置，例如：電地和訊號地要分開，Digital 訊號地和 Analog 訊號地也要分開，所以多盒的情況一定會出現。作為地盒有兩個重要指標：容量及速度，尺寸大小影響容量、而使用之物料影響速度，可因應尺寸大小和不同的金屬物料作為選擇地盒的標準。在一般情況下，接電地需要大容量、接訊號地則需要快速導走雜訊，簡單來說，接拖板、電處可選 Olympus Infinity T 般尺寸，接 DAC、前級可選 Olympus Ten T，當然用上再高級的也沒有問題。</p>
+
+
+
+<p>Olympus 屬於旗艦系列，效果最理想，小弟比較推薦使用，小的 Olympus Ten 也比 Silver Tellus 好，與其花時間由低楷玩起，不如直接買旗艦系列。Olympus Ten 及 Olympus Infinity 最為中性有效，而 Tungsten 版低頻伸延較強，能力範圍內，當然直接買 TenTen、Pluton 或 Hero 等旗艦。地線中以 Silver 最為中性，可接任何器材及電地，但效能相對較低，Apollo 低頻能力強，接電地比較適合，Olympus 高頻伸延好，接前級、解碼都理想。至於 Caps，可以當作效果加強器，原裝木頭沒有添加任何色彩，Everest 可以加強整體效果，而 Peak 4 有低頻增強作用，但地線和 Caps 也需要配合地盒及所接器材而適當使用。當然這只是建議，實際上每個系統都有不同情況出現，只可以作為小小參考，實試至為重要。</p>
+
+
+
+<p>墊材對於地盒的影響也很大，用上不當的墊材會扭曲整套系統特性，一般情況下，不建議直接放在地板或木板上，最簡單可以落釘，輕的地盒可以用 Symposium Padz 去墊，重的地盒可以用 Symposium 墊板或其他墊板，Symposium 比較中性易夾，其他也可以考慮 Nordost Sort Kones、CMS Center Stage 或 CMS 墊板等，這些都是小弟試過的品牌當中有比較好的效果，當然也有許多其他選擇，但小弟沒法一一去試。</p>
+
+
+
+<p>總括來說，玩地盒不是一件容易的事，想系統調整得好，需要花很多時間及心思，在不同的配置中，尋找最適合的選項，以現時家居種種不同的電磁波干擾下，地盒已經變成最不可或缺的音響基礎建設。(P.S. 也許因爲現今的系統多數以高分析力為主，越是走高分析力的系統，越需要低噪的環境及音響基建去提升細節及音質；但如果覺得系統太高分析力而不耐聽，地盒也未必適合這類系統的人。)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/entreq-groundbox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
+-->

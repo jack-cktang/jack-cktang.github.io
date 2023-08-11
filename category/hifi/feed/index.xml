@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>音響 &#8211; JNET Blog</title>
+	<atom:link href="/category/hifi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Wed, 27 Apr 2022 09:46:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>淺談 &#8220;鐘&#8221; 的迷思…</title>
+		<link>/clock/</link>
+					<comments>/clock/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 27 Apr 2022 09:46:04 +0000</pubDate>
+				<category><![CDATA[音響]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=373</guid>
+
+					<description><![CDATA[時鐘有兩個重點，第一是準確性 (或叫穩定性)，第二是低 Jitter... 它對於振盪、電壓、溫度及噪音都很敏感，所以除了設計上要準確之外，對抗振、電源供應、穩定時間、噪音阻隔的設計都有要求...]]></description>
+										<content:encoded><![CDATA[
+<p>經常有師兄問：&#8221;加唔加鐘好？&#8221;，或者 &#8220;加咗都冇乜分別！&#8221;，又有 &#8220;唔加鐘唔聽得！&#8221; 之類的説話。大概有許多師兄都有一大堆圍繞鐘的問題，又因為大部分可以加鐘的器材都好似高級一點，所以加鐘便變成一種升級的迷思，亦有可能造成更加困擾的心結。</p>
+
+
+
+<p>講鍾之前，先談談關於鐘的詞彙：<br><strong>Internal Clock</strong> &#8211; 內置鐘，一般指器材內部現有的時鐘，大多數器材會使用普通水平的時鐘，有些器材會預留升級外置時鐘，也有些器材可以直接升級內部時鐘 (摩機改鐘也是其中一種)。<br><strong>External Clock</strong> &#8211; 外置鐘，多數指可升級的外接時鐘，根據不同需要，可選擇外接 Master Clock、Reference Clock 或 Word Clock。<br><strong>Master Clock</strong> &#8211; 主時鐘，可以是指內部的 (一個或多個) 主要時鐘，又或者多個器材連接一起所使用的主宰時鐘，用來同步多個器材的內部時鐘。<br><strong>Reference Clock</strong> &#8211; 參考時鐘，器材本身已有時鐘，再外接一個對準時鐘，使用外接參考時鐘來增強內部時鐘的準確性。<br><strong>Word Clock</strong> &#8211; 數字時鐘，或作取樣時鐘，提供一個參考樣本給傳輸使用，一般會用作取代內部時鐘，或接多個器材使用，例如常見的 44.1KHz / 48KHz 及其倍頻取樣。<br>Frequency Stability (Precision) &#8211; 精準度，以 ppm (10<sup>-6</sup>) 或 ppb (10<sup>-9</sup>) 作單位，即每年才出現多少個誤差，數字越低越好。<br><strong>Phase Noise</strong> &#8211; 參考《<a rel="noreferrer noopener" href="https://www.digikey.hk/en/blog/what-is-the-difference-between-timing-jitter-and-phase-noise" target="_blank">DigitKey</a>》的解釋：<em>&#8220;相位噪聲和抖動都表明信號的穩定性，並且是相互關聯的。 具體而言，相位噪聲是頻域中表示的頻率的不穩定性，而抖動是時域中信號波形的波動。&#8221;</em>  這個解釋很好，其實指的是穏定性，數字越低越好，因為所用單位為 (-) 負數，所以 -120dBc/Hz 會好過 -114dBc/Hz。<br><strong>Jitter</strong> &#8211; 參考上面的 Phase Noise，數字越低越好，單位為 ps 或 fs (飛秒)，亦即是以住被稱爲 &#8220;飛秒時鐘&#8221; 的高級產品所提及的參考穩定度。<br><strong>XO</strong> &#8211; Crystal Oscillator / Quartz Oscillator 晶體/石英 振盪器，振盪器即是波型產生器，現時普遍所使用的都是由石英晶體所產生的振動為原理的振盪器，價格低亷，體積細小，廣泛應用在不同的數碼產品內。可參考《<a rel="noreferrer noopener" href="https://zh.wikipedia.org/wiki/%E7%9F%B3%E8%8B%B1%E6%99%B6%E4%BD%93%E8%B0%90%E6%8C%AF%E5%99%A8" target="_blank">Wikipedia</a>》<br><strong>TCXO</strong> &#8211; Temperature Compensated Crystal Oscillator 溫度補償晶振，採用溫度補償電路所製造的晶體振盪器。<br><strong>OCXO</strong> &#8211; Oven Controlled Crystal Oscillator 恆溫晶振，現時比較流行的一種高級類型，相位噪聲比較低的一種時鐘。<br><strong>RbXO</strong> &#8211; Rubidium (Atomic) Crystal Oscillator 銣時鐘，比較高級的一種時鐘設計，利用原子振動原理所產生的振盪器，地球上最準確的一種時鐘。<br><strong>10MHz Clock</strong> &#8211; 10M鐘，現時大部分數碼器材都以 10MHz 作為參考頻率，好處是適用於大部分器材，但音響常用的 44.1KHz 和 48KHz 會有少少誤差 (就簡單設計而言)，需要作內部補償 (其設計會複雜些)。<br><strong>50Ω / 75Ω impedance</strong> &#8211; 所指的是 BNC 接頭或接線的阻抗為 50Ω 或 75Ω，使用不同的阻抗接頭會影響傳輸的穩定性。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2022/06/mutec.jpg?w=1024" alt="" class="wp-image-402" /></figure>
+
+
+
+<p>時鐘 (通常指外置鐘) 有兩個重點，第一是準確性 (或叫穩定性)，第二是低 Jitter，低 Jitter 與低 Phase Noise 有關，所以現時流行較低 Phase Noise 的 OCXO 時鐘。時鐘產生器是一種很敏感的零件(元件或部件)，它對於振盪、電壓、溫度及噪音都很敏感，所以除了設計上要準確之外，對抗振、電源供應、穩定時間 (即著機之後需要一段長時間才穏定)、噪音阻隔的設計都有要求，<a rel="noreferrer noopener" href="https://www.esoteric.jp/en/product/g-01x/feature" target="_blank">Esoteric G-01X</a> 就是一個很好的參考設計。除此之外，<strong>接時鐘的電源供應、接線的底噪及<strong>阻抗</strong>、接頭阻抗、以及調振設備都對時鐘的穩定性有所影響，用家必定要留意這些事項，這些因素會影響時鐘的發揮及效能表現。</strong></p>
+
+
+
+<p>至於各品牌設計方面，Esoteric 用上較好的振盪器、良好供電、多功能輸出、接地以及訊號處理等，各方面也照顧得到的優良設計。Mutec 及 Cybershaft 相對精簡，主力用上低噪 OCXO 及良好供電，但性能同樣優秀。Auralic 也用上銣鐘，更著重隔離處理，電源與及抗振同樣出色，可惜只能給自家產品線使用，不能作獨立產品應用於其他品牌。MSB 則堅持使用內置鐘，他們認為只有訊號最短的情況下，才有更高的精確度，所以他們旗下產品只可作內置時鐘升級。dCS 認為他們需要的是主時鐘，不用 10MHz Clock，所以只提供雙 Word Clock 產品，Playback Design 及 EMM Labs 則認為他們的內置鐘已經十分好，不需要再為外置鐘而煩惱。</p>
+
+
+
+<p>當有師兄問及是否加鐘好？首先要知道器材本身是否容許加鐘？如果沒有，可以不用考慮，如果有 Clock In，可以考慮高級的型號，低端的型號表現可能還差過原有的內置鐘。如果用的是 Transport 和 DAC 分開，可考慮 Re-clock 產品，市面上有幾款選擇，大多面向專業市場。當然部分產品未必能帶來多大改善，選擇產品亦要看現有設備，同品牌當然有其好處，但不同品牌也有其他可能性，如果有機會試，當然要試多些少不同的產品。(唔識玩) 加鐘可能是一種美麗的誤會，(識得玩) 也可能是一個升級的捷徑。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/clock/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【音響拼圖】返璞歸真 的 Falcon LS3/5a 與 充滿質感 的 Jadis Diapason</title>
+		<link>/ls35a-diapason/</link>
+					<comments>/ls35a-diapason/#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 19 Apr 2022 09:51:22 +0000</pubDate>
+				<category><![CDATA[音響拼圖]]></category>
+		<category><![CDATA[Falcon LS3/5a]]></category>
+		<category><![CDATA[Jadis Diapason]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=333</guid>
+
+					<description><![CDATA[話說這個世上有很多 LS3/5a 版本，而小弟多年來也沒有正式擁有一對，不過人一世物一世，3/5a 一定要玩 ⋯ 也聽過不少 3/5a，但只有少數會出到好聲，直到 Falcon LS3/5a 出現，徹底地打破了以往的常識。]]></description>
+										<content:encoded><![CDATA[
+<p><strong>前言</strong><br>話說這個世上有很多 LS3/5a 版本，而小弟多年來也沒有正式擁有一對，不過人一世物一世，3/5a 一定要玩。這對 Falcon LS3/5a 已經是多前的版本，並不是新版或特別版，而小弟當年二選一 (Harbeth P3ESR 或 Falcon LS3/5a) 時揀了 P3ESR，與 3/5a 擦身而過，不過機緣巧合下，於前年入手一對二手 Falcon LS3/5a，到依家才正式開始試聽。雖說之前自己沒擁有，也聽過不少 3/5a，但只有少數會出到好聲，直到 Falcon LS3/5a 出現，徹底地打破了以往的常識。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" fetchpriority="high" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
+
+
+<p><strong>Falcon Acoustic LS3/5a 喇叭</strong><br>其實 Falcon Acoustic 這個品牌已經存在很久，主要做 LS3/5a 零件供應及改裝，到香港有了代理時正式開售，當時也開始留意，當有朋友買後，也聽多了很多 Falcon 改良的地方。比起以往的 3/5a，Falcon 更注重細節，高低伸延很好，不但保留了 3/5a 的味道，Hi Fi 性能也提升不少。但有句話要説，3/5a 確確實實是一對 Monitor 喇叭，並不是一般想像中的甜美那種，而這次試聽的參考系統，也還原了 3/5a 的真實性，有著 Studio Monitor 的參考價值。值得留意，當 3/5a 放對了位置後，高、低頻也不缺，中頻自然開放，音壓在不大的地方也十分足夠，大部分音樂類型也適合，的確是一對不可多得的經典之作。雖說是經典之作，但缺點也總會有，以現時技術水平，這對 Falcon LS3/5a 並沒有做真正的 High End 級數，沒有矩細無遺的分析力，也沒有高級喇叭的高低伸延之舉，而且對擴音機有要求，膽機較容易出到好聲，石機則不太友善，不過以這個價錢來說，真的是不可多得。</p>
+
+
+
+<p><strong>Jadis Electronics Diapason 膽合併</strong><br>相對於衆多傳統膽機，這部 Jadis Diapason 算是比較入門的一款，的而且確它是 Jadis 的入門機，但這款 Jadis 入門機聲音並不入門。Diapason 有著 Jadis 的傳統做工，卻有不一㨾的內涵，它並不是一部降價產品，Diapason 完全是一部傳統品牌的新嘗試、全新體驗的產品，它具備 Jadis 的音樂感，也有不一樣的速度感，以及相對較強的低頻控制能力，正是一部體積細小、聲音全面的精品。雖然 15W 看似細小的功率，但推動力卻十分強勁，播《龍鼓》的《篆音》亦有板有眼，6L6 聲音率直又不失音樂味，雖不算做十分精緻但有足夠細節，證明 Jadis 繞牛技術十分到家。Diapason 的質感表現非常突出，恐怕是小弟所聽過膽機之中的前三位置，所以聽到《 Anne-Sophie Mutter / John Williams / Across the Stars 》的 《 3. Harry Potter And The Philosopher’s Stone: Hedwig’s Theme 》小提琴擦弦聲非常到位，係超越身價的產品。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" width="1614" height="1216" src="/wp-content/uploads/2022/06/diapason.jpg?w=1024" alt="" class="wp-image-411" srcset="/wp-content/uploads/2022/06/diapason.jpg 1614w, /wp-content/uploads/2022/06/diapason-300x226.jpg 300w, /wp-content/uploads/2022/06/diapason-1024x771.jpg 1024w, /wp-content/uploads/2022/06/diapason-768x579.jpg 768w, /wp-content/uploads/2022/06/diapason-1536x1157.jpg 1536w" sizes="(max-width: 1614px) 100vw, 1614px" /><figcaption>Jadis Diapason 合併機</figcaption></figure></div>
+
+
+<p><strong>NOS 串流解碼系統（梅 ＋ Singxer SU-6 ＋ Raspberry Pi 4）</strong><br>一路以來小弟都習慣使用升頻系統，而一般情況下，升頻有著明顯改善，但今次【音響拼圖】有個出人意表的結果，懷舊的 3/5a 以及 6L6 膽機⋯ 似乎用不著需要什麼升頻，反而 NOS 可以增強這個組合的質感及味道，充滿原始音樂的特質。「梅」解碼有個優點，可以選擇內置 PCM/DSD 升頻、或者外置/軟件 PCM/DSD 升頻，又或者 NOS 不升頻直解，可玩性十分高。而衆多輸入當中，以 I2S 最理想，這次使用 Singxer SU-6 DDC 就是一個 USB 轉 I2S 的分離式數碼轉數碼轉換器，由 Roon 控制再經 HQPlayer 到 Raspberry Pi 4 的 NAA 出 DDC 到解碼，使用 Tidal 串流服務從網絡傳至各點接，再到達解碼進行 NOS 直解，雖然過程繁複，但效果還好。在這系統中，不同的數位音原更能表現出各自不同的特色，Redbook CD、MQA、HiRes 以及 DSD 各音原分別明顯，這是 NOS 直解的特色，明確感受不同格式的優勢或不足，夾 Monitor 喇叭有一定的監聽能力。</p>
+
+
+
+<p><strong>小評：</strong><br>聽歌聽音樂就是要聽感染力，這套系統可以滿足一定程度需要，率直原始的味道聽 Jazz 尤其出色，吉他的按弦、鋼琴的敲鍵聲、小提琴的擦弦聲充滿質感，幾乎所有幾件頭音樂、以至中小型室樂也都適合。人聲絕對是 3/5a 的強項，但這次的 3/5a 沒有太多色彩，取而代之是人聲立體、充滿感情，有適量細節而不過份修飾，有著坦率直接的表達方式。當然 3/5a 的能力所限，播大型交響樂還是有所欠缺，雖說如此，但也沒有出現混亂的情況，總體表現其實相當不錯，也沒有太多以往 3/5a 常見的缺點，係一套值得細聽的組合。</p>
+
+
+
+<p>今次試聽也請來兩位朋友作評論，希望有多一點不同的觀點角度，多一些參考作用。</p>
+
+
+
+<p><strong>R君評論：</strong><br>『小弟再度入坑後幸得Jack兄引路，多聽了不同的音響配搭，說實話，能靜靜地坐下來欣賞3/5A喇叭，都是認識了Jack兄之後的事情，上次Jack兄用300B推Falcon 3/5A招呼小弟，充份發揮了這組合的強項–人聲甜美兼帶”劇毒”，小弟聽得如痴如醉，心想日後也想組建同一配置，咁就可以在家中享受人聲小品的”溫柔鄉”。因知Jack兄剛購入Jadis 的Electronics Diapason 膽合併機，故再次家訪Jack兄，因小弟之前未正式聽過Jadis的產品，大都是音響展時走馬看花，今次一聽Electronics Diapason +Falcon 3/5A 這組合之表現，與前一次的感覺完全不同，各有特色，首先，聽人聲小品表現率直帶微甜，雖沒300B的甜、毒、黏，但勝在爽口怡人，如在仲夏的一杯草莓梳打，有着淡淡果香及微甜，但又不會覺得黏膩，聲音中頻有點突出且有不錯的分析力，不知不覺間便一聽七八首人聲小品，而之後更有驚喜的是，當播放”龍鼓”專輯的樂曲時，低頻量感完全是超出Falcon 3/5A的單元口徑及喇叭體積，且分析力亦不失禮，而當播一些電影配樂的專輯時，Falcon 3/5A能一定發揮出監聽喇叭的特性，上、中、下頻均有照顧到，聲音不會拖泥帶水，這亦可能是Jadis 的Electronics Diapason 膽合併機的特性，當然，話分兩頭說，Falcon 3/5A的表現絶不能與身價數倍甚至十數倍的Hi End喇叭相比，但如果想平平地玩3/5A，我想這對Falcon 3/5A性價比真心冇得輸，先後兩次家訪，用300B推的Falcon 3/5A出嚟的聲音如性感嫵媚的美女；用Electronics Diapason推的Falcon 3/5A出嚟的聲音如青春少女，這對喇叭玩味十足，可能這才是3/5A喇叭的表現，因為它本來的設計就是監聽喇叭。<br>因R君近期忙到想喊，所以咁遲才寫本次家訪感想，請Jack兄見諒，其實……我仲未寫好進修課程的作業(&gt;.&lt;)……』<em>[11-May-2022 Updated]</em></p>
+
+
+
+<p><strong>G君評論：</strong><br>『 這套組合Jadis + Falcon 3/5A，俾我一種音樂感很好，聲音有厚度質感。不像我以前接觸的膽機偏重於人聲是沒有分析力。這個組合表現出來的場景（人聲與樂器之間協調比例很好，不會着重與某一方面）用來聽廣東流行曲或者一些古典音樂，都很適合，很耐聽，不知不覺聽了一個下午<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f60a.png" alt="😊" class="wp-smiley" style="height: 1em; max-height: 1em;" />，我想這些應該是因為三頻做得很平衡而得來的。這個配搭對一些想聽人聲，但有時又想聽吓樂器演奏的朋友，是一個不錯的選擇。而且也很適合港澳聆聽環境空間。』</p>
+
+
+
+<p><strong>後話</strong><br>其實 3/5a 搭膽機差唔多係最基本組合，簡單易夾，十多瓦功率最適合推動效率不高又受不起大功率的 3/5a 喇叭，比起以往聽開的 EL34 的優美、300B 的豔麗，反而 6L6 會比較耐聽，聆聽環境不大又喜歡聽人聲小品，這套系統係最適合不過。</p>
+
+
+
+<pre class="wp-block-verse has-vivid-purple-color has-text-color" style="font-size:15px;">*<strong><em>串流參考設定：</em></strong>
+<em>串流平台：</em>
+<em>Tidal, Roon Core (Mac Mini M1) + Roon Remote (iPad/MacOS), HQPlayer&nbsp;(Mac Mini M1) + NAA (Raspberry Pi 4)
+串流系統設定：
+Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi 4 (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt;&nbsp;梅</em></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>/ls35a-diapason/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【圍物論】領先 1-bit 轉換技術 &#8212; AudioByte Hydra-VOX「驚喜」之作</title>
+		<link>/audiobyte-hydra-vox/</link>
+					<comments>/audiobyte-hydra-vox/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 12 Nov 2021 12:47:24 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[AudioBtye Hydra VOX]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=260</guid>
+
+					<description><![CDATA[「驚喜」之作，當然又驚又喜，部解碼新買返嚟一開聲，真係只有驚到流汗，普普通通，聲音一般到唔起眼，有種高科技中伏的感覺。不過到後來當其他器材改善的時候，才發現它的優點，真正的「驚喜」之作。]]></description>
+										<content:encoded><![CDATA[
+<p>「驚喜」之作，當然又驚又喜，部解碼新買返嚟一開聲，真係只有驚到流汗，普普通通，聲音一般到唔起眼，有種高科技中伏的感覺。不過到後來當其他器材改善的時候，才發現它的優點，真正的「驚喜」之作。</p>
+
+
+
+<p>Audiobyte Hydra-VOX 係一部獨特的 FPGA 解碼器，再加上耳機放大功能，用上同廠的 Hydra-ZAP 超級電容清潔電源供應器，淨睇技術已經想到聲音必然有驚喜。VOX 有專門的 DSP 訊號處理，結合 digital/ analog filters 相位修正技術，再經由 1-bit 處理的分立元件，完全自家技術底下，創造出領先科技的水平，聲稱能夠造到自然聲音的體驗。</p>
+
+
+
+<p>開始之時，使用了當時的參考系統接駁，Stenheim 三仔、Soulution 330、Uptone EtherRegen、Intel NUC streamer 等器材，用 USB 接 VOX 開聲，心想… 唔係呀！聲音速度特慢、拖泥帶水，唔緊要，煲多幾日再講。結果⋯ 好少可玩唔夠一個月就將佢放埋一邊，再次攞出嚟玩已經係一年之後嘅事。</p>
+
+
+
+<p>驚喜一：就喺前幾個月，見到提及 VOX 有新 Firmware 的討論，於是又試吓將手頭上嘅 VOX 升級，升級之後發現聲音有很大改善，終於有心機再玩好佢。又或者因為現時串流系統已經有了可聞的改善，於是再接上手頭上的器材，有 YG Carmel 2、Vitus SIA-025 mk2、Raspberry Pi 4 streamer、HQPlayer 等，還是用上 USB 接駁，音樂味特別出眾，但總是好像有些缺失似的，咁嘅情況下，又再思考吓其他因素，或者可能同 USB 接駁有關。</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="YG Carmel 2 + Vitus SIA025 mk2 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/-0Bseoa_77I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>驚喜二：既然要從接駁考量，而 VOX 只有三種輸入 USB、SPDIF、I2S，當中應該以 I2S 最理想，不過手頭上沒有 I2S 設備，於是又買了 Singxer SU-6 DDC (其實呢部機想買好耐，只不過未有觸發點) 和 iFi Stream 等器材。當接好 VOX 再開聲嘅時候，感覺當時嘅缺失已經沒有了，換來了自然的聲音，可能因為 I2S 有隔離功能，可以降低 jitter 對系統的影響，從而改善聲音的質素。VOX 有個 DSD 直出功能，當訊號是 DSD256 或 DSD512 輸入時，便可以做到直解，呢個功能相當適合玩 HQPlayer，iFi Stream 可以支援 HQPlayer NAA 行 DSD256，係最理想的軟件升頻直出嘅方法。</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Elac Uni-Fi U5 + NAD M10 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/gdKiriHQSxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>驚喜三：玩了一輪 I2S 接駁之後，又因為改變了系統的設置，今次輪到玩 Elac Uni-Fi 書架喇叭，改用 SPDIF 輸入，由 Wattson Emerson Digital 接 Chord M-Scaler 再接 VOX，估唔到原來 VOX 可以支援 384kHz 輸入，今次可以玩盡 M-Scaler 嘅升頻，有興趣可以入去睇吓 <a href="https://jacknetcf.wordpress.com/2021/10/16/unifisystem/">【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</a>，平價組合可玩到超身價幾倍的聲音，認真有驚喜。其實 VOX 會將 PCM 轉成 delta-sigma 形式去 1-bit 轉換器，而 PCM 轉 DSD 也有出色表現，可能 VOX 嘅 DSP 處理多 bit 運算比較成熟，digital filters 做得相當唔錯。</p>
+
+
+
+<p>結論：玩一件器材要玩得好，當然要花上十二分精力和時間，一時三刻未必掌握得到玩器材嘅方法，就因為千變萬化，所以音響才好玩，就算表面好簡單，配搭嘅過程都有好多變數，如果只聽一段短時間就判定器材的好壞，咁就可能過於片面，想要全面的話，就一定要充分了解各種可能性。</p>
+
+
+
+<p class="has-small-font-size">*<strong><em>串流參考設定：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)</em><br><em>HydraVOX USB 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi (NAA) -&gt; (USB) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> I2S 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; iFi Stream (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> SPDIF 設定：<br>Mac Mini M1 (Roon) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Emerson Digital (RoonBridge) -&gt; (SPDIF) -&gt; Chord M-Scaler -&gt; (SPDIF) -&gt; <em>HydraVOX</em></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/audiobyte-hydra-vox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</title>
+		<link>/unifisystem/</link>
+					<comments>/unifisystem/#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 16 Oct 2021 06:21:01 +0000</pubDate>
+				<category><![CDATA[音響拼圖]]></category>
+		<category><![CDATA[AudioBtye Hydra VOX]]></category>
+		<category><![CDATA[Chord Hugo M-Scaler]]></category>
+		<category><![CDATA[Elac Uni-Fi Slim]]></category>
+		<category><![CDATA[NAD M10]]></category>
+		<category><![CDATA[Wattson Audio Emerson DIGITAL]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=234</guid>
+
+					<description><![CDATA[通常一套平價音響組合在聲音上總有一種取向，音樂性出色但音響性會偏差，音響性好的又往往缺乏音樂性，或者兩頭唔到岸都唔定。如果兩者可以兼得的話，可能係一套高級組合，又或者要花好長時間去調試，咁啱呢排玩開一對平價高質嘅 Elac Uni-Fi Slim BS U5 書架喇叭，作為一對入門級喇叭，聲音表現一啲都唔失禮。]]></description>
+										<content:encoded><![CDATA[
+<p>通常一套平價音響組合在聲音上總有一種取向，音樂性出色但音響性會偏差，音響性好的又往往缺乏音樂性，或者兩頭唔到岸都唔定。如果兩者可以兼得的話，可能係一套高級組合，又或者要花好長時間去調試，咁啱呢排玩開一對平價高質嘅 Elac Uni-Fi Slim BS U5 書架喇叭，作為一對入門級喇叭，聲音表現一啲都唔失禮。</p>
+
+
+
+<p>幾年前留意到 Andrew Jones 設計的 Elac 平價同軸單元喇叭 Uni-Fi，雖然用料一般，但當年各地音展表現十分出眾，便萌生起收藏意慾。Andrew Jones 設計過幾款同軸單元喇叭，而廣為人知的就有 TAD、Pionner、KEF 等設計，而現在新的 Elac 也用上 Andrew Jones 新的同軸單元設計，雖然給人感覺風格不同於傳統的 Elac 喇叭，但其實也可以作為新系列喇叭看待。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
+
+
+<p>同軸單元設計的優點在於可以做到類似現實生活中的單點發聲原理，對於喇叭設計當中的正確相位有著重要影響，但由於市場上同軸單元設計的喇叭選擇比較少，Elac Uni-Fi 可謂入門首選。而這對 Uni-Fi 有著傳統的美式風格 (流著 Andrew Jones 的設計理念，所以唔可以當佢係德國喇叭)，聽流行曲爆得十分過癮，聽幾件樂器的演奏亦十分出色，但某程度上比較粗獷，唔算係幼細類型，聽弦樂未必太理想。由於小弟聽古典比較多，為了改善 Uni-Fi 的搭配效果，先從平常使用的參考器材 (*見註腳) 入手配搭。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
+
+
+<p>由平時常聽的曲目開始試聽，發現 VA 的 Class A 輸出太過細緻幼滑，同 Uni-FI 大開大合爽直的性格有些不協調，即刻按鍵轉 Class AB，爽直性格出番嚟，但整體性格偏向比較斯文，少了些趣味。而解碼配置方面，「梅」比較率直、分析力強，但遇上分析能力較低的喇叭，太強的解碼分析能力會突顯喇叭本身的不足之處，變相做成音樂呆板，好在手上有幾套解碼系統，可以試試 Chord 解碼系統。為發掘更多可能性，這次只使用 Chord 系統中的 M-Scaler 升頻器，於是系統便成為 Emerson -&gt; M-Scaler -&gt; 「梅」，結果聲音變得細緻起來，但「梅」的聲音直接，反而感覺有些做作。之後轉至 AudioByte Hydra VOX 解碼，聽感又返回來，音樂感豐富了，細節也存在，感覺實在了。但跟以往聽開的 Uni-Fi 還有些出入，好像欠缺些什麼？於是把心一橫，用部 NAD M10 內的合併擴大功能 (即是 NCore 的放大部份) 來代替 VA 擴音機，NCore 強勁的驅動力配合爽直的 Uni-Fi 有種化學作用，書架喇叭也可以爆到七彩，連 subwoofer 也不需要使用，真係出乎意料之外。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
+
+
+<p>這個組合的串流解解碼系統有個優勢，串流部分先由簡單易用的 Emerson DIGITAL 開始，雖然 Emerson 的 SPDIF 只支援最高 24/192，但正常情況下，播 Tidal 串流已經十分足夠，而 Emerson 亦是 Roon Certified 的產品，所以 Tidal 串流音樂可以經由 Roon 系統傳送至 Emerson，再由 SPDIF 直接輸出至 M-Scaler 升頻器 ，途中可以不作任何數碼處理，而 MQA 也只用 Roon 做解碼，最高也可達到 24/96，不用擔心超出 SPDIF 的限制範圍，簡單而且直接。至於 Chord Hugo M-Scaler 升頻器的升頻效果，成效有目共睹，作為 Chord 的獨門絕技，升頻輸出頻率當然越高越好，M-Scaler 單個 BNC 輸出可達 384kHz，雙 BNC 最高可達 768kHz，不過一般只支援自家的解碼產品。但⋯ 神奇的事也出現在 Hydra VOX 解碼器上，說明書說 SPDIF 只支援 192kHz，但接了 M-Scaler 之後，發現 Hydra VOX 可以支援 384kHz 的輸入，在理想的情況下，M-Scaler 加 Hydra VOX 可以發揮出最極致的升頻表現。</p>
+
+
+
+<p>整套系統建位後，Uni-Fi 書架喇叭和 M10 擴音機配合而來的音響效果十分出眾，小型書架也有著小型座地的低頻表現，雖說 Uni-Fi 係平價入門書架喇叭，但傑出的音場水準 (正是同軸單元設計的特色)，出色的美式風格 (相對於其他高級美國喇叭品牌)，精準的還原度，以及活生的臨場感，足以媲美其他數萬元級的喇叭表現。當然這套系統另一重點在於串流解碼的配合，Hydra VOX 有著特色的音樂感，加上 M-Scaler 優美的升頻表現，令到整體細緻度、聲音質量有明顯的提升。相反，如果用回 NAD M10 的內置串流解碼部分，便失去原有的音樂感、流暢度，令音樂變得生硬，而且過份強調音像邊緣，反而更加不耐聽。綜合以上結論，Uni-Fi 雖然不能達到 High End 水平，因本身的分析能力和密度不足，但配合 NCore 使用後，輸出的動態以及準確性得以提高，再加上串流解碼系統的升頻表現，整套系統的音樂性有所提升，音效突出之餘又可以做到音樂性兼備，係一套喜出望外的組合。</p>
+
+
+
+<p> </p>
+
+
+
+<p class="has-small-font-size">*<strong><em>參考器材一覽：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)<br>解碼器：<strong>Holo Audio</strong>&nbsp;May, <strong>Chord</strong>&nbsp;Hugo TT2 + Hugo M-Scaler<br>擴音機：<strong>Vitus Audio&nbsp;</strong>SIA-025 mk.II<br>喇叭：<strong>STENHEIM</strong>&nbsp;Alumine THREE</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/unifisystem/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【發燒心得】之⋯ 喇叭擺位</title>
+		<link>/speaker-positioning/</link>
+					<comments>/speaker-positioning/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 19 Feb 2021 09:19:33 +0000</pubDate>
+				<category><![CDATA[發燒心得]]></category>
+		<category><![CDATA[REW]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=155</guid>
+
+					<description><![CDATA[講到喇叭擺位，其實第一樣係睇有冇地方可以擺先，如果冇，講都冇用！當然，成個空間可以任意擺，咁就可以繼續睇落去，咁又睇睇小弟有乜嘢心水方法⋯ [...]]]></description>
+										<content:encoded><![CDATA[
+<p>講到喇叭擺位，其實第一樣係睇有冇地方可以擺先，如果冇，講都冇用！當然，成個空間可以任意擺，咁就可以繼續睇落去，咁又睇睇小弟有乜嘢心水方法⋯</p>
+
+
+
+<p>講到擺位，亦即係表示你對這個空間的認識有多少，頻率的能量分佈，音頻消散時間，吸音或擴散等房間處理問題。而擺位的第一目的，就係想要整體平均的聲音效果，何謂平均？先由平衡開始，平衡即是高、中、低份量比例均衡，或者是音頻反應曲線平直，要做到平衡效果，空間當然是重要課題，擺位係因應空間而為，但當空間不能改變的情況下，擺位才是重要方向。</p>
+
+
+
+<p>通常小弟開始擺位之前，會研究一吓空間比例、喇叭距離、以及皇帝位位置等。現時科技先進，可以用 <a rel="noreferrer noopener" href="https://www.roomeqwizard.com/" target="_blank">REW</a> 的 Room Simulation，便很容易找到喇叭與皇帝位的最佳位置。當然這個是最初步建議做法，而最終因為有其他因素影響，會出現很多不確定情況。但一般用這個方法，很容易找到空間的 Room Mode 是哪幾個，也可以了解到 200Hz 以下的低頻情況，再應用於實際環境上，相信很快能夠找到比較合適的擺位，以及最佳的聆聽位置。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
+
+
+
+<p>以上方法當然係紙上談兵，一定要實地擺好喇叭，才知道真正情況如何。而大多數音樂都以樂器及人聲為主，理所當然擺位概念以準確中頻行先，小弟心目中係以 &#8220;左右對稱&#8221; 為原則，而 &#8220;左右對稱&#8221; 並不是指左邊放的東西和右邊完全做到鏡像效果，&#8221;左右對稱&#8221; 係以時間概念 (有時稱為相位、或者以距離作參考) 為準，亦即是最基本的等邊三角形擺法。除了喇叭與皇帝位的距離外，最短的第一反射點距離也要考慮在內 (如果用短邊擺法，指左右喇叭貼側牆的第一反射點與皇帝位的距離；如果用長邊擺法，指左右喇叭貼後牆的第一反射點與皇帝位的距離) ，所以做到 &#8220;左右對稱&#8221; 並不容易。在最佳的情況下，這個第一反射點與喇叭的距離最好超過1.7米，因為人耳能夠分辨到喇叭發出的直接聲與反射點的反射聲之間的時間差，相反如果太接近牆身，可能會做成音像模糊不清。</p>
+
+
+
+<div class="wp-block-group alignfull"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-6 column1-desktop-grid__row-1 column2-desktop-grid__span-6 column2-desktop-grid__start-7 column2-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column2-tablet-grid__span-4 column2-tablet-grid__start-5 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2">
+<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="402" height="600" src="/wp-content/uploads/2021/02/longset1stpos.jpg?w=402" alt="" class="wp-image-172" srcset="/wp-content/uploads/2021/02/longset1stpos.jpg 402w, /wp-content/uploads/2021/02/longset1stpos-201x300.jpg 201w" sizes="(max-width: 402px) 100vw, 402px" /><figcaption>短邊擺法，最短時間的第一反射點位於側牆。</figcaption></figure>
+</div>
+
+
+
+<div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="404" height="557" src="/wp-content/uploads/2021/02/wideset1stpos.jpg?w=404" alt="" class="wp-image-173" srcset="/wp-content/uploads/2021/02/wideset1stpos.jpg 404w, /wp-content/uploads/2021/02/wideset1stpos-218x300.jpg 218w" sizes="(max-width: 404px) 100vw, 404px" /><figcaption>長邊擺法，最短時間的第一反射點位於後牆。</figcaption></figure>
+</div>
+</div>
+</div></div>
+
+
+
+<p>另一方面，擺位前也應充分閲讀說明書，因應各款喇叭設計不同，擺位也有不同方向，貼牆或者離牆、近聽或者要有固定距離、Toe-in 或 Toe-out 多少，每種設計分別很大。至於選取書架或座地喇叭，可以因應 Room Mode 的結果，如果集中在 20~80Hz 內，最好使用書架喇叭，如果使用座地喇叭，很難避免不出現房間共鳴 (Boom) 的情況。至於不同的器材或線材，也有著影響整體平衡度的元素，所以如果作出更換，也需要移動少少喇叭位置，以作調整。</p>
+
+
+
+<p>相信大家都明白到，每個擺位都有不同的直接聲與反射聲的比例，理想情況下，直接聲與反射聲的比例約為 3：7，直接聲是指由喇叭發聲單元到聆聽位置最短距離的音量，而經過房間6個不同反射面的反射聲音量，確實比直接聲高許多。直接聲比例高的話，音像比較明確、細節充足，反射聲比例高的話，音塲更見優勢。在一般喇叭設計當中，高頻多會集中在中軸線上，中頻有如菊花形散射，低頻方向不明顯等。所以當 Toe-in 多的時候，高頻比例會增加，但反射聲的比例也會減少，結果音像會相對較前，音塲亦較細。這和房間的反射面有直接關係，需要多嘗試，才會找到合適的 Toe-in 角度，除了 Toe-in 外，也可以嘗試將喇叭移前移後、或左或右些少，這樣也可以調整反射聲的比例。</p>
+
+
+
+<p>在大多數起居住生活環境下玩音響，實在沒有太多理想位置可以擺放喇叭，最常出現是左右不平均的情況。解決方法有：1) 用反射板將左右反射點反射時間調整為左右對稱；2) 增加直接聲，減少反射聲比例；3) 盡量拉開喇叭和側牆／後牆距離。又因為左右不對稱原故，總有一面的能量強過另一面，這時也需要考慮使用到左右不對稱擺法。低頻能量強的一面，需要離牆再遠些，高頻多的一面，可以 Toe-out 些少。但因為空間問題的情況，這些方法只能作出少許修正補償，不能完整地解決原本的問題，所以某程度上只能作出妥協。如果是反射聲的比例的問題，可以從房間報置物料方面入手，如果可以的話，加入少許聲學物料作處理，聲學物料好處是因為廠商已經提供足夠有用的頻應資料，用家比較容易選擇需要的產品。</p>
+
+
+
+<p>總結以上內容，先尋找出房間特性，避開引起房間共鳴的位置，盡量做到左右對稱，多嘗試不同擺位距離和角度，可以的話，做些少房間聲學處理。對於喇叭未能擺放出最理想位置，用家也要有心理預備，因為環境因素影響太多，出現未如理想的情況很常見，或許玩的同時也要作出妥協。以上是小弟對喇叭擺位的小小心得，如果各位師兄喜歡的，請除便分享，如果有作出提點的，請多多指教。</p>
+
+
+
+<p>* 心得呢樣，未必個個都會認同，不過都可以作為小小參考對象。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/speaker-positioning/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【音響拼圖】Chord Hugo Combo 與 Stenheim 三仔的純A類誘惑⋯⋯</title>
+		<link>/chord-stenheim-va/</link>
+					<comments>/chord-stenheim-va/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 09:15:03 +0000</pubDate>
+				<category><![CDATA[音響拼圖]]></category>
+		<category><![CDATA[Chord Hugo M-Scaler]]></category>
+		<category><![CDATA[Chord Hugo TT2]]></category>
+		<category><![CDATA[Stenheim Alumine 3]]></category>
+		<category><![CDATA[Vitus Audio SIA-025]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=53</guid>
+
+					<description><![CDATA[用細瓦數機推百搭嘅 Stenheim 三仔係特別有味道，VA 嘅強勁A類真係好無敵，Chord 嘅人聲使人熔化。整套系統出嚟的口味不特別濃厚，但韻味十足，清新得嚟又有點餘香，不特別甜美但質感十足，好容易令人想繼續聽下去。人聲充滿感情又特別使人喜悅，細節豐富到不得了，以往很難發現的弱音變得特別清晰 [...]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-626a712b-f4cb-4d0e-894c-6a4b2c8eef52">用細瓦數機推百搭嘅 Stenheim 三仔係特別有味道，VA 嘅強勁A類真係好無敵，Chord 嘅人聲使人熔化。整套系統出嚟的口味不特別濃厚，但韻味十足，清新得嚟又有點餘香，不特別甜美但質感十足，好容易令人想繼續聽下去。人聲充滿感情又特別使人喜悅，細節豐富到不得了，以往很難發現的弱音變得特別清晰，不必再存在多餘嘅幻想，所有嘢就在眼前。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-46035e49-9c24-4bb6-aff1-a16baa52838b"><img decoding="async" loading="lazy" width="1510" height="1134" src="/wp-content/uploads/2022/06/chordhugo.jpg?w=1024" alt="" class="wp-image-433" srcset="/wp-content/uploads/2022/06/chordhugo.jpg 1510w, /wp-content/uploads/2022/06/chordhugo-300x225.jpg 300w, /wp-content/uploads/2022/06/chordhugo-1024x769.jpg 1024w, /wp-content/uploads/2022/06/chordhugo-768x577.jpg 768w" sizes="(max-width: 1510px) 100vw, 1510px" /><figcaption>Top: Chord Hugo TT2, bottom: Chord Hugo M-Scaler</figcaption></figure></div>
+
+
+<p id="block-2b31ea50-35ec-4310-b802-8321e3010a60">解碼部分：由 Chord Hugo TT2 及 Hugo M-Scaler 組合而成的升頻解碼系統，M-Scaler 係現時比較突出的獨立升頻器，配合 Chord 解碼可以達到最高規格，令到整個解碼系統都得到提升。透過升頻出來的效果，無論係音場、定位、立體感、音質方面都有明顯改善。TT2 有著 Chord 獨門的解碼技術，亦有著 Chord 獨特的聲音，強於精細度和質感，聽人聲特別動人，細節特別豐富，久久不倦的感覺。</p>
+
+
+
+<p id="block-4ca59346-d44b-4fe1-b5e3-addbb22cadc5">放大部分：首次聽 Vitus Audio 已經感覺到其極高質素的表現，SIA-025 有個特色，就是著機的情況下，可以自由轉換 Class A 同 Class AB，兩種模式都各自有各特色，Class A 比較幼滑柔順，Class AB 比較剛強爽快。而整體表現 (不論是 Class A 或 AB) 都有著極高水平，尤其是以推動力、分析力、密度、以及細緻度更為出色，中性帶少少甜美的取向更令人著迷，而以其強大驅動能力，能夠征服不同類型喇叭。而且無論聽哪種類型的音樂，都能夠還原出音樂原有的水平，接各類型器材，都能夠表現出該器材的特色，達到鉅細無遺的效果，最難得的是音響性和音樂性兼備，達到頂級 High-End 產品的效果。</p>
+
+
+
+<p id="block-16239a97-a228-417d-b2c0-ecd02933076c">喇叭部分：簡單直接又百撘的 Stenheim Alumine THREE 屬於參考級別，由細功率至大功率、由膽機到石機、由 Class A/AB 再到 Class D，無論任何類型的擴音器材，Stenheim 三仔都表現出應有的水平，完全分辨得出各種器材優劣的部分。而最能表現出人聲溫暖柔潤的一面，當然是挑選細功率A類的擴音機，300B是十分適合用來推動三仔，但估計不到的情況，用 VA SIA-025 A類時，比300B更加吸引。參考級別的喇叭有個缺點，就是要所有設備、器材都要達到一定水平，反之很容易辨別出各種不足的地方，一電一墊都要很講究才行。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-7fbe2d9d-d09e-43e8-8c60-4cbde493172b"><img decoding="async" loading="lazy" width="1508" height="1136" src="/wp-content/uploads/2022/06/va-stenheim3.jpg?w=1024" alt="" class="wp-image-434" srcset="/wp-content/uploads/2022/06/va-stenheim3.jpg 1508w, /wp-content/uploads/2022/06/va-stenheim3-300x226.jpg 300w, /wp-content/uploads/2022/06/va-stenheim3-1024x771.jpg 1024w, /wp-content/uploads/2022/06/va-stenheim3-768x579.jpg 768w" sizes="(max-width: 1508px) 100vw, 1508px" /><figcaption>Stenheim Alumine THREE</figcaption></figure></div>
+
+
+<p id="block-40579935-1358-47f5-aedc-415e65e4e7b9">*註：<strong>誘惑</strong>就係&#8230; 當踫到有嘢吸引著嘅時候，而忘記所有缺點嘅存在，呢編就係以當時嘅心情寫嘅。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/chord-stenheim-va/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【音響比比比】三大鋁合金箱體 High End 品牌之⋯⋯ 入門座地喇叭</title>
+		<link>/aluminium-speaker/</link>
+					<comments>/aluminium-speaker/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:58:13 +0000</pubDate>
+				<category><![CDATA[音響比比比]]></category>
+		<category><![CDATA[Magico A3]]></category>
+		<category><![CDATA[Stenheim Alumine 3]]></category>
+		<category><![CDATA[YG Acoustics Carmel 2]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=51</guid>
+
+					<description><![CDATA[這編是首次以【音響比比比】為題的產品比較文章，用個人的觀點去描述不同喇叭的優缺點，也用上不同的資訊作對比，文章以 "鋁合金箱體喇叭作對比" 為首次【比比比】內容應該有足夠份量，因為自己喜歡中性無音染的喇叭關係，所以才對這三款 High End 品牌的入門座地喇叭作比較。 [...]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-55623444-6353-4223-a9c2-448a5a916a7b">這編是首次以【音響比比比】為題的產品比較文章，用個人的觀點去描述不同喇叭的優缺點，也用上不同的資訊作對比，文章以 &#8220;鋁合金箱體喇叭作對比&#8221; 為首次【比比比】內容應該有足夠份量，因為自己喜歡中性無音染的喇叭關係，所以才對這三款 High End 品牌的入門座地喇叭作比較。而事實上，這三個品牌的鋁合金箱體喇叭都有能力做到低音染、高分析力、高密度和高透明度的優點，而且出來的聲音也沒有冷硬的情況，各個細節都做得相當出色，顯然全是參考級別的高端產品。如果硬是要比較的話，其實也沒有任何明顯缺失的地方，反而各有特色，所以要特地選擇也很困難，但一定要揀的話，選適合自己聆聽空間和喜愛的聲音便是。</p>
+
+
+
+<p id="block-00d9fb19-738d-4fa3-82cb-c9e4736994c8">MAGICO A3：三路四單元 全飛機鋁材密封式箱體設計，採用 28mm 鈹高音、6寸碳纖中音、以及雙 7寸碳纖低音單元，88dB 靈敏度，單隻重約 50kg，頻率響應為 26Hz 至 50kHz，定價 USD12,300。<br>優點：中頻有厚度，低頻能量大、彈跳力好，高低頻伸延理想，價格具競爭力。<br>缺點：難推難夾，對擴音機有要求，簡化的箱體會令聲音混雜。<br>簡評：擁有 MAGICO 優良血統，而售價極為吸引，以這個價位來說，必然是 High End 入門首選。但要留意 A3 對擴音機的要求頗高，要留多點預算買擴音機，而且喇叭能量強大，需要較大空間才能消化。</p>
+
+
+
+<p id="block-4259052a-e201-47f5-ba49-0b022015c100">STENHEIM Alumine THREE：三路四單元 三獨立 (中、高音雙密封式，及低音開孔式) 全鋁材箱體設計，採用 1寸絲膜高音、5¼寸紙膜中音、以及雙 8寸紙膜低音單元，93dB 靈敏度，單隻重約 70kg，頻率響應為 32Hz 至 35kHz，定價 USD30,000。<br>優點：平衡度高，播各類型音樂都很好，易推易玩，膽石均可。<br>缺點：規模感較細，高低頻伸延較差。<br>簡評：如果有足夠預算 Alumine THREE 是很好的選擇，喇叭對擴音機要求不高，簡單一部十多瓦的膽機也可以出到很好的聲音，極度耐聽，而且較易融入不同的聆聽空間，適應性很強。要數不足，就可能是外型設計比較保守，沒有用上高科技或貴價的部件，只是實實在在做好喇叭應做的事情，可能有人感覺不值這個價錢。</p>
+
+
+
+<p id="block-47436c9b-d571-494e-990e-57b8e00a15e6">YG Acoustics Carmel 2：二路二單元 三倉全鋁合金密封式箱體設計，採用 1寸絲膜高音、及 7寸飛機鋁中低音單元，87dB 靈敏度，單隻重約 34kg，頻率響應為 32Hz 至 40kHz，定價 USD24,300。<br>優點：音場大，定位準，相位準確，容易擺位，流線型外觀吸引。<br>缺點：低頻伸延不足，對擴音機能力有要求。<br>簡評：小型座地喇叭有大喇叭的氣勢及場面，有驚人的速度及超越體積的能量感，超越一般 High End 喇叭的精準度，而且越大聲越過癮，聽 Rock/Jazz 是為首選，容易融入一般家居環境。雖然 Carmel 2 是一對小型座地喇叭，但需求猶如中型喇叭一樣，要選有質素的擴音機才能滿足。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-e1b91ecf-4814-48b7-803a-c7c1610e8f68"><img decoding="async" loading="lazy" width="1608" height="1208" src="/wp-content/uploads/2022/06/stenheim3.jpg?w=1024" alt="" class="wp-image-429" srcset="/wp-content/uploads/2022/06/stenheim3.jpg 1608w, /wp-content/uploads/2022/06/stenheim3-300x225.jpg 300w, /wp-content/uploads/2022/06/stenheim3-1024x769.jpg 1024w, /wp-content/uploads/2022/06/stenheim3-768x577.jpg 768w, /wp-content/uploads/2022/06/stenheim3-1536x1154.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption>STENHEIM Alumine THREE 三路四單元全鋁合金喇叭</figcaption></figure></div>
+
+
+<p id="block-d2913ef9-564a-413a-a544-64d118b28847">以下是主觀比較各項效果：<br>高頻：A3 &gt; Carmel2 &gt; THREE &#8230;(其實各有各好，這個比較以高頻伸延為主)<br>中頻：THREE &gt; A3 &gt; Carmel2<br>低頻：A3 &gt; THREE &gt; Carmel2<br>密度：THREE = A3 = Carmel2<br>層次感：Carmel2 &gt; THREE &gt; A3<br>透明度：Carmel2 &gt; A3 &gt; THREE<br>定位：Carmel2 &gt; A3 &gt; THREE<br>音樂感：THREE &gt; A3 &gt; Carmel2<br>分析力：A3 &gt; Carmel2 &gt; THREE<br>速度：Carmel2 &gt; A3 &gt; THREE<br>動態：A3 &gt; THREE &gt; Carmel2<br>質感：THREE &gt; A3 &gt; Carmel2<br>細節：THREE = A3 = Carmel2<br>空間感：Carmel2 &gt; THREE &gt; A3<br>平衡度：THREE &gt; Carmel2 &gt; A3</p>
+
+
+
+<p id="block-2b9020c9-0e17-4cec-aafb-8909c6486328">一般喇叭設計大致分為：箱體、單元以及分音部分，而本次【比比比】全為鋁合金箱體，但設計不同，箱體結構也有分別，以下討論其設計特色。MAGICO A3 為全密封式設計，是上級型號的簡化版本，高、中音單元使用獨立倉體，雙低音則使用另一倉體，平行面設計，有機會造成駐波干擾，可能減低了透明度，然而簡化設計也有效降低成本。STENHEIM Alumine THREE 是單元獨立倉設計，高音、中音分別使用密封式，雙低音則使用反射式設計，這樣可減少互相干擾和加強透明度，而且低音反射式可加強低頻能量，可謂雙管齊下的箱體設計。YG Acoustics Carmel 2 採用更複雜的箱體設計，全密封式內裡沒有吸音物料，用三個倉體來減低箱內干擾，又使用不平行面來減低箱內駐波，而且 YG Acoustics 也注重外觀設計，流線型箱體美觀耐看。以箱體設計來說，Carmel 2 技術內涵外觀兼備，實在是不可多得的頂級制作。</p>
+
+
+
+<p id="block-67e13550-b2ce-498c-90a9-5e7541264f13">至於單元設計方面，這個是 MAGICO 的強項，高科技單元的佼佼者，A3 用上鈹高音及碳纖振膜中、低音，高剛性及準確度遠比其他振膜物料好，超低失真，更高動態，能承受更大的功率，入門級直接就是其他廠的旗艦單元。STENHEIM 採用絲膜高音及紙膜中、低音設計，使用傳統簡單易推的單元，打造成獨有的聲音哲學，高靈敏度，又能承受大音壓，阻抗變化小，容易驅動，直接呈現出擴音機的特性，難得的優點共冶一爐。至於 YG Acoustics Carmel 2 採用簡單的兩個單元，高音使用自家專利的特制絲膜單元，中低音使用其專利技術，由整件飛機鋁車出來的鋁振膜單元，其技術可入領先之列，能表現出高速、低失真、大動態、大音壓的能耐。以單元而言，MAGICO 和 YG Acoustics 都屬於高科技的結晶，大體能耐也差不多，但 YG Acoustics 的工藝成本更高，所以入門級的單元數目較少。而 STENHEIM 採用傳統的單元，沒有以高科技掛帥，但流露出自然平衡的一面。事實上這個部分沒有明顯高低分別，各有各特色，不過有一點可以肯定的，就是 MAGICO A3 的性價比為三者之中最高，可謂入門價位的旗艦產品。</p>
+
+
+
+<p id="block-d09e8b49-89ef-4e9b-b164-fedf03337b55">分音設計為喇叭的重要部分，大部分廠家都會採用電腦模擬測試軟件設計分音，而 MAGICO 使用三分頻網絡、用24dB衰減斜率的設計來減少失真，標準化的做法在於容易掌握及設計，用上好的零件效果更理想，不過其缺點是功耗較高、難於驅動。STENHEIM 則使用不同的單元物理特性來簡化分音線路，同樣是24dB衰減斜率，簡化的設計可以降低分音的功耗，達到更高靈敏度和更容易驅動的效果。雖然 YG Acoustics Carmel 2 是二路分音設計，但其分音網絡卻十分複雜，YG Acoustics 使用自行開發的專利軟件、專利的分音技術，以及專利的零件來減低失真，能提供最平直的頻應和最少的相位差，真正高成本的設計。事實上分音器不是越貴越好，好的分音設計在於與單元及箱體的配合、以高效率及低失真為主。但真正優秀的設計，也不在符小部分功耗的問題，始終分音設計以減少相位失真為首，所以高級產品大都不惜工本，以聲音先行，結果也離不開高價位情況。綜觀這三件產品，分音部分 YG Acoustics 有絕對優勢，曲線平直，以及最少的相位誤差，將 Carmel 2 推向成為三者之中最精準的喇叭。</p>
+
+
+
+<p id="block-229de920-e267-4000-b538-298b7aa5892c">雖然好的設計不一定出到好的聲音，但設計不當，出到好聲音的機會較微。而無論喜歡哪一類型的設計，設計師總會依照自己的發展方向去設計産品，聲音口味也會以監聽者為依歸，即是說，看設計也能預計其聲音表現，大概多聽不同類型產品，也會有類似的結論，所以【比比比】也有其分享的目的。總結一下，其實【比比比】並不是推薦最佳產品，最主要是在於比較各產品不同的特性和效果，讓各位有多一些資訊作比較，從而選擇出心水產品。而比較內容也是個人的看法，可能和各位的意見有所不同，然而好的產品未必人人接受，靚不靚聲也是很個人的感覺，所以在㨂選的時候，最好是耳聽為實，選擇適合自己的環境和聲音，加上【比比比】的小小意見，希望大家能找到滿意的產品。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/aluminium-speaker/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Pi4 比較不同 Streaming client software 的效果</title>
+		<link>/pi4-streaming-clients/</link>
+					<comments>/pi4-streaming-clients/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:44:06 +0000</pubDate>
+				<category><![CDATA[音響]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[Raspberry Pi4]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=49</guid>
+
+					<description><![CDATA[如果 CAS 想玩得經濟又好聲，小弟相信大部分有經驗嘅師兄，都會選擇 LMS 或者 Roon 的 software system，因為使用上實在太方便。至於想更加好聲的話，往往會用到低耗低噪的 Raspberry Pi 作為 streaming client [...]]]></description>
+										<content:encoded><![CDATA[
+<p>如果 CAS 想玩得經濟又好聲，小弟相信大部分有經驗嘅師兄，都會選擇 LMS 或者 Roon 的 software system，因為使用上實在太方便。至於想更加好聲的話，往往會用到低耗低噪的 Raspberry Pi 作為 streaming client，而小弟亦有比較過以下幾種系統：<br>一）LMS (Daphile) / Squeezelite (piCorePlayer)<br>二）Roon / RoonBridge (RoPieee)<br>三）HQPlayer / NAA</p>
+
+
+
+<p>Roon 未出之前，大部分玩 Streaming client 都會用 LMS 的系統，至於現正，相信有部分師兄已經轉行 Roon 了，而 HQPlayer 相信比較少人會用。如果只計 client 端的話，以小弟經驗，RoonBridge 效果較差，Squeezelite 會好些，NAA 最理想，不過其實相差也不是十分明顯，如果不用 A/B 比較，未必咁容易聽得出。事實上，RoonBridge 的 software 比較複雜，太多自動化嘅嘢要行，Squeezelite 簡單好多，而 HQPlayer 提供的 NAA 已經包含系統優化，所以 HQPlayer 效果比較理想。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/pi4-streaming-clients/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【音響拼圖】&#8221;T+A DAC8 DSD&#8221; 與 &#8220;雨後初晴&#8221; 的甜蜜邂逅⋯⋯</title>
+		<link>/dac8dsd-harbeth/</link>
+					<comments>/dac8dsd-harbeth/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:42:45 +0000</pubDate>
+				<category><![CDATA[音響拼圖]]></category>
+		<category><![CDATA[Bel Canto E1X Integrated]]></category>
+		<category><![CDATA[Harbeth P3ESR]]></category>
+		<category><![CDATA[T+A DAC8 DSD]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=47</guid>
+
+					<description><![CDATA[組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。 T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。]]></description>
+										<content:encoded><![CDATA[
+<p>組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1916" height="1140" src="/wp-content/uploads/2022/06/dac8.jpg?w=1024" alt="" class="wp-image-424" srcset="/wp-content/uploads/2022/06/dac8.jpg 1916w, /wp-content/uploads/2022/06/dac8-300x178.jpg 300w, /wp-content/uploads/2022/06/dac8-1024x609.jpg 1024w, /wp-content/uploads/2022/06/dac8-768x457.jpg 768w, /wp-content/uploads/2022/06/dac8-1536x914.jpg 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /><figcaption>龍床上的 T+A DAC 8 DSD</figcaption></figure></div>
+
+
+<p>T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。<br>Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。<br>HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。<br>龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。<br>Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。<br></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1914" height="1310" src="/wp-content/uploads/2022/06/streamer.jpg?w=1024" alt="" class="wp-image-425" srcset="/wp-content/uploads/2022/06/streamer.jpg 1914w, /wp-content/uploads/2022/06/streamer-300x205.jpg 300w, /wp-content/uploads/2022/06/streamer-1024x701.jpg 1024w, /wp-content/uploads/2022/06/streamer-768x526.jpg 768w, /wp-content/uploads/2022/06/streamer-1536x1051.jpg 1536w" sizes="(max-width: 1914px) 100vw, 1914px" /><figcaption>Streaming 用 NUC 加 EtherRegen Switch</figcaption></figure></div>
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/dac8dsd-harbeth/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Roon 要點開始⋯⋯玩？</title>
+		<link>/roon-starting/</link>
+					<comments>/roon-starting/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:39:11 +0000</pubDate>
+				<category><![CDATA[音響]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[Roon]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=45</guid>
+
+					<description><![CDATA[好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯ [...]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-bff4dbea-d7b9-4699-8844-d9a60ace58cc"><br>好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯</p>
+
+
+
+<p id="block-5125dc6d-357b-419c-9a1f-864a88e66965">Roon 其實係一個音樂檔案管理系統 (Music Library)，有音樂播放功能，支援串流服務，有個好好用嘅使用者介面，分月費及永久付費計劃。<a href="https://roonlabs.com/howroonworks">https://roonlabs.com/howroonworks</a> 而 Roon 主要分成三個部分，Roon Core 係 Roon 軟件的主要部分，可以安裝在任何硬件上，包括 Windows, Mac, Linux, NAS。Roon Control Apps 就係控制程式，可以裝喺 iOS, Android, Windows, Mac 上。另外可以加埋 Roon Outputs (又叫 End Points)，亦即係 Roon Ready 嘅 Streamer/Speaker/Player 等，合埋便組成一套完整的 Roon 系統。</p>
+
+
+
+<div id="block-3a152c75-45a1-41aa-bed0-1f6903c7ec91" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1286" height="884" src="/wp-content/uploads/2021/02/roon-library.jpg?w=809" alt="" class="wp-image-75" srcset="/wp-content/uploads/2021/02/roon-library.jpg 1286w, /wp-content/uploads/2021/02/roon-library-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-library-1024x704.jpg 1024w, /wp-content/uploads/2021/02/roon-library-768x528.jpg 768w" sizes="(max-width: 1286px) 100vw, 1286px" /><figcaption>Roon 的使用者介面非常方便好用</figcaption></figure></div>
+
+
+
+<p id="block-6ce5276c-bb27-459e-bb6e-f6a1c840a01b">玩 Roon 第一樣要考慮裝喺邊？Roon Core 可以裝喺任何電腦上，如果冇電腦，可能要買一部 Roon Core 專用電腦，當然可以買支援 Roon 嘅專用 Music Server 例如 Roon Nucleus <a href="https://roonlabs.com/nucleus">https://roonlabs.com/nucleus</a>、或者 Innuos Music Server <a href="https://innuos.com/en/catalog/go/music-servers-mk3">https://innuos.com/en/catalog/go/music-servers-mk3</a> 之類的產品。如果有電腦，可以裝喺自己電腦上面，不過用專用電腦絶對好過普通電腦。另外，如果NAS支援的話，可以裝入NAS上面，不過因爲 Roon 行 Library 嘅時候，需要快速存取資料，所以最好行SSD。如果能力許可的話，最好當然係行專用電腦啦，但如果覺得音響品牌太貴的話，自組電腦也可以的。</p>
+
+
+
+<p id="block-580726e5-eb1f-4896-8b1e-f8d66892d868">如果決定自組電腦的話，首先要清楚這個 Music Library 有多大？如果有大量音樂檔，可能裝硬碟的位置未必足夠，假設這部電腦只可以放一隻硬碟，我建議最好行SSD，依家買 2TB SSD 價錢都可以接受，所以音樂檔少過 2TB的話，其實一隻SSD便足夠。雖然大部分電腦可以行外置硬碟，但小弟就唔建議，因為外置硬碟比較容易出問題。還有，這部電腦要多快？這取決於是否要行 Roon 升頻，如果唔行升頻，i5 已經足夠，如果行升頻，可能要用到 i7。不過小弟覺得可以唔行升頻，用部低耗電CPU和靜音電腦會理想啲。但如果這部電腦冇足夠位放硬碟，可能要考慮加NAS，而 Roon 加NAS係比較方便，有時還方便過內置硬碟。</p>
+
+
+
+<p id="block-3fe2939a-2dd7-41f8-8942-13442c8c3f57">至於點控制部 Roon，其實好簡單，只要裝個 Roon Remote 落平板電腦就得，如果未有平板電腦的話，可以買部平平地嘅就得，其實手機也可以，但小弟建議要行 iOS，iOS 比較好用。如果已經裝咗 Roon 落 Windows 或 Mac 電腦嘅師兄，同樣地可以用 Windows/Mac 嘅 Roon 去控制聽歌，控制介面是一樣的。</p>
+
+
+
+<p id="block-1a4eb68e-fe09-4335-a85f-95d377c00a7a">還有最終連接音響系統的地方，首選當然係 Roon Ready 嘅 Streamers，如果只有 USB DAC，也可以用 Roon Core 電腦的USB接DAC。不過還可以用低耗電腦做 End Point (行 Roon Bridge 軟件)，Rasberry Pi 係一個好選擇，<a href="https://ropieee.org/">https://ropieee.org/</a> RoPieee 係一個專門行 Rasberry Pi 的OS，簡單易用。至於 Roon Ready 嘅 Streamers 又可以分為有解碼功能或沒有解碼功能，冇解碼功能的 Streamer 要外接DAC，有 SPDIF/AES、USB 和 I2S 的連接方式，當然行 I2S 比較好，不過就唔多選擇，又有兼容問題，而USB連線也可能出現不兼容情況，SPDIF/AES 最穩陣，不過音樂檔最高只兼容24/192，各有優劣。當然也有其他方式出聲，電腦 sound card 也好，HDMI 駁 AV Amp 也好，都係一種方式，不過效果並不是太理想。</p>
+
+
+
+<div id="block-a8ea0046-7806-46b0-bcb4-6b08aa5c8ab7" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1288" height="883" src="/wp-content/uploads/2021/02/roon-supports-mqa.jpg?w=809" alt="" class="wp-image-76" srcset="/wp-content/uploads/2021/02/roon-supports-mqa.jpg 1288w, /wp-content/uploads/2021/02/roon-supports-mqa-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-supports-mqa-1024x702.jpg 1024w, /wp-content/uploads/2021/02/roon-supports-mqa-768x527.jpg 768w" sizes="(max-width: 1288px) 100vw, 1288px" /><figcaption>用 Roon 聽 Tidal 很理想，可能比只有簡單支援 Tidal 的 Streamers 還好，而且 Roon 直接支援 24/96 的 MQA Core Decoder。</figcaption></figure></div>
+
+
+
+<p id="block-49cddea9-19b7-49be-ae86-dd1c11f52268">實際例子，我和幾位朋友都係咁做：</p>
+
+
+
+<ol id="block-eccfbe30-2cf8-48f5-98b1-c0624ac35fe7"><li>NAS 裝音樂檔</li><li>獨立組裝電腦行 Roon Core + SSD 硬碟</li><li>Streamer + DAC 駁音響系統</li><li>LPS 做供電</li><li>光纖網路 + 隔離功能網路交換器 接 Streamer、Roon Core 電腦和NAS</li><li>電處 + 地盒</li></ol>
+
+
+
+<p id="block-44276175-bd67-4172-b187-c7a328b78c06">想玩CAS玩得好聲，唔係一件易事，不過依家有 Roon 可以用，其實比以前方便了很多，亦因爲有 Roon Ready 嘅 Streamers 出現，亦已經簡單很多。有CD機當然好，不過現時的高清或串流未必玩到，而且現時網上音樂平台資源，如 Tidal, Qobuz 的串流服務或下載服務已經盛行，音樂格式亦比CD好，所以係時候要計劃點玩好CAS了。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roon-starting/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
+-->

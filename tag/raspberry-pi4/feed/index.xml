@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Raspberry Pi4 &#8211; JNET Blog</title>
+	<atom:link href="/tag/raspberry-pi4/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Wed, 03 Feb 2021 08:44:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Pi4 比較不同 Streaming client software 的效果</title>
+		<link>/pi4-streaming-clients/</link>
+					<comments>/pi4-streaming-clients/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:44:06 +0000</pubDate>
+				<category><![CDATA[音響]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[Raspberry Pi4]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=49</guid>
+
+					<description><![CDATA[如果 CAS 想玩得經濟又好聲，小弟相信大部分有經驗嘅師兄，都會選擇 LMS 或者 Roon 的 software system，因為使用上實在太方便。至於想更加好聲的話，往往會用到低耗低噪的 Raspberry Pi 作為 streaming client [...]]]></description>
+										<content:encoded><![CDATA[
+<p>如果 CAS 想玩得經濟又好聲，小弟相信大部分有經驗嘅師兄，都會選擇 LMS 或者 Roon 的 software system，因為使用上實在太方便。至於想更加好聲的話，往往會用到低耗低噪的 Raspberry Pi 作為 streaming client，而小弟亦有比較過以下幾種系統：<br>一）LMS (Daphile) / Squeezelite (piCorePlayer)<br>二）Roon / RoonBridge (RoPieee)<br>三）HQPlayer / NAA</p>
+
+
+
+<p>Roon 未出之前，大部分玩 Streaming client 都會用 LMS 的系統，至於現正，相信有部分師兄已經轉行 Roon 了，而 HQPlayer 相信比較少人會用。如果只計 client 端的話，以小弟經驗，RoonBridge 效果較差，Squeezelite 會好些，NAA 最理想，不過其實相差也不是十分明顯，如果不用 A/B 比較，未必咁容易聽得出。事實上，RoonBridge 的 software 比較複雜，太多自動化嘅嘢要行，Squeezelite 簡單好多，而 HQPlayer 提供的 NAA 已經包含系統優化，所以 HQPlayer 效果比較理想。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/pi4-streaming-clients/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
+-->

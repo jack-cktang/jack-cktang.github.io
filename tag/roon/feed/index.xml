@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Roon &#8211; JNET Blog</title>
+	<atom:link href="/tag/roon/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Wed, 03 Feb 2021 08:39:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3</generator>
+	<item>
+		<title>Roon 要點開始⋯⋯玩？</title>
+		<link>/roon-starting/</link>
+					<comments>/roon-starting/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:39:11 +0000</pubDate>
+				<category><![CDATA[音響]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[Roon]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=45</guid>
+
+					<description><![CDATA[好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯ [...]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-bff4dbea-d7b9-4699-8844-d9a60ace58cc"><br>好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯</p>
+
+
+
+<p id="block-5125dc6d-357b-419c-9a1f-864a88e66965">Roon 其實係一個音樂檔案管理系統 (Music Library)，有音樂播放功能，支援串流服務，有個好好用嘅使用者介面，分月費及永久付費計劃。<a href="https://roonlabs.com/howroonworks">https://roonlabs.com/howroonworks</a> 而 Roon 主要分成三個部分，Roon Core 係 Roon 軟件的主要部分，可以安裝在任何硬件上，包括 Windows, Mac, Linux, NAS。Roon Control Apps 就係控制程式，可以裝喺 iOS, Android, Windows, Mac 上。另外可以加埋 Roon Outputs (又叫 End Points)，亦即係 Roon Ready 嘅 Streamer/Speaker/Player 等，合埋便組成一套完整的 Roon 系統。</p>
+
+
+
+<div id="block-3a152c75-45a1-41aa-bed0-1f6903c7ec91" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" fetchpriority="high" width="1286" height="884" src="/wp-content/uploads/2021/02/roon-library.jpg?w=809" alt="" class="wp-image-75" srcset="/wp-content/uploads/2021/02/roon-library.jpg 1286w, /wp-content/uploads/2021/02/roon-library-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-library-1024x704.jpg 1024w, /wp-content/uploads/2021/02/roon-library-768x528.jpg 768w" sizes="(max-width: 1286px) 100vw, 1286px" /><figcaption>Roon 的使用者介面非常方便好用</figcaption></figure></div>
+
+
+
+<p id="block-6ce5276c-bb27-459e-bb6e-f6a1c840a01b">玩 Roon 第一樣要考慮裝喺邊？Roon Core 可以裝喺任何電腦上，如果冇電腦，可能要買一部 Roon Core 專用電腦，當然可以買支援 Roon 嘅專用 Music Server 例如 Roon Nucleus <a href="https://roonlabs.com/nucleus">https://roonlabs.com/nucleus</a>、或者 Innuos Music Server <a href="https://innuos.com/en/catalog/go/music-servers-mk3">https://innuos.com/en/catalog/go/music-servers-mk3</a> 之類的產品。如果有電腦，可以裝喺自己電腦上面，不過用專用電腦絶對好過普通電腦。另外，如果NAS支援的話，可以裝入NAS上面，不過因爲 Roon 行 Library 嘅時候，需要快速存取資料，所以最好行SSD。如果能力許可的話，最好當然係行專用電腦啦，但如果覺得音響品牌太貴的話，自組電腦也可以的。</p>
+
+
+
+<p id="block-580726e5-eb1f-4896-8b1e-f8d66892d868">如果決定自組電腦的話，首先要清楚這個 Music Library 有多大？如果有大量音樂檔，可能裝硬碟的位置未必足夠，假設這部電腦只可以放一隻硬碟，我建議最好行SSD，依家買 2TB SSD 價錢都可以接受，所以音樂檔少過 2TB的話，其實一隻SSD便足夠。雖然大部分電腦可以行外置硬碟，但小弟就唔建議，因為外置硬碟比較容易出問題。還有，這部電腦要多快？這取決於是否要行 Roon 升頻，如果唔行升頻，i5 已經足夠，如果行升頻，可能要用到 i7。不過小弟覺得可以唔行升頻，用部低耗電CPU和靜音電腦會理想啲。但如果這部電腦冇足夠位放硬碟，可能要考慮加NAS，而 Roon 加NAS係比較方便，有時還方便過內置硬碟。</p>
+
+
+
+<p id="block-3fe2939a-2dd7-41f8-8942-13442c8c3f57">至於點控制部 Roon，其實好簡單，只要裝個 Roon Remote 落平板電腦就得，如果未有平板電腦的話，可以買部平平地嘅就得，其實手機也可以，但小弟建議要行 iOS，iOS 比較好用。如果已經裝咗 Roon 落 Windows 或 Mac 電腦嘅師兄，同樣地可以用 Windows/Mac 嘅 Roon 去控制聽歌，控制介面是一樣的。</p>
+
+
+
+<p id="block-1a4eb68e-fe09-4335-a85f-95d377c00a7a">還有最終連接音響系統的地方，首選當然係 Roon Ready 嘅 Streamers，如果只有 USB DAC，也可以用 Roon Core 電腦的USB接DAC。不過還可以用低耗電腦做 End Point (行 Roon Bridge 軟件)，Rasberry Pi 係一個好選擇，<a href="https://ropieee.org/">https://ropieee.org/</a> RoPieee 係一個專門行 Rasberry Pi 的OS，簡單易用。至於 Roon Ready 嘅 Streamers 又可以分為有解碼功能或沒有解碼功能，冇解碼功能的 Streamer 要外接DAC，有 SPDIF/AES、USB 和 I2S 的連接方式，當然行 I2S 比較好，不過就唔多選擇，又有兼容問題，而USB連線也可能出現不兼容情況，SPDIF/AES 最穩陣，不過音樂檔最高只兼容24/192，各有優劣。當然也有其他方式出聲，電腦 sound card 也好，HDMI 駁 AV Amp 也好，都係一種方式，不過效果並不是太理想。</p>
+
+
+
+<div id="block-a8ea0046-7806-46b0-bcb4-6b08aa5c8ab7" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" width="1288" height="883" src="/wp-content/uploads/2021/02/roon-supports-mqa.jpg?w=809" alt="" class="wp-image-76" srcset="/wp-content/uploads/2021/02/roon-supports-mqa.jpg 1288w, /wp-content/uploads/2021/02/roon-supports-mqa-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-supports-mqa-1024x702.jpg 1024w, /wp-content/uploads/2021/02/roon-supports-mqa-768x527.jpg 768w" sizes="(max-width: 1288px) 100vw, 1288px" /><figcaption>用 Roon 聽 Tidal 很理想，可能比只有簡單支援 Tidal 的 Streamers 還好，而且 Roon 直接支援 24/96 的 MQA Core Decoder。</figcaption></figure></div>
+
+
+
+<p id="block-49cddea9-19b7-49be-ae86-dd1c11f52268">實際例子，我和幾位朋友都係咁做：</p>
+
+
+
+<ol id="block-eccfbe30-2cf8-48f5-98b1-c0624ac35fe7"><li>NAS 裝音樂檔</li><li>獨立組裝電腦行 Roon Core + SSD 硬碟</li><li>Streamer + DAC 駁音響系統</li><li>LPS 做供電</li><li>光纖網路 + 隔離功能網路交換器 接 Streamer、Roon Core 電腦和NAS</li><li>電處 + 地盒</li></ol>
+
+
+
+<p id="block-44276175-bd67-4172-b187-c7a328b78c06">想玩CAS玩得好聲，唔係一件易事，不過依家有 Roon 可以用，其實比以前方便了很多，亦因爲有 Roon Ready 嘅 Streamers 出現，亦已經簡單很多。有CD機當然好，不過現時的高清或串流未必玩到，而且現時網上音樂平台資源，如 Tidal, Qobuz 的串流服務或下載服務已經盛行，音樂格式亦比CD好，所以係時候要計劃點玩好CAS了。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/roon-starting/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
+-->
