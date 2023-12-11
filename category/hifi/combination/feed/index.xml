@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>音響拼圖 &#8211; JNET Blog</title>
+	<title>音響拼圖 &#8211; Jack Personal Blog</title>
 	<atom:link href="/category/hifi/combination/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Tue, 19 Apr 2022 09:51:22 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:43:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【音響拼圖】返璞歸真 的 Falcon LS3/5a 與 充滿質感 的 Jadis Diapason</title>
-		<link>/ls35a-diapason/</link>
-					<comments>/ls35a-diapason/#comments</comments>
+		<link>/2022/04/19/ls35a-diapason/</link>
+					<comments>/2022/04/19/ls35a-diapason/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 19 Apr 2022 09:51:22 +0000</pubDate>
@@ -37,7 +37,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" fetchpriority="high" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
+<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
 
 
 <p><strong>Falcon Acoustic LS3/5a 喇叭</strong><br>其實 Falcon Acoustic 這個品牌已經存在很久，主要做 LS3/5a 零件供應及改裝，到香港有了代理時正式開售，當時也開始留意，當有朋友買後，也聽多了很多 Falcon 改良的地方。比起以往的 3/5a，Falcon 更注重細節，高低伸延很好，不但保留了 3/5a 的味道，Hi Fi 性能也提升不少。但有句話要説，3/5a 確確實實是一對 Monitor 喇叭，並不是一般想像中的甜美那種，而這次試聽的參考系統，也還原了 3/5a 的真實性，有著 Studio Monitor 的參考價值。值得留意，當 3/5a 放對了位置後，高、低頻也不缺，中頻自然開放，音壓在不大的地方也十分足夠，大部分音樂類型也適合，的確是一對不可多得的經典之作。雖說是經典之作，但缺點也總會有，以現時技術水平，這對 Falcon LS3/5a 並沒有做真正的 High End 級數，沒有矩細無遺的分析力，也沒有高級喇叭的高低伸延之舉，而且對擴音機有要求，膽機較容易出到好聲，石機則不太友善，不過以這個價錢來說，真的是不可多得。</p>
@@ -82,15 +82,15 @@
 Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi 4 (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt;&nbsp;梅</em></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/ls35a-diapason/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/04/19/ls35a-diapason/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</title>
-		<link>/unifisystem/</link>
-					<comments>/unifisystem/#comments</comments>
+		<link>/2021/10/16/unifisystem/</link>
+					<comments>/2021/10/16/unifisystem/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 16 Oct 2021 06:21:01 +0000</pubDate>
@@ -119,14 +119,14 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
 
 
 <p>由平時常聽的曲目開始試聽，發現 VA 的 Class A 輸出太過細緻幼滑，同 Uni-FI 大開大合爽直的性格有些不協調，即刻按鍵轉 Class AB，爽直性格出番嚟，但整體性格偏向比較斯文，少了些趣味。而解碼配置方面，「梅」比較率直、分析力強，但遇上分析能力較低的喇叭，太強的解碼分析能力會突顯喇叭本身的不足之處，變相做成音樂呆板，好在手上有幾套解碼系統，可以試試 Chord 解碼系統。為發掘更多可能性，這次只使用 Chord 系統中的 M-Scaler 升頻器，於是系統便成為 Emerson -&gt; M-Scaler -&gt; 「梅」，結果聲音變得細緻起來，但「梅」的聲音直接，反而感覺有些做作。之後轉至 AudioByte Hydra VOX 解碼，聽感又返回來，音樂感豐富了，細節也存在，感覺實在了。但跟以往聽開的 Uni-Fi 還有些出入，好像欠缺些什麼？於是把心一橫，用部 NAD M10 內的合併擴大功能 (即是 NCore 的放大部份) 來代替 VA 擴音機，NCore 強勁的驅動力配合爽直的 Uni-Fi 有種化學作用，書架喇叭也可以爆到七彩，連 subwoofer 也不需要使用，真係出乎意料之外。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
 
 
 <p>這個組合的串流解解碼系統有個優勢，串流部分先由簡單易用的 Emerson DIGITAL 開始，雖然 Emerson 的 SPDIF 只支援最高 24/192，但正常情況下，播 Tidal 串流已經十分足夠，而 Emerson 亦是 Roon Certified 的產品，所以 Tidal 串流音樂可以經由 Roon 系統傳送至 Emerson，再由 SPDIF 直接輸出至 M-Scaler 升頻器 ，途中可以不作任何數碼處理，而 MQA 也只用 Roon 做解碼，最高也可達到 24/96，不用擔心超出 SPDIF 的限制範圍，簡單而且直接。至於 Chord Hugo M-Scaler 升頻器的升頻效果，成效有目共睹，作為 Chord 的獨門絕技，升頻輸出頻率當然越高越好，M-Scaler 單個 BNC 輸出可達 384kHz，雙 BNC 最高可達 768kHz，不過一般只支援自家的解碼產品。但⋯ 神奇的事也出現在 Hydra VOX 解碼器上，說明書說 SPDIF 只支援 192kHz，但接了 M-Scaler 之後，發現 Hydra VOX 可以支援 384kHz 的輸入，在理想的情況下，M-Scaler 加 Hydra VOX 可以發揮出最極致的升頻表現。</p>
@@ -144,15 +144,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p class="has-small-font-size">*<strong><em>參考器材一覽：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)<br>解碼器：<strong>Holo Audio</strong>&nbsp;May, <strong>Chord</strong>&nbsp;Hugo TT2 + Hugo M-Scaler<br>擴音機：<strong>Vitus Audio&nbsp;</strong>SIA-025 mk.II<br>喇叭：<strong>STENHEIM</strong>&nbsp;Alumine THREE</em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/unifisystem/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/10/16/unifisystem/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】Chord Hugo Combo 與 Stenheim 三仔的純A類誘惑⋯⋯</title>
-		<link>/chord-stenheim-va/</link>
-					<comments>/chord-stenheim-va/#respond</comments>
+		<link>/2021/02/03/chord-stenheim-va/</link>
+					<comments>/2021/02/03/chord-stenheim-va/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 09:15:03 +0000</pubDate>
@@ -169,7 +169,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large" id="block-46035e49-9c24-4bb6-aff1-a16baa52838b"><img decoding="async" loading="lazy" width="1510" height="1134" src="/wp-content/uploads/2022/06/chordhugo.jpg?w=1024" alt="" class="wp-image-433" srcset="/wp-content/uploads/2022/06/chordhugo.jpg 1510w, /wp-content/uploads/2022/06/chordhugo-300x225.jpg 300w, /wp-content/uploads/2022/06/chordhugo-1024x769.jpg 1024w, /wp-content/uploads/2022/06/chordhugo-768x577.jpg 768w" sizes="(max-width: 1510px) 100vw, 1510px" /><figcaption>Top: Chord Hugo TT2, bottom: Chord Hugo M-Scaler</figcaption></figure></div>
+<figure class="aligncenter size-large" id="block-46035e49-9c24-4bb6-aff1-a16baa52838b"><img loading="lazy" decoding="async" width="1510" height="1134" src="/wp-content/uploads/2022/06/chordhugo.jpg?w=1024" alt="" class="wp-image-433" srcset="/wp-content/uploads/2022/06/chordhugo.jpg 1510w, /wp-content/uploads/2022/06/chordhugo-300x225.jpg 300w, /wp-content/uploads/2022/06/chordhugo-1024x769.jpg 1024w, /wp-content/uploads/2022/06/chordhugo-768x577.jpg 768w" sizes="(max-width: 1510px) 100vw, 1510px" /><figcaption>Top: Chord Hugo TT2, bottom: Chord Hugo M-Scaler</figcaption></figure></div>
 
 
 <p id="block-2b31ea50-35ec-4310-b802-8321e3010a60">解碼部分：由 Chord Hugo TT2 及 Hugo M-Scaler 組合而成的升頻解碼系統，M-Scaler 係現時比較突出的獨立升頻器，配合 Chord 解碼可以達到最高規格，令到整個解碼系統都得到提升。透過升頻出來的效果，無論係音場、定位、立體感、音質方面都有明顯改善。TT2 有著 Chord 獨門的解碼技術，亦有著 Chord 獨特的聲音，強於精細度和質感，聽人聲特別動人，細節特別豐富，久久不倦的感覺。</p>
@@ -184,21 +184,21 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large" id="block-7fbe2d9d-d09e-43e8-8c60-4cbde493172b"><img decoding="async" loading="lazy" width="1508" height="1136" src="/wp-content/uploads/2022/06/va-stenheim3.jpg?w=1024" alt="" class="wp-image-434" srcset="/wp-content/uploads/2022/06/va-stenheim3.jpg 1508w, /wp-content/uploads/2022/06/va-stenheim3-300x226.jpg 300w, /wp-content/uploads/2022/06/va-stenheim3-1024x771.jpg 1024w, /wp-content/uploads/2022/06/va-stenheim3-768x579.jpg 768w" sizes="(max-width: 1508px) 100vw, 1508px" /><figcaption>Stenheim Alumine THREE</figcaption></figure></div>
+<figure class="aligncenter size-large" id="block-7fbe2d9d-d09e-43e8-8c60-4cbde493172b"><img loading="lazy" decoding="async" width="1508" height="1136" src="/wp-content/uploads/2022/06/va-stenheim3.jpg?w=1024" alt="" class="wp-image-434" srcset="/wp-content/uploads/2022/06/va-stenheim3.jpg 1508w, /wp-content/uploads/2022/06/va-stenheim3-300x226.jpg 300w, /wp-content/uploads/2022/06/va-stenheim3-1024x771.jpg 1024w, /wp-content/uploads/2022/06/va-stenheim3-768x579.jpg 768w" sizes="(max-width: 1508px) 100vw, 1508px" /><figcaption>Stenheim Alumine THREE</figcaption></figure></div>
 
 
 <p id="block-40579935-1358-47f5-aedc-415e65e4e7b9">*註：<strong>誘惑</strong>就係&#8230; 當踫到有嘢吸引著嘅時候，而忘記所有缺點嘅存在，呢編就係以當時嘅心情寫嘅。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/chord-stenheim-va/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/chord-stenheim-va/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】&#8221;T+A DAC8 DSD&#8221; 與 &#8220;雨後初晴&#8221; 的甜蜜邂逅⋯⋯</title>
-		<link>/dac8dsd-harbeth/</link>
-					<comments>/dac8dsd-harbeth/#respond</comments>
+		<link>/2021/02/03/dac8dsd-harbeth/</link>
+					<comments>/2021/02/03/dac8dsd-harbeth/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 08:42:45 +0000</pubDate>
@@ -208,36 +208,29 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 		<category><![CDATA[T+A DAC8 DSD]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=47</guid>
 
-					<description><![CDATA[組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。 T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。]]></description>
+					<description><![CDATA[組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。 T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。Harbeth [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1916" height="1140" src="/wp-content/uploads/2022/06/dac8.jpg?w=1024" alt="" class="wp-image-424" srcset="/wp-content/uploads/2022/06/dac8.jpg 1916w, /wp-content/uploads/2022/06/dac8-300x178.jpg 300w, /wp-content/uploads/2022/06/dac8-1024x609.jpg 1024w, /wp-content/uploads/2022/06/dac8-768x457.jpg 768w, /wp-content/uploads/2022/06/dac8-1536x914.jpg 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /><figcaption>龍床上的 T+A DAC 8 DSD</figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1916" height="1140" src="/wp-content/uploads/2022/06/dac8.jpg?w=1024" alt="" class="wp-image-424" srcset="/wp-content/uploads/2022/06/dac8.jpg 1916w, /wp-content/uploads/2022/06/dac8-300x178.jpg 300w, /wp-content/uploads/2022/06/dac8-1024x609.jpg 1024w, /wp-content/uploads/2022/06/dac8-768x457.jpg 768w, /wp-content/uploads/2022/06/dac8-1536x914.jpg 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /><figcaption>龍床上的 T+A DAC 8 DSD</figcaption></figure></div>
 
 
 <p>T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。<br>Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。<br>HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。<br>龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。<br>Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。<br></p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1914" height="1310" src="/wp-content/uploads/2022/06/streamer.jpg?w=1024" alt="" class="wp-image-425" srcset="/wp-content/uploads/2022/06/streamer.jpg 1914w, /wp-content/uploads/2022/06/streamer-300x205.jpg 300w, /wp-content/uploads/2022/06/streamer-1024x701.jpg 1024w, /wp-content/uploads/2022/06/streamer-768x526.jpg 768w, /wp-content/uploads/2022/06/streamer-1536x1051.jpg 1536w" sizes="(max-width: 1914px) 100vw, 1914px" /><figcaption>Streaming 用 NUC 加 EtherRegen Switch</figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1914" height="1310" src="/wp-content/uploads/2022/06/streamer.jpg?w=1024" alt="" class="wp-image-425" srcset="/wp-content/uploads/2022/06/streamer.jpg 1914w, /wp-content/uploads/2022/06/streamer-300x205.jpg 300w, /wp-content/uploads/2022/06/streamer-1024x701.jpg 1024w, /wp-content/uploads/2022/06/streamer-768x526.jpg 768w, /wp-content/uploads/2022/06/streamer-1536x1051.jpg 1536w" sizes="(max-width: 1914px) 100vw, 1914px" /><figcaption>Streaming 用 NUC 加 EtherRegen Switch</figcaption></figure></div>
 
 
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/dac8dsd-harbeth/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/dac8dsd-harbeth/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
--->

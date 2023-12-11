@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>Wattson Audio Emerson DIGITAL &#8211; JNET Blog</title>
+	<title>Wattson Audio Emerson DIGITAL &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/wattson-audio-emerson-digital/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Sat, 16 Oct 2021 06:21:01 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:41:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</title>
-		<link>/unifisystem/</link>
-					<comments>/unifisystem/#comments</comments>
+		<link>/2021/10/16/unifisystem/</link>
+					<comments>/2021/10/16/unifisystem/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 16 Oct 2021 06:21:01 +0000</pubDate>
@@ -44,7 +44,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" fetchpriority="high" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
+<figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
 
 
 <p>同軸單元設計的優點在於可以做到類似現實生活中的單點發聲原理，對於喇叭設計當中的正確相位有著重要影響，但由於市場上同軸單元設計的喇叭選擇比較少，Elac Uni-Fi 可謂入門首選。而這對 Uni-Fi 有著傳統的美式風格 (流著 Andrew Jones 的設計理念，所以唔可以當佢係德國喇叭)，聽流行曲爆得十分過癮，聽幾件樂器的演奏亦十分出色，但某程度上比較粗獷，唔算係幼細類型，聽弦樂未必太理想。由於小弟聽古典比較多，為了改善 Uni-Fi 的搭配效果，先從平常使用的參考器材 (*見註腳) 入手配搭。</p>
@@ -76,17 +76,10 @@
 <p class="has-small-font-size">*<strong><em>參考器材一覽：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)<br>解碼器：<strong>Holo Audio</strong>&nbsp;May, <strong>Chord</strong>&nbsp;Hugo TT2 + Hugo M-Scaler<br>擴音機：<strong>Vitus Audio&nbsp;</strong>SIA-025 mk.II<br>喇叭：<strong>STENHEIM</strong>&nbsp;Alumine THREE</em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/unifisystem/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/10/16/unifisystem/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:25 by W3 Total Cache
--->

@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>Vitus Audio SIA-025 &#8211; JNET Blog</title>
+	<title>Vitus Audio SIA-025 &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/vitus-audio-sia-025/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Wed, 03 Feb 2021 09:15:03 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:42:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【音響拼圖】Chord Hugo Combo 與 Stenheim 三仔的純A類誘惑⋯⋯</title>
-		<link>/chord-stenheim-va/</link>
-					<comments>/chord-stenheim-va/#respond</comments>
+		<link>/2021/02/03/chord-stenheim-va/</link>
+					<comments>/2021/02/03/chord-stenheim-va/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 09:15:03 +0000</pubDate>
@@ -39,7 +39,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large" id="block-46035e49-9c24-4bb6-aff1-a16baa52838b"><img decoding="async" fetchpriority="high" width="1510" height="1134" src="/wp-content/uploads/2022/06/chordhugo.jpg?w=1024" alt="" class="wp-image-433" srcset="/wp-content/uploads/2022/06/chordhugo.jpg 1510w, /wp-content/uploads/2022/06/chordhugo-300x225.jpg 300w, /wp-content/uploads/2022/06/chordhugo-1024x769.jpg 1024w, /wp-content/uploads/2022/06/chordhugo-768x577.jpg 768w" sizes="(max-width: 1510px) 100vw, 1510px" /><figcaption>Top: Chord Hugo TT2, bottom: Chord Hugo M-Scaler</figcaption></figure></div>
+<figure class="aligncenter size-large" id="block-46035e49-9c24-4bb6-aff1-a16baa52838b"><img fetchpriority="high" decoding="async" width="1510" height="1134" src="/wp-content/uploads/2022/06/chordhugo.jpg?w=1024" alt="" class="wp-image-433" srcset="/wp-content/uploads/2022/06/chordhugo.jpg 1510w, /wp-content/uploads/2022/06/chordhugo-300x225.jpg 300w, /wp-content/uploads/2022/06/chordhugo-1024x769.jpg 1024w, /wp-content/uploads/2022/06/chordhugo-768x577.jpg 768w" sizes="(max-width: 1510px) 100vw, 1510px" /><figcaption>Top: Chord Hugo TT2, bottom: Chord Hugo M-Scaler</figcaption></figure></div>
 
 
 <p id="block-2b31ea50-35ec-4310-b802-8321e3010a60">解碼部分：由 Chord Hugo TT2 及 Hugo M-Scaler 組合而成的升頻解碼系統，M-Scaler 係現時比較突出的獨立升頻器，配合 Chord 解碼可以達到最高規格，令到整個解碼系統都得到提升。透過升頻出來的效果，無論係音場、定位、立體感、音質方面都有明顯改善。TT2 有著 Chord 獨門的解碼技術，亦有著 Chord 獨特的聲音，強於精細度和質感，聽人聲特別動人，細節特別豐富，久久不倦的感覺。</p>
@@ -60,17 +60,10 @@
 <p id="block-40579935-1358-47f5-aedc-415e65e4e7b9">*註：<strong>誘惑</strong>就係&#8230; 當踫到有嘢吸引著嘅時候，而忘記所有缺點嘅存在，呢編就係以當時嘅心情寫嘅。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/chord-stenheim-va/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/chord-stenheim-va/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
--->

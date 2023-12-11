@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>發燒心得 &#8211; JNET Blog</title>
+	<title>發燒心得 &#8211; Jack Personal Blog</title>
 	<atom:link href="/category/hifi/experience/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Fri, 19 Feb 2021 09:19:33 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:41:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【發燒心得】之⋯ 喇叭擺位</title>
-		<link>/speaker-positioning/</link>
-					<comments>/speaker-positioning/#respond</comments>
+		<link>/2021/02/19/speaker-positioning/</link>
+					<comments>/2021/02/19/speaker-positioning/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 19 Feb 2021 09:19:33 +0000</pubDate>
@@ -44,7 +44,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
 
 
 
@@ -87,17 +87,10 @@
 <p>* 心得呢樣，未必個個都會認同，不過都可以作為小小參考對象。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/speaker-positioning/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/19/speaker-positioning/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
--->

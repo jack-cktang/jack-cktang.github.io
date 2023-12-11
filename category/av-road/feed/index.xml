@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>影音之路 &#8211; JNET Blog</title>
+	<title>影音之路 &#8211; Jack Personal Blog</title>
 	<atom:link href="/category/av-road/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Fri, 28 Jan 2022 03:17:20 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:42:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【影音之路】 之 初燒編 (第1期 2003至2008)</title>
-		<link>/avroad-stage1/</link>
-					<comments>/avroad-stage1/#respond</comments>
+		<link>/2022/01/28/avroad-stage1/</link>
+					<comments>/2022/01/28/avroad-stage1/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 28 Jan 2022 03:17:20 +0000</pubDate>
@@ -51,7 +51,7 @@
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img decoding="async" fetchpriority="high" src="/wp-content/uploads/2022/01/img_3718.jpg?w=768" alt="" class="wp-image-313" width="576" height="768" /><figcaption>兩聲道系統：Dynaudio Contour S3.4、MF A308CR、Audio Note M2、SONY SCD-XA9000ES</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2022/01/img_3718.jpg?w=768" alt="" class="wp-image-313" width="576" height="768" /><figcaption>兩聲道系統：Dynaudio Contour S3.4、MF A308CR、Audio Note M2、SONY SCD-XA9000ES</figcaption></figure></div>
 
 
 
@@ -66,15 +66,15 @@
 <p>註：睇返第一期同第二期中間，點解好似少咗幾年嘅？<br>答：睇返喺08年之後低燒咗幾年，相信大家都會明白哪些年的日子是怎樣過！</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/avroad-stage1/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/01/28/avroad-stage1/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【影音之路】 之入坑編 (第0期 由求學時期開始)</title>
-		<link>/av-road-stage0/</link>
-					<comments>/av-road-stage0/#respond</comments>
+		<link>/2021/02/24/av-road-stage0/</link>
+					<comments>/2021/02/24/av-road-stage0/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 24 Feb 2021 09:54:32 +0000</pubDate>
@@ -102,15 +102,15 @@
 <p>註：小弟 DIY 都有幾部機，第一部係 IC式放大電路套件成品，買返嚟已經可以開聲，也沒有整機殼，好快便壞了，變成單聲道，因為成本低，所以又買了另一部 AB類擴音機。由於當時同學可以幫手砌機殼，於是就開始著手做新的擴音機，一部做畀自己，一部做畀同學，當然部機好快又壞掉。不過唔緊要，由於自己的技術有所提升，又開始計劃將新套件改裝，做成電源分體式合併機畀同學，加強了電源部分，將套件發揮得更好。但⋯同廠機比，便比下去，好在有高人指點，將分體電源改回同一箱體，於是乎⋯同學聽得好開心，因為聲音實在唔錯 (以當時後生，聽音響經驗不足計)。之後，因為這次成功經驗，小弟又開始砌對稱式 FET 前級和平衡式 A類後級，因為屋企要搬屋原故，經歷了很長時間才能完成，但完成後十分滿足，因為聲音比之前嘅機實在好太多。但好景不常，同學的合併機被盜，之後因為工作收入，買了廠機後也不需要使用 DIY 器材，而該廠機好快便賣給小弟，佢就升級到 MF A1 鐵板燒。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/av-road-stage0/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/24/av-road-stage0/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【影音之路】 之器材編 (第2期2012至2014)</title>
-		<link>/avroad-2-2012-2014/</link>
-					<comments>/avroad-2-2012-2014/#respond</comments>
+		<link>/2021/02/11/avroad-2-2012-2014/</link>
+					<comments>/2021/02/11/avroad-2-2012-2014/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 11 Feb 2021 14:05:03 +0000</pubDate>
@@ -235,7 +235,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1296" height="968" src="/wp-content/uploads/2021/02/2014-12-08.jpg?w=1024" alt="" class="wp-image-139" srcset="/wp-content/uploads/2021/02/2014-12-08.jpg 1296w, /wp-content/uploads/2021/02/2014-12-08-300x224.jpg 300w, /wp-content/uploads/2021/02/2014-12-08-1024x765.jpg 1024w, /wp-content/uploads/2021/02/2014-12-08-768x574.jpg 768w" sizes="(max-width: 1296px) 100vw, 1296px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1296" height="968" src="/wp-content/uploads/2021/02/2014-12-08.jpg?w=1024" alt="" class="wp-image-139" srcset="/wp-content/uploads/2021/02/2014-12-08.jpg 1296w, /wp-content/uploads/2021/02/2014-12-08-300x224.jpg 300w, /wp-content/uploads/2021/02/2014-12-08-1024x765.jpg 1024w, /wp-content/uploads/2021/02/2014-12-08-768x574.jpg 768w" sizes="(max-width: 1296px) 100vw, 1296px" /></figure>
 
 
 
@@ -258,17 +258,10 @@
 <p><em><strong>回顧：</strong><br>以上大部分內容來自自己之前喺 Post76 裡面嘅貼，之所以係第2期，因為之前仲有第1期和中學階段嘅時期，之後會慢慢再講第1期、第0期、和依家嘅第4期，謝謝觀看！</em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/avroad-2-2012-2014/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/11/avroad-2-2012-2014/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
--->

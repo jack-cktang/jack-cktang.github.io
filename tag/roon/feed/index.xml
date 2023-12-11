@@ -8,25 +8,25 @@
 	>
 
 <channel>
-	<title>Roon &#8211; JNET Blog</title>
+	<title>Roon &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/roon/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Wed, 03 Feb 2021 08:39:11 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:43:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>Roon 要點開始⋯⋯玩？</title>
-		<link>/roon-starting/</link>
-					<comments>/roon-starting/#respond</comments>
+		<link>/2021/02/03/roon-starting/</link>
+					<comments>/2021/02/03/roon-starting/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 08:39:11 +0000</pubDate>
-				<category><![CDATA[音響]]></category>
+				<category><![CDATA[Hi Fi 雜談]]></category>
 		<category><![CDATA[CAS]]></category>
 		<category><![CDATA[Roon]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=45</guid>
@@ -41,7 +41,7 @@
 
 
 
-<div id="block-3a152c75-45a1-41aa-bed0-1f6903c7ec91" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" fetchpriority="high" width="1286" height="884" src="/wp-content/uploads/2021/02/roon-library.jpg?w=809" alt="" class="wp-image-75" srcset="/wp-content/uploads/2021/02/roon-library.jpg 1286w, /wp-content/uploads/2021/02/roon-library-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-library-1024x704.jpg 1024w, /wp-content/uploads/2021/02/roon-library-768x528.jpg 768w" sizes="(max-width: 1286px) 100vw, 1286px" /><figcaption>Roon 的使用者介面非常方便好用</figcaption></figure></div>
+<div id="block-3a152c75-45a1-41aa-bed0-1f6903c7ec91" class="wp-block-image"><figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="1286" height="884" src="/wp-content/uploads/2021/02/roon-library.jpg?w=809" alt="" class="wp-image-75" srcset="/wp-content/uploads/2021/02/roon-library.jpg 1286w, /wp-content/uploads/2021/02/roon-library-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-library-1024x704.jpg 1024w, /wp-content/uploads/2021/02/roon-library-768x528.jpg 768w" sizes="(max-width: 1286px) 100vw, 1286px" /><figcaption>Roon 的使用者介面非常方便好用</figcaption></figure></div>
 
 
 
@@ -76,17 +76,10 @@
 <p id="block-44276175-bd67-4172-b187-c7a328b78c06">想玩CAS玩得好聲，唔係一件易事，不過依家有 Roon 可以用，其實比以前方便了很多，亦因爲有 Roon Ready 嘅 Streamers 出現，亦已經簡單很多。有CD機當然好，不過現時的高清或串流未必玩到，而且現時網上音樂平台資源，如 Tidal, Qobuz 的串流服務或下載服務已經盛行，音樂格式亦比CD好，所以係時候要計劃點玩好CAS了。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/roon-starting/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/roon-starting/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
--->

@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>生活 &#8211; JNET Blog</title>
+	<title>生活 &#8211; Jack Personal Blog</title>
 	<atom:link href="/category/life-style/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Fri, 12 Feb 2021 08:18:23 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:42:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>轉 Blog 陣地⋯</title>
-		<link>/move-blog-site/</link>
-					<comments>/move-blog-site/#respond</comments>
+		<link>/2021/02/12/move-blog-site/</link>
+					<comments>/2021/02/12/move-blog-site/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 12 Feb 2021 08:18:23 +0000</pubDate>
@@ -30,7 +30,7 @@
 		<category><![CDATA[blog]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=143</guid>
 
-					<description><![CDATA[自從月初收 email 被 hacked 之後，已經將主 blog 搬至 wordpress.com 內，當然考慮到安全理由，之前也想過要將 blog 搬出家用網絡，收到警告後，便立即開始行動，而且好像也沒有什麼損失。 現在主 blog 在 jacknetcf.wordpress.com 內，也在原先的網站 www.jacknet.cf 建立備份，當然今次會比之前安全好多，因為兩個網站也是在 Internet 上，就算被 hacked，也沒有什麼資料損失，而且經過上次嘅經驗，今回應該有能力應付。 其實，如果大家有興趣寫 blog 的話，也可以在 wordpress.com 上開自己網頁，完全免費，又可以學習使用新科技，最重要係可以將自己的知識經歷傳給他人。 在此，恭喜大家牛年快樂！身心健康！]]></description>
+					<description><![CDATA[自從月初收 email 被 hacked 之後，已經將主 blog 搬至 wordpress.com 內，當然考慮到安全理由，之前也想過要將 blog 搬出家用網絡，收到警告後，便立即開始行動，而且好像也沒有什麼損失。 現在主 blog 在 jacknetcf.wordpress.com [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>自從月初收 email 被 hacked 之後，已經將主 blog 搬至 wordpress.com 內，當然考慮到安全理由，之前也想過要將 blog 搬出家用網絡，收到警告後，便立即開始行動，而且好像也沒有什麼損失。</p>
 
@@ -47,17 +47,10 @@
 <p>在此，恭喜大家牛年快樂！身心健康！</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/move-blog-site/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/12/move-blog-site/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
--->

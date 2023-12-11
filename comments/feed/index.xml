@@ -7,20 +7,20 @@
 	>
 <channel>
 	<title>
-	Comments for JNET Blog	</title>
+	Comments for Jack Personal Blog	</title>
 	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Mon, 12 Dec 2022 08:16:39 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:41:32 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>
 		Comment on 【音響拼圖】返璞歸真 的 Falcon LS3/5a 與 充滿質感 的 Jadis Diapason by 【Hi Fi 雜談】關於 Bit Perfect 與升頻&#8230; 而啟發對高分析系統的反思 &#8211; Jack Personal Blog		</title>
-		<link>/ls35a-diapason/#comment-4</link>
+		<link>/2022/04/19/ls35a-diapason/#comment-4</link>
 
 		<dc:creator><![CDATA[【Hi Fi 雜談】關於 Bit Perfect 與升頻&#8230; 而啟發對高分析系統的反思 &#8211; Jack Personal Blog]]></dc:creator>
 		<pubDate>Mon, 12 Dec 2022 08:16:39 +0000</pubDate>
@@ -34,7 +34,7 @@
 		<item>
 		<title>
 		Comment on 【音響拼圖】返璞歸真 的 Falcon LS3/5a 與 充滿質感 的 Jadis Diapason by Raymond Wong		</title>
-		<link>/ls35a-diapason/#comment-3</link>
+		<link>/2022/04/19/ls35a-diapason/#comment-3</link>
 
 		<dc:creator><![CDATA[Raymond Wong]]></dc:creator>
 		<pubDate>Wed, 11 May 2022 15:19:09 +0000</pubDate>
@@ -50,7 +50,7 @@
 		<item>
 		<title>
 		Comment on 【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX by 【圍物論】領先 1-bit 轉換技術 &#8212; AudioByte Hydra-VOX「驚喜」之作 &#8211; Jack Personal Blog		</title>
-		<link>/unifisystem/#comment-2</link>
+		<link>/2021/10/16/unifisystem/#comment-2</link>
 
 		<dc:creator><![CDATA[【圍物論】領先 1-bit 轉換技術 &#8212; AudioByte Hydra-VOX「驚喜」之作 &#8211; Jack Personal Blog]]></dc:creator>
 		<pubDate>Fri, 12 Nov 2021 12:47:30 +0000</pubDate>
@@ -63,10 +63,3 @@
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:17 by W3 Total Cache
--->

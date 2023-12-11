@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>Jadis Diapason &#8211; JNET Blog</title>
+	<title>Jadis Diapason &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/jadis-diapason/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Tue, 19 Apr 2022 09:51:22 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:41:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【音響拼圖】返璞歸真 的 Falcon LS3/5a 與 充滿質感 的 Jadis Diapason</title>
-		<link>/ls35a-diapason/</link>
-					<comments>/ls35a-diapason/#comments</comments>
+		<link>/2022/04/19/ls35a-diapason/</link>
+					<comments>/2022/04/19/ls35a-diapason/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 19 Apr 2022 09:51:22 +0000</pubDate>
@@ -37,7 +37,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" fetchpriority="high" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
+<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
 
 
 <p><strong>Falcon Acoustic LS3/5a 喇叭</strong><br>其實 Falcon Acoustic 這個品牌已經存在很久，主要做 LS3/5a 零件供應及改裝，到香港有了代理時正式開售，當時也開始留意，當有朋友買後，也聽多了很多 Falcon 改良的地方。比起以往的 3/5a，Falcon 更注重細節，高低伸延很好，不但保留了 3/5a 的味道，Hi Fi 性能也提升不少。但有句話要説，3/5a 確確實實是一對 Monitor 喇叭，並不是一般想像中的甜美那種，而這次試聽的參考系統，也還原了 3/5a 的真實性，有著 Studio Monitor 的參考價值。值得留意，當 3/5a 放對了位置後，高、低頻也不缺，中頻自然開放，音壓在不大的地方也十分足夠，大部分音樂類型也適合，的確是一對不可多得的經典之作。雖說是經典之作，但缺點也總會有，以現時技術水平，這對 Falcon LS3/5a 並沒有做真正的 High End 級數，沒有矩細無遺的分析力，也沒有高級喇叭的高低伸延之舉，而且對擴音機有要求，膽機較容易出到好聲，石機則不太友善，不過以這個價錢來說，真的是不可多得。</p>
@@ -82,17 +82,10 @@
 Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi 4 (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt;&nbsp;梅</em></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/ls35a-diapason/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/04/19/ls35a-diapason/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:25 by W3 Total Cache
--->

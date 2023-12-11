@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>admin &#8211; JNET Blog</title>
+	<title>admin &#8211; Jack Personal Blog</title>
 	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Mon, 12 Dec 2022 08:16:35 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:44:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【Hi Fi 雜談】關於 Bit Perfect 與升頻&#8230; 而啟發對高分析系統的反思</title>
-		<link>/hi-res-consider/</link>
-					<comments>/hi-res-consider/#respond</comments>
+		<link>/2022/12/12/hi-res-consider/</link>
+					<comments>/2022/12/12/hi-res-consider/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Mon, 12 Dec 2022 08:16:35 +0000</pubDate>
@@ -58,15 +58,15 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/hi-res-consider/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/12/12/hi-res-consider/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【Hi Fi 雜談】農夫地盒</title>
-		<link>/entreq-groundbox/</link>
-					<comments>/entreq-groundbox/#respond</comments>
+		<link>/2022/10/18/entreq-groundbox/</link>
+					<comments>/2022/10/18/entreq-groundbox/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 18 Oct 2022 08:31:20 +0000</pubDate>
@@ -103,19 +103,19 @@
 <p>總括來說，玩地盒不是一件容易的事，想系統調整得好，需要花很多時間及心思，在不同的配置中，尋找最適合的選項，以現時家居種種不同的電磁波干擾下，地盒已經變成最不可或缺的音響基礎建設。(P.S. 也許因爲現今的系統多數以高分析力為主，越是走高分析力的系統，越需要低噪的環境及音響基建去提升細節及音質；但如果覺得系統太高分析力而不耐聽，地盒也未必適合這類系統的人。)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/entreq-groundbox/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/10/18/entreq-groundbox/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>淺談 &#8220;鐘&#8221; 的迷思…</title>
-		<link>/clock/</link>
-					<comments>/clock/#respond</comments>
+		<link>/2022/04/27/clock/</link>
+					<comments>/2022/04/27/clock/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 27 Apr 2022 09:46:04 +0000</pubDate>
-				<category><![CDATA[音響]]></category>
+				<category><![CDATA[Hi Fi 雜談]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=373</guid>
 
 					<description><![CDATA[時鐘有兩個重點，第一是準確性 (或叫穩定性)，第二是低 Jitter... 它對於振盪、電壓、溫度及噪音都很敏感，所以除了設計上要準確之外，對抗振、電源供應、穩定時間、噪音阻隔的設計都有要求...]]></description>
@@ -143,15 +143,15 @@
 <p>當有師兄問及是否加鐘好？首先要知道器材本身是否容許加鐘？如果沒有，可以不用考慮，如果有 Clock In，可以考慮高級的型號，低端的型號表現可能還差過原有的內置鐘。如果用的是 Transport 和 DAC 分開，可考慮 Re-clock 產品，市面上有幾款選擇，大多面向專業市場。當然部分產品未必能帶來多大改善，選擇產品亦要看現有設備，同品牌當然有其好處，但不同品牌也有其他可能性，如果有機會試，當然要試多些少不同的產品。(唔識玩) 加鐘可能是一種美麗的誤會，(識得玩) 也可能是一個升級的捷徑。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/clock/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/04/27/clock/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】返璞歸真 的 Falcon LS3/5a 與 充滿質感 的 Jadis Diapason</title>
-		<link>/ls35a-diapason/</link>
-					<comments>/ls35a-diapason/#comments</comments>
+		<link>/2022/04/19/ls35a-diapason/</link>
+					<comments>/2022/04/19/ls35a-diapason/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 19 Apr 2022 09:51:22 +0000</pubDate>
@@ -166,7 +166,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" fetchpriority="high" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
+<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
 
 
 <p><strong>Falcon Acoustic LS3/5a 喇叭</strong><br>其實 Falcon Acoustic 這個品牌已經存在很久，主要做 LS3/5a 零件供應及改裝，到香港有了代理時正式開售，當時也開始留意，當有朋友買後，也聽多了很多 Falcon 改良的地方。比起以往的 3/5a，Falcon 更注重細節，高低伸延很好，不但保留了 3/5a 的味道，Hi Fi 性能也提升不少。但有句話要説，3/5a 確確實實是一對 Monitor 喇叭，並不是一般想像中的甜美那種，而這次試聽的參考系統，也還原了 3/5a 的真實性，有著 Studio Monitor 的參考價值。值得留意，當 3/5a 放對了位置後，高、低頻也不缺，中頻自然開放，音壓在不大的地方也十分足夠，大部分音樂類型也適合，的確是一對不可多得的經典之作。雖說是經典之作，但缺點也總會有，以現時技術水平，這對 Falcon LS3/5a 並沒有做真正的 High End 級數，沒有矩細無遺的分析力，也沒有高級喇叭的高低伸延之舉，而且對擴音機有要求，膽機較容易出到好聲，石機則不太友善，不過以這個價錢來說，真的是不可多得。</p>
@@ -211,15 +211,15 @@
 Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi 4 (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt;&nbsp;梅</em></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/ls35a-diapason/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/04/19/ls35a-diapason/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【影音之路】 之 初燒編 (第1期 2003至2008)</title>
-		<link>/avroad-stage1/</link>
-					<comments>/avroad-stage1/#respond</comments>
+		<link>/2022/01/28/avroad-stage1/</link>
+					<comments>/2022/01/28/avroad-stage1/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 28 Jan 2022 03:17:20 +0000</pubDate>
@@ -263,15 +263,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p>註：睇返第一期同第二期中間，點解好似少咗幾年嘅？<br>答：睇返喺08年之後低燒咗幾年，相信大家都會明白哪些年的日子是怎樣過！</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/avroad-stage1/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/01/28/avroad-stage1/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【圍物論】領先 1-bit 轉換技術 &#8212; AudioByte Hydra-VOX「驚喜」之作</title>
-		<link>/audiobyte-hydra-vox/</link>
-					<comments>/audiobyte-hydra-vox/#respond</comments>
+		<link>/2021/11/12/audiobyte-hydra-vox/</link>
+					<comments>/2021/11/12/audiobyte-hydra-vox/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 12 Nov 2021 12:47:24 +0000</pubDate>
@@ -298,7 +298,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="YG Carmel 2 + Vitus SIA025 mk2 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/-0Bseoa_77I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" title="YG Carmel 2 + Vitus SIA025 mk2 + Audiobyte HydraVOX" width="640" height="360" src="https://www.youtube.com/embed/-0Bseoa_77I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -308,7 +308,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Elac Uni-Fi U5 + NAD M10 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/gdKiriHQSxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" title="Elac Uni-Fi U5 + NAD M10 + Audiobyte HydraVOX" width="640" height="360" src="https://www.youtube.com/embed/gdKiriHQSxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -324,15 +324,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p class="has-small-font-size">*<strong><em>串流參考設定：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)</em><br><em>HydraVOX USB 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi (NAA) -&gt; (USB) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> I2S 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; iFi Stream (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> SPDIF 設定：<br>Mac Mini M1 (Roon) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Emerson Digital (RoonBridge) -&gt; (SPDIF) -&gt; Chord M-Scaler -&gt; (SPDIF) -&gt; <em>HydraVOX</em></em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/audiobyte-hydra-vox/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/11/12/audiobyte-hydra-vox/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</title>
-		<link>/unifisystem/</link>
-					<comments>/unifisystem/#comments</comments>
+		<link>/2021/10/16/unifisystem/</link>
+					<comments>/2021/10/16/unifisystem/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 16 Oct 2021 06:21:01 +0000</pubDate>
@@ -354,21 +354,21 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
 
 
 <p>同軸單元設計的優點在於可以做到類似現實生活中的單點發聲原理，對於喇叭設計當中的正確相位有著重要影響，但由於市場上同軸單元設計的喇叭選擇比較少，Elac Uni-Fi 可謂入門首選。而這對 Uni-Fi 有著傳統的美式風格 (流著 Andrew Jones 的設計理念，所以唔可以當佢係德國喇叭)，聽流行曲爆得十分過癮，聽幾件樂器的演奏亦十分出色，但某程度上比較粗獷，唔算係幼細類型，聽弦樂未必太理想。由於小弟聽古典比較多，為了改善 Uni-Fi 的搭配效果，先從平常使用的參考器材 (*見註腳) 入手配搭。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
 
 
 <p>由平時常聽的曲目開始試聽，發現 VA 的 Class A 輸出太過細緻幼滑，同 Uni-FI 大開大合爽直的性格有些不協調，即刻按鍵轉 Class AB，爽直性格出番嚟，但整體性格偏向比較斯文，少了些趣味。而解碼配置方面，「梅」比較率直、分析力強，但遇上分析能力較低的喇叭，太強的解碼分析能力會突顯喇叭本身的不足之處，變相做成音樂呆板，好在手上有幾套解碼系統，可以試試 Chord 解碼系統。為發掘更多可能性，這次只使用 Chord 系統中的 M-Scaler 升頻器，於是系統便成為 Emerson -&gt; M-Scaler -&gt; 「梅」，結果聲音變得細緻起來，但「梅」的聲音直接，反而感覺有些做作。之後轉至 AudioByte Hydra VOX 解碼，聽感又返回來，音樂感豐富了，細節也存在，感覺實在了。但跟以往聽開的 Uni-Fi 還有些出入，好像欠缺些什麼？於是把心一橫，用部 NAD M10 內的合併擴大功能 (即是 NCore 的放大部份) 來代替 VA 擴音機，NCore 強勁的驅動力配合爽直的 Uni-Fi 有種化學作用，書架喇叭也可以爆到七彩，連 subwoofer 也不需要使用，真係出乎意料之外。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
 
 
 <p>這個組合的串流解解碼系統有個優勢，串流部分先由簡單易用的 Emerson DIGITAL 開始，雖然 Emerson 的 SPDIF 只支援最高 24/192，但正常情況下，播 Tidal 串流已經十分足夠，而 Emerson 亦是 Roon Certified 的產品，所以 Tidal 串流音樂可以經由 Roon 系統傳送至 Emerson，再由 SPDIF 直接輸出至 M-Scaler 升頻器 ，途中可以不作任何數碼處理，而 MQA 也只用 Roon 做解碼，最高也可達到 24/96，不用擔心超出 SPDIF 的限制範圍，簡單而且直接。至於 Chord Hugo M-Scaler 升頻器的升頻效果，成效有目共睹，作為 Chord 的獨門絕技，升頻輸出頻率當然越高越好，M-Scaler 單個 BNC 輸出可達 384kHz，雙 BNC 最高可達 768kHz，不過一般只支援自家的解碼產品。但⋯ 神奇的事也出現在 Hydra VOX 解碼器上，說明書說 SPDIF 只支援 192kHz，但接了 M-Scaler 之後，發現 Hydra VOX 可以支援 384kHz 的輸入，在理想的情況下，M-Scaler 加 Hydra VOX 可以發揮出最極致的升頻表現。</p>
@@ -386,15 +386,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p class="has-small-font-size">*<strong><em>參考器材一覽：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)<br>解碼器：<strong>Holo Audio</strong>&nbsp;May, <strong>Chord</strong>&nbsp;Hugo TT2 + Hugo M-Scaler<br>擴音機：<strong>Vitus Audio&nbsp;</strong>SIA-025 mk.II<br>喇叭：<strong>STENHEIM</strong>&nbsp;Alumine THREE</em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/unifisystem/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/10/16/unifisystem/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【影音之路】 之入坑編 (第0期 由求學時期開始)</title>
-		<link>/av-road-stage0/</link>
-					<comments>/av-road-stage0/#respond</comments>
+		<link>/2021/02/24/av-road-stage0/</link>
+					<comments>/2021/02/24/av-road-stage0/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 24 Feb 2021 09:54:32 +0000</pubDate>
@@ -422,15 +422,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p>註：小弟 DIY 都有幾部機，第一部係 IC式放大電路套件成品，買返嚟已經可以開聲，也沒有整機殼，好快便壞了，變成單聲道，因為成本低，所以又買了另一部 AB類擴音機。由於當時同學可以幫手砌機殼，於是就開始著手做新的擴音機，一部做畀自己，一部做畀同學，當然部機好快又壞掉。不過唔緊要，由於自己的技術有所提升，又開始計劃將新套件改裝，做成電源分體式合併機畀同學，加強了電源部分，將套件發揮得更好。但⋯同廠機比，便比下去，好在有高人指點，將分體電源改回同一箱體，於是乎⋯同學聽得好開心，因為聲音實在唔錯 (以當時後生，聽音響經驗不足計)。之後，因為這次成功經驗，小弟又開始砌對稱式 FET 前級和平衡式 A類後級，因為屋企要搬屋原故，經歷了很長時間才能完成，但完成後十分滿足，因為聲音比之前嘅機實在好太多。但好景不常，同學的合併機被盜，之後因為工作收入，買了廠機後也不需要使用 DIY 器材，而該廠機好快便賣給小弟，佢就升級到 MF A1 鐵板燒。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/av-road-stage0/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/24/av-road-stage0/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【發燒心得】之⋯ 喇叭擺位</title>
-		<link>/speaker-positioning/</link>
-					<comments>/speaker-positioning/#respond</comments>
+		<link>/2021/02/19/speaker-positioning/</link>
+					<comments>/2021/02/19/speaker-positioning/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 19 Feb 2021 09:19:33 +0000</pubDate>
@@ -452,7 +452,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
 
 
 
@@ -463,13 +463,13 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <div class="wp-block-group alignfull"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
 <div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-6 column1-desktop-grid__row-1 column2-desktop-grid__span-6 column2-desktop-grid__start-7 column2-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column2-tablet-grid__span-4 column2-tablet-grid__start-5 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2">
 <div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="402" height="600" src="/wp-content/uploads/2021/02/longset1stpos.jpg?w=402" alt="" class="wp-image-172" srcset="/wp-content/uploads/2021/02/longset1stpos.jpg 402w, /wp-content/uploads/2021/02/longset1stpos-201x300.jpg 201w" sizes="(max-width: 402px) 100vw, 402px" /><figcaption>短邊擺法，最短時間的第一反射點位於側牆。</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="402" height="600" src="/wp-content/uploads/2021/02/longset1stpos.jpg?w=402" alt="" class="wp-image-172" srcset="/wp-content/uploads/2021/02/longset1stpos.jpg 402w, /wp-content/uploads/2021/02/longset1stpos-201x300.jpg 201w" sizes="(max-width: 402px) 100vw, 402px" /><figcaption>短邊擺法，最短時間的第一反射點位於側牆。</figcaption></figure>
 </div>
 
 
 
 <div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="404" height="557" src="/wp-content/uploads/2021/02/wideset1stpos.jpg?w=404" alt="" class="wp-image-173" srcset="/wp-content/uploads/2021/02/wideset1stpos.jpg 404w, /wp-content/uploads/2021/02/wideset1stpos-218x300.jpg 218w" sizes="(max-width: 404px) 100vw, 404px" /><figcaption>長邊擺法，最短時間的第一反射點位於後牆。</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="404" height="557" src="/wp-content/uploads/2021/02/wideset1stpos.jpg?w=404" alt="" class="wp-image-173" srcset="/wp-content/uploads/2021/02/wideset1stpos.jpg 404w, /wp-content/uploads/2021/02/wideset1stpos-218x300.jpg 218w" sizes="(max-width: 404px) 100vw, 404px" /><figcaption>長邊擺法，最短時間的第一反射點位於後牆。</figcaption></figure>
 </div>
 </div>
 </div></div>
@@ -495,15 +495,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p>* 心得呢樣，未必個個都會認同，不過都可以作為小小參考對象。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/speaker-positioning/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/19/speaker-positioning/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>轉 Blog 陣地⋯</title>
-		<link>/move-blog-site/</link>
-					<comments>/move-blog-site/#respond</comments>
+		<link>/2021/02/12/move-blog-site/</link>
+					<comments>/2021/02/12/move-blog-site/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 12 Feb 2021 08:18:23 +0000</pubDate>
@@ -511,7 +511,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 		<category><![CDATA[blog]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=143</guid>
 
-					<description><![CDATA[自從月初收 email 被 hacked 之後，已經將主 blog 搬至 wordpress.com 內，當然考慮到安全理由，之前也想過要將 blog 搬出家用網絡，收到警告後，便立即開始行動，而且好像也沒有什麼損失。 現在主 blog 在 jacknetcf.wordpress.com 內，也在原先的網站 www.jacknet.cf 建立備份，當然今次會比之前安全好多，因為兩個網站也是在 Internet 上，就算被 hacked，也沒有什麼資料損失，而且經過上次嘅經驗，今回應該有能力應付。 其實，如果大家有興趣寫 blog 的話，也可以在 wordpress.com 上開自己網頁，完全免費，又可以學習使用新科技，最重要係可以將自己的知識經歷傳給他人。 在此，恭喜大家牛年快樂！身心健康！]]></description>
+					<description><![CDATA[自從月初收 email 被 hacked 之後，已經將主 blog 搬至 wordpress.com 內，當然考慮到安全理由，之前也想過要將 blog 搬出家用網絡，收到警告後，便立即開始行動，而且好像也沒有什麼損失。 現在主 blog 在 jacknetcf.wordpress.com [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>自從月初收 email 被 hacked 之後，已經將主 blog 搬至 wordpress.com 內，當然考慮到安全理由，之前也想過要將 blog 搬出家用網絡，收到警告後，便立即開始行動，而且好像也沒有什麼損失。</p>
 
@@ -528,17 +528,10 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p>在此，恭喜大家牛年快樂！身心健康！</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/move-blog-site/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/12/move-blog-site/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:19 by W3 Total Cache
--->

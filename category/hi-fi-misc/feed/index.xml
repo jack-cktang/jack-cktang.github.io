@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>Hi Fi 雜談 &#8211; JNET Blog</title>
+	<title>Hi Fi 雜談 &#8211; Jack Personal Blog</title>
 	<atom:link href="/category/hi-fi-misc/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Mon, 12 Dec 2022 08:16:35 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:44:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【Hi Fi 雜談】關於 Bit Perfect 與升頻&#8230; 而啟發對高分析系統的反思</title>
-		<link>/hi-res-consider/</link>
-					<comments>/hi-res-consider/#respond</comments>
+		<link>/2022/12/12/hi-res-consider/</link>
+					<comments>/2022/12/12/hi-res-consider/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Mon, 12 Dec 2022 08:16:35 +0000</pubDate>
@@ -58,15 +58,15 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/hi-res-consider/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/12/12/hi-res-consider/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【Hi Fi 雜談】農夫地盒</title>
-		<link>/entreq-groundbox/</link>
-					<comments>/entreq-groundbox/#respond</comments>
+		<link>/2022/10/18/entreq-groundbox/</link>
+					<comments>/2022/10/18/entreq-groundbox/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 18 Oct 2022 08:31:20 +0000</pubDate>
@@ -103,17 +103,264 @@
 <p>總括來說，玩地盒不是一件容易的事，想系統調整得好，需要花很多時間及心思，在不同的配置中，尋找最適合的選項，以現時家居種種不同的電磁波干擾下，地盒已經變成最不可或缺的音響基礎建設。(P.S. 也許因爲現今的系統多數以高分析力為主，越是走高分析力的系統，越需要低噪的環境及音響基建去提升細節及音質；但如果覺得系統太高分析力而不耐聽，地盒也未必適合這類系統的人。)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/entreq-groundbox/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/10/18/entreq-groundbox/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>淺談 &#8220;鐘&#8221; 的迷思…</title>
+		<link>/2022/04/27/clock/</link>
+					<comments>/2022/04/27/clock/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 27 Apr 2022 09:46:04 +0000</pubDate>
+				<category><![CDATA[Hi Fi 雜談]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=373</guid>
+
+					<description><![CDATA[時鐘有兩個重點，第一是準確性 (或叫穩定性)，第二是低 Jitter... 它對於振盪、電壓、溫度及噪音都很敏感，所以除了設計上要準確之外，對抗振、電源供應、穩定時間、噪音阻隔的設計都有要求...]]></description>
+										<content:encoded><![CDATA[
+<p>經常有師兄問：&#8221;加唔加鐘好？&#8221;，或者 &#8220;加咗都冇乜分別！&#8221;，又有 &#8220;唔加鐘唔聽得！&#8221; 之類的説話。大概有許多師兄都有一大堆圍繞鐘的問題，又因為大部分可以加鐘的器材都好似高級一點，所以加鐘便變成一種升級的迷思，亦有可能造成更加困擾的心結。</p>
+
+
+
+<p>講鍾之前，先談談關於鐘的詞彙：<br><strong>Internal Clock</strong> &#8211; 內置鐘，一般指器材內部現有的時鐘，大多數器材會使用普通水平的時鐘，有些器材會預留升級外置時鐘，也有些器材可以直接升級內部時鐘 (摩機改鐘也是其中一種)。<br><strong>External Clock</strong> &#8211; 外置鐘，多數指可升級的外接時鐘，根據不同需要，可選擇外接 Master Clock、Reference Clock 或 Word Clock。<br><strong>Master Clock</strong> &#8211; 主時鐘，可以是指內部的 (一個或多個) 主要時鐘，又或者多個器材連接一起所使用的主宰時鐘，用來同步多個器材的內部時鐘。<br><strong>Reference Clock</strong> &#8211; 參考時鐘，器材本身已有時鐘，再外接一個對準時鐘，使用外接參考時鐘來增強內部時鐘的準確性。<br><strong>Word Clock</strong> &#8211; 數字時鐘，或作取樣時鐘，提供一個參考樣本給傳輸使用，一般會用作取代內部時鐘，或接多個器材使用，例如常見的 44.1KHz / 48KHz 及其倍頻取樣。<br>Frequency Stability (Precision) &#8211; 精準度，以 ppm (10<sup>-6</sup>) 或 ppb (10<sup>-9</sup>) 作單位，即每年才出現多少個誤差，數字越低越好。<br><strong>Phase Noise</strong> &#8211; 參考《<a rel="noreferrer noopener" href="https://www.digikey.hk/en/blog/what-is-the-difference-between-timing-jitter-and-phase-noise" target="_blank">DigitKey</a>》的解釋：<em>&#8220;相位噪聲和抖動都表明信號的穩定性，並且是相互關聯的。 具體而言，相位噪聲是頻域中表示的頻率的不穩定性，而抖動是時域中信號波形的波動。&#8221;</em>  這個解釋很好，其實指的是穏定性，數字越低越好，因為所用單位為 (-) 負數，所以 -120dBc/Hz 會好過 -114dBc/Hz。<br><strong>Jitter</strong> &#8211; 參考上面的 Phase Noise，數字越低越好，單位為 ps 或 fs (飛秒)，亦即是以住被稱爲 &#8220;飛秒時鐘&#8221; 的高級產品所提及的參考穩定度。<br><strong>XO</strong> &#8211; Crystal Oscillator / Quartz Oscillator 晶體/石英 振盪器，振盪器即是波型產生器，現時普遍所使用的都是由石英晶體所產生的振動為原理的振盪器，價格低亷，體積細小，廣泛應用在不同的數碼產品內。可參考《<a rel="noreferrer noopener" href="https://zh.wikipedia.org/wiki/%E7%9F%B3%E8%8B%B1%E6%99%B6%E4%BD%93%E8%B0%90%E6%8C%AF%E5%99%A8" target="_blank">Wikipedia</a>》<br><strong>TCXO</strong> &#8211; Temperature Compensated Crystal Oscillator 溫度補償晶振，採用溫度補償電路所製造的晶體振盪器。<br><strong>OCXO</strong> &#8211; Oven Controlled Crystal Oscillator 恆溫晶振，現時比較流行的一種高級類型，相位噪聲比較低的一種時鐘。<br><strong>RbXO</strong> &#8211; Rubidium (Atomic) Crystal Oscillator 銣時鐘，比較高級的一種時鐘設計，利用原子振動原理所產生的振盪器，地球上最準確的一種時鐘。<br><strong>10MHz Clock</strong> &#8211; 10M鐘，現時大部分數碼器材都以 10MHz 作為參考頻率，好處是適用於大部分器材，但音響常用的 44.1KHz 和 48KHz 會有少少誤差 (就簡單設計而言)，需要作內部補償 (其設計會複雜些)。<br><strong>50Ω / 75Ω impedance</strong> &#8211; 所指的是 BNC 接頭或接線的阻抗為 50Ω 或 75Ω，使用不同的阻抗接頭會影響傳輸的穩定性。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2022/06/mutec.jpg?w=1024" alt="" class="wp-image-402" /></figure>
+
+
+
+<p>時鐘 (通常指外置鐘) 有兩個重點，第一是準確性 (或叫穩定性)，第二是低 Jitter，低 Jitter 與低 Phase Noise 有關，所以現時流行較低 Phase Noise 的 OCXO 時鐘。時鐘產生器是一種很敏感的零件(元件或部件)，它對於振盪、電壓、溫度及噪音都很敏感，所以除了設計上要準確之外，對抗振、電源供應、穩定時間 (即著機之後需要一段長時間才穏定)、噪音阻隔的設計都有要求，<a rel="noreferrer noopener" href="https://www.esoteric.jp/en/product/g-01x/feature" target="_blank">Esoteric G-01X</a> 就是一個很好的參考設計。除此之外，<strong>接時鐘的電源供應、接線的底噪及<strong>阻抗</strong>、接頭阻抗、以及調振設備都對時鐘的穩定性有所影響，用家必定要留意這些事項，這些因素會影響時鐘的發揮及效能表現。</strong></p>
+
+
+
+<p>至於各品牌設計方面，Esoteric 用上較好的振盪器、良好供電、多功能輸出、接地以及訊號處理等，各方面也照顧得到的優良設計。Mutec 及 Cybershaft 相對精簡，主力用上低噪 OCXO 及良好供電，但性能同樣優秀。Auralic 也用上銣鐘，更著重隔離處理，電源與及抗振同樣出色，可惜只能給自家產品線使用，不能作獨立產品應用於其他品牌。MSB 則堅持使用內置鐘，他們認為只有訊號最短的情況下，才有更高的精確度，所以他們旗下產品只可作內置時鐘升級。dCS 認為他們需要的是主時鐘，不用 10MHz Clock，所以只提供雙 Word Clock 產品，Playback Design 及 EMM Labs 則認為他們的內置鐘已經十分好，不需要再為外置鐘而煩惱。</p>
+
+
+
+<p>當有師兄問及是否加鐘好？首先要知道器材本身是否容許加鐘？如果沒有，可以不用考慮，如果有 Clock In，可以考慮高級的型號，低端的型號表現可能還差過原有的內置鐘。如果用的是 Transport 和 DAC 分開，可考慮 Re-clock 產品，市面上有幾款選擇，大多面向專業市場。當然部分產品未必能帶來多大改善，選擇產品亦要看現有設備，同品牌當然有其好處，但不同品牌也有其他可能性，如果有機會試，當然要試多些少不同的產品。(唔識玩) 加鐘可能是一種美麗的誤會，(識得玩) 也可能是一個升級的捷徑。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/04/27/clock/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Roon 要點開始⋯⋯玩？</title>
+		<link>/2021/02/03/roon-starting/</link>
+					<comments>/2021/02/03/roon-starting/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:39:11 +0000</pubDate>
+				<category><![CDATA[Hi Fi 雜談]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[Roon]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=45</guid>
+
+					<description><![CDATA[好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯ [...]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-bff4dbea-d7b9-4699-8844-d9a60ace58cc"><br>好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯</p>
+
+
+
+<p id="block-5125dc6d-357b-419c-9a1f-864a88e66965">Roon 其實係一個音樂檔案管理系統 (Music Library)，有音樂播放功能，支援串流服務，有個好好用嘅使用者介面，分月費及永久付費計劃。<a href="https://roonlabs.com/howroonworks">https://roonlabs.com/howroonworks</a> 而 Roon 主要分成三個部分，Roon Core 係 Roon 軟件的主要部分，可以安裝在任何硬件上，包括 Windows, Mac, Linux, NAS。Roon Control Apps 就係控制程式，可以裝喺 iOS, Android, Windows, Mac 上。另外可以加埋 Roon Outputs (又叫 End Points)，亦即係 Roon Ready 嘅 Streamer/Speaker/Player 等，合埋便組成一套完整的 Roon 系統。</p>
+
+
+
+<div id="block-3a152c75-45a1-41aa-bed0-1f6903c7ec91" class="wp-block-image"><figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="1286" height="884" src="/wp-content/uploads/2021/02/roon-library.jpg?w=809" alt="" class="wp-image-75" srcset="/wp-content/uploads/2021/02/roon-library.jpg 1286w, /wp-content/uploads/2021/02/roon-library-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-library-1024x704.jpg 1024w, /wp-content/uploads/2021/02/roon-library-768x528.jpg 768w" sizes="(max-width: 1286px) 100vw, 1286px" /><figcaption>Roon 的使用者介面非常方便好用</figcaption></figure></div>
+
+
+
+<p id="block-6ce5276c-bb27-459e-bb6e-f6a1c840a01b">玩 Roon 第一樣要考慮裝喺邊？Roon Core 可以裝喺任何電腦上，如果冇電腦，可能要買一部 Roon Core 專用電腦，當然可以買支援 Roon 嘅專用 Music Server 例如 Roon Nucleus <a href="https://roonlabs.com/nucleus">https://roonlabs.com/nucleus</a>、或者 Innuos Music Server <a href="https://innuos.com/en/catalog/go/music-servers-mk3">https://innuos.com/en/catalog/go/music-servers-mk3</a> 之類的產品。如果有電腦，可以裝喺自己電腦上面，不過用專用電腦絶對好過普通電腦。另外，如果NAS支援的話，可以裝入NAS上面，不過因爲 Roon 行 Library 嘅時候，需要快速存取資料，所以最好行SSD。如果能力許可的話，最好當然係行專用電腦啦，但如果覺得音響品牌太貴的話，自組電腦也可以的。</p>
+
+
+
+<p id="block-580726e5-eb1f-4896-8b1e-f8d66892d868">如果決定自組電腦的話，首先要清楚這個 Music Library 有多大？如果有大量音樂檔，可能裝硬碟的位置未必足夠，假設這部電腦只可以放一隻硬碟，我建議最好行SSD，依家買 2TB SSD 價錢都可以接受，所以音樂檔少過 2TB的話，其實一隻SSD便足夠。雖然大部分電腦可以行外置硬碟，但小弟就唔建議，因為外置硬碟比較容易出問題。還有，這部電腦要多快？這取決於是否要行 Roon 升頻，如果唔行升頻，i5 已經足夠，如果行升頻，可能要用到 i7。不過小弟覺得可以唔行升頻，用部低耗電CPU和靜音電腦會理想啲。但如果這部電腦冇足夠位放硬碟，可能要考慮加NAS，而 Roon 加NAS係比較方便，有時還方便過內置硬碟。</p>
+
+
+
+<p id="block-3fe2939a-2dd7-41f8-8942-13442c8c3f57">至於點控制部 Roon，其實好簡單，只要裝個 Roon Remote 落平板電腦就得，如果未有平板電腦的話，可以買部平平地嘅就得，其實手機也可以，但小弟建議要行 iOS，iOS 比較好用。如果已經裝咗 Roon 落 Windows 或 Mac 電腦嘅師兄，同樣地可以用 Windows/Mac 嘅 Roon 去控制聽歌，控制介面是一樣的。</p>
+
+
+
+<p id="block-1a4eb68e-fe09-4335-a85f-95d377c00a7a">還有最終連接音響系統的地方，首選當然係 Roon Ready 嘅 Streamers，如果只有 USB DAC，也可以用 Roon Core 電腦的USB接DAC。不過還可以用低耗電腦做 End Point (行 Roon Bridge 軟件)，Rasberry Pi 係一個好選擇，<a href="https://ropieee.org/">https://ropieee.org/</a> RoPieee 係一個專門行 Rasberry Pi 的OS，簡單易用。至於 Roon Ready 嘅 Streamers 又可以分為有解碼功能或沒有解碼功能，冇解碼功能的 Streamer 要外接DAC，有 SPDIF/AES、USB 和 I2S 的連接方式，當然行 I2S 比較好，不過就唔多選擇，又有兼容問題，而USB連線也可能出現不兼容情況，SPDIF/AES 最穩陣，不過音樂檔最高只兼容24/192，各有優劣。當然也有其他方式出聲，電腦 sound card 也好，HDMI 駁 AV Amp 也好，都係一種方式，不過效果並不是太理想。</p>
+
+
+
+<div id="block-a8ea0046-7806-46b0-bcb4-6b08aa5c8ab7" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" width="1288" height="883" src="/wp-content/uploads/2021/02/roon-supports-mqa.jpg?w=809" alt="" class="wp-image-76" srcset="/wp-content/uploads/2021/02/roon-supports-mqa.jpg 1288w, /wp-content/uploads/2021/02/roon-supports-mqa-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-supports-mqa-1024x702.jpg 1024w, /wp-content/uploads/2021/02/roon-supports-mqa-768x527.jpg 768w" sizes="(max-width: 1288px) 100vw, 1288px" /><figcaption>用 Roon 聽 Tidal 很理想，可能比只有簡單支援 Tidal 的 Streamers 還好，而且 Roon 直接支援 24/96 的 MQA Core Decoder。</figcaption></figure></div>
+
+
+
+<p id="block-49cddea9-19b7-49be-ae86-dd1c11f52268">實際例子，我和幾位朋友都係咁做：</p>
+
+
+
+<ol id="block-eccfbe30-2cf8-48f5-98b1-c0624ac35fe7"><li>NAS 裝音樂檔</li><li>獨立組裝電腦行 Roon Core + SSD 硬碟</li><li>Streamer + DAC 駁音響系統</li><li>LPS 做供電</li><li>光纖網路 + 隔離功能網路交換器 接 Streamer、Roon Core 電腦和NAS</li><li>電處 + 地盒</li></ol>
+
+
+
+<p id="block-44276175-bd67-4172-b187-c7a328b78c06">想玩CAS玩得好聲，唔係一件易事，不過依家有 Roon 可以用，其實比以前方便了很多，亦因爲有 Roon Ready 嘅 Streamers 出現，亦已經簡單很多。有CD機當然好，不過現時的高清或串流未必玩到，而且現時網上音樂平台資源，如 Tidal, Qobuz 的串流服務或下載服務已經盛行，音樂格式亦比CD好，所以係時候要計劃點玩好CAS了。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/03/roon-starting/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>淺談各品牌解碼器的技術特點</title>
+		<link>/2021/02/03/dac-tech/</link>
+					<comments>/2021/02/03/dac-tech/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 07:22:54 +0000</pubDate>
+				<category><![CDATA[Hi Fi 雜談]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[DAC]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=38</guid>
+
+					<description><![CDATA[當大家考慮玩CAS嘅時候，通常都會以解碼(器)開始著手，其中要考慮的因素太多，解碼的質數、功能、輸入方式、有沒有內置 Streamer 等，但更多情況係考慮該器材的音質，而各大品牌也有自家特色解碼，選擇很豐富，要從中挑選適合自己的會很花時間，小弟嘗試將部分認識的品牌，分析其中的特色及專長，給大家作參考。 [...]]]></description>
+										<content:encoded><![CDATA[
+<p><strong><span class="has-inline-color has-vivid-cyan-blue-color">18年呢個post要寫得好小心，可能得失唔少人。</span></strong>  <a rel="noreferrer noopener" href="https://post76.hk/forum.php?mod=viewthread&amp;tid=284709&amp;fromuid=70575" target="_blank">淺談各品牌解碼器的技術特點  (出處: Post76影音玩樂平台)</a> <em><em>[本版於 28-Sep-2021 已作更新]</em></em></p>
+
+
+
+<figure class="wp-block-table alignleft"><table><tbody><tr><td class="has-text-align-left" data-align="left">當大家考慮玩CAS嘅時候，通常都會以解碼(器)開始著手，其中要考慮的因素太多，解碼的質數、功能、輸入方式、有沒有內置 Streamer 等，但更多情況係考慮該器材的音質，而各大品牌也有自家特色解碼，選擇很豐富，要從中挑選適合自己的會很花時間，小弟嘗試將部分認識的品牌，分析其中的特色及專長，給大家作參考。<br><br>要了解其中特色，先要清楚解碼的方式和技術，解碼方式主要分為 Ladder DAC (R2R) 和 Delta-Sigma 兩種，而大多數解碼都以解碼芯片作為 D/A 轉換核心，也有一些廠商會用 Discrete 方式去做 D/A 轉換。近年流行升頻技術，以住有些廠商以升頻作賣點，而現時的芯片已經有內置升頻功能，但這種功能不能滿足現時高端用家的需求，繼而有些廠家開發出新的升頻技術，這些技術足以令到現今解碼質素作進一步提升。不過也有些廠商以不升頻 (NOS) 為主，有些則使用更原始的解碼芯片，或用其他方式使到音質提升，例如供電、模擬濾波及放大 (I/V轉換) 等部分。<br><br><span style="text-decoration:underline;"><strong>升頻技術形</strong>&nbsp;&#8211; 大多使用自家技術，自行編程，用以製作高品質音效</span><br><strong>dCS</strong>&nbsp;&#8211; 將所有輸入訊號 (包括 PCM 及 DSD) 升頻為 DSD128 (可選升頻PCM384)，再用自家 discrete 方式的 RingDAC 作 D/A 轉換。<em>(所有組件自家開發，成本極高，價錢最貴，做工、技術已經無可挑剔，適合高端用戶使用。)</em><br><strong>EMM Labs</strong>&nbsp;&#8211; 將所有輸入訊號用 FPGA 升頻至 16xDSD，再用自家 discrete 方式作 D/A 轉換。<em>(DSD 數碼專家，技術和應用都已經很成熟。)</em><br><strong>Playback Designs</strong>&nbsp;&#8211; 和 EMM Labs 方法差不多，但只升頻至 4xDSD。<em>(技術和 EMM Labs 差不多，只是調聲不同。)</em><br><strong>CH Precision</strong>&nbsp;&#8211; 使用 Anagram 技術升頻至 705.6kHz，DSD 會轉成 PCM，再用現成芯片作 D/A 轉換。<em>(新一代升頻科技，Anagram 開發者的重要成果，只能親身體驗。)</em><br><strong>Chord</strong>&nbsp;&#8211; 使用 FPGA 方式作多 tap (1M) 升頻至 705.6/768kHz，DSD 會轉成 PCM。<em>(Watts 的升頻方式很好，高效的 FPGA 可能提升效能，但可是換湯不換藥。)</em><br><strong>Weiss</strong>&nbsp;&#8211; 使用自家專業程式行 DSP 作升頻，DSD 會轉成 PCM，再用現成芯片作 D/A 轉換。<em>(專業程式應用在自家產品上，效果出眾，但 DSP 的處理能力有限，如果用上高效的 DSP 芯片，效果可能更好。)</em><br><strong>Bricasti Design</strong>&nbsp;&#8211; 使用自家方式運行 DSP 作升頻，DSD/PCM 使用現成芯片作 Delta-Sigma 或 Ladder 型式 D/A 轉換、亦可使用 DSD 直解等三種轉換方式。<em>(產品很完整，使用現時最有效解碼方式製作，提升空間大。 [28-Sep-2021 Updates])</em><br><strong>PS Audio</strong>&nbsp;&#8211; 將所有輸入訊號用 FPGA 升頻為 10xDSD，再以 1 bit 方式作 D/A 轉換。<em>(設計師很花心思，升級新的 firmware 好似換了新機一樣，將來的升級空間很大。)</em><br><strong>Esoteric</strong>&nbsp;&#8211; 使用 FPGA 方式升頻，再用自家 discrete 方式作 D/A 轉換。<em>(新一代升頻解碼技術使得老牌產品換然一新，再加上原有的成熟技術，可以作為頂級參考之列。<em>[28-Sep-2021 Updates]</em>)</em><br><strong>Auralic</strong>&nbsp;&#8211; 使用自家程式行 Tesla CPU 作升頻，再用現成芯片作 D/A 轉換。<em>(雖然用上易於編程的系統，但升頻品質<em>(不包含升頻器)</em>只是點到即止 ，將來還有大大空間可以提升。)</em><br><br><span style="text-decoration:underline;"><strong>R2R Discrete 方式</strong>&nbsp;&#8211; 最早的 PCM D/A 轉換方式，簡單直接，要精準便成本高，品質難控制</span><br><strong>MSB</strong>&nbsp;&#8211; 使用高精度電阻以 R2R 方式作 D/A 轉換，因 discrete 方式使用高電壓，所以不需作 I/V 轉換，可直驅後級。<em>(MSB 以 R2R 出名，經歷多代產品之後更見精練，加上新品可同時作 DSD 轉換，效果出眾，於市場領先位置。)</em><br><strong>TotalDAC</strong>&nbsp;&#8211; 和 MSB 差不多，不過使用更高精度的電阻。<em>(可說是一鳴驚人，用上高精度電阻效果出眾，反而是如何再作突破呢？)</em><br><strong>HoloAudio</strong>&nbsp;&#8211; 可用內置升頻芯片或 NOS 模式運作，PCM 和 DSD 使用不同方式作 D/A 轉換。<em>(效果好，售價低，理想的入門產品，各式輸入可滿足用家需要，只是高品質效果停留於 NOS 模式中，其他方面要再突破一下。)</em><br><br><span style="text-decoration:underline;"><strong>特色雙解碼</strong>&nbsp;&#8211; 有別於一般解碼方式，不需要轉成某一種特定解碼方式，各自有獨立模式作 D/A 轉換</span><br><strong>Nagra</strong>&nbsp;&#8211; 處理 DSD 訊號用 Playback Designs 的方式，不過只升頻至 2xDSD，PCM 則使用另一組 D/A 轉換。<em>(技術似乎有些落伍，新品售價更高，雖然雙解碼效果好，但似乎要加些新技術才能滿足需求。)</em><br><strong>T+A</strong>&nbsp;&#8211; 處理 PCM 訊號用自家方式 DSP 作升頻，再用現成芯片作 D/A 轉換，DSD 則使用 1 bit discrete 方式作 D/A 轉換。<em>(PCM 升頻不到位，反而 DSD 1 bit 轉換做得幾好，最佳配置為 HQPlayer 軟件升頻 DSD512，比起其他高級解碼也不會失色。)</em><br><br><span style="text-decoration:underline;"><strong>傳統方式</strong>&nbsp;&#8211; 使用現芯片，沒有加添數字處理</span><br><s><strong>Esoteric</strong>&nbsp;&#8211; 使用多塊現成芯片並聯作 D/A 轉換，以提升訊噪比。<em>(日本解碼最高成就，只求高訊噪比的傳統用戶會十分喜愛，不過已經到了一個樽頸位置。)</em></s><br><strong>LampizatOr</strong>&nbsp;&#8211; 使用現成芯片、或 R2R 模組、以及 USB 上的 Delta-Sigma 輸出來作 D/A 轉換，以膽 I/V 轉換為主。<em>(以膽輸出作賣點，再加上可自由組合嘅模組，可玩性大增，唯獨是沒有自主開發嘅技術，很容易被超越。)</em><br><br><span style="text-decoration:underline;"><strong>NOS 方式</strong>&nbsp;&#8211; 以最原始的方式作 D/A 轉換，沒有使用任何數字處理</span><br><strong>Audio Note</strong>&nbsp;&#8211; 完全舊式作風，以膽 I/V 轉換為主。<em>(絶對係以膽聞，高價零件，原始做法，品味之選。)</em><br><strong>Aqua</strong>&nbsp;&#8211; 以自家 FPGA 編程，沒有升頻或數字濾波處理，訊號直接以 R2R 方式作 D/A 轉換。<em>(用舊有的方式，注入新的思維，做好各個部分，效果顯著。)</em><br><br>以上嘅分類，只係方便了解各種解器嘅特點，亦唔代表只可以這樣歸類，這種分類方式可以簡單評估現今解碼的技術取向，不同用家各取所需，方便各自選擇。<br><br>話說這個文章只係小弟嘅個人見解，不代表這些內容完全正確，亦不是購買建議，所以看完有所不滿，笑吓就算，多多包函！</td></tr></tbody></table></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/03/dac-tech/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DAC相關用詞及基礎知識</title>
+		<link>/2021/02/03/dac-terms/</link>
+					<comments>/2021/02/03/dac-terms/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 07:10:57 +0000</pubDate>
+				<category><![CDATA[Hi Fi 雜談]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[DAC]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=34</guid>
+
+					<description><![CDATA[為了使更多入門使用者，了解關於DAC的相關用詞及知識，小弟整理些少相關詞彙及心得以供各位參考，如有錯漏，請不用客氣指出錯處，感謝！ [...]]]></description>
+										<content:encoded><![CDATA[
+<p id="block-c0da9fb1-da30-48e4-b7bb-2dfd49820f62">剛剛找回13年Post76的舊<strong>貼⋯ 哈哈！</strong> <a rel="noreferrer noopener" href="https://post76.hk/forum.php?mod=viewthread&amp;tid=175067&amp;fromuid=70575" target="_blank">DAC相關用詞及基礎知識(出處: Post76影音玩樂平台)</a></p>
+
+
+
+<p id="block-639bc06c-d31e-4f95-91a8-0e9807061470">為了使更多入門使用者，了解關於DAC的相關用詞及知識，小弟整理些少相關詞彙及心得以供各位參考，如有錯漏，請不用客氣指出錯處，感謝！</p>
+
+
+
+<p id="block-b9162a3a-79af-421b-a746-21769e8a2890">輸入介面：標準有 S/PDIF (Coaxial, Toslink)、AES (BNC, XLR)，其他有 iLink (FW400, FW800)、Fiber Optic (ST)、I2S (RJ-45, HDMI)、USB (Type B：USB 1.0, 2.0, 3.0) 等。</p>
+
+
+
+<p id="block-1e205a3d-622a-4d8d-9b62-9bbc33e722b0">S/PDIF：Sony / Philips Digital Interconnect Format (或 Sony Philips Digital Interface) 屬於最常見的一種數碼傳輸方式，常稱為 (數碼)同軸線，一般以RCA做插頭，使用75-ohm同軸接線，採用AES3轉輸協定，頻寬一般最大為兩聲道24/192，可以 Bitstream 型式傳5.1/7.1多聲道 Dolby/DTS 壓縮音效，Data及Clock訊號整合一起傳輸，線長最多10米，適合一般家用產品。</p>
+
+
+
+<p id="block-d5dfcb2e-f5f2-42b9-b86c-ed25f8f94372">TOSLINK：TOShiba LINK 屬於S/PDIF的變種，常稱為光纖線，一般以TOSLINK做插頭，也有使用3.5mm立體聲插頭的 Mini TOSLINK 格式 (Apple 產品多用)，使用光纖接線，平價多以塑料作光纖的材料，高價產品則以玻璃作材料，採用AES3轉輸協定，頻寬一般最大為兩聲道24/96，可以 Bitstream 型式傳5.1/7.1多聲道 Dolby/DTS 壓縮音效，Data及Clock訊號整合一起傳輸，線長最多10米，適合一般家用產品。</p>
+
+
+
+<p id="block-c04b84f0-637b-43d9-afc2-1739881daa85">AES：或稱AES/EBU，是 Audio Engineering Society 和 European Broadcasting Union 機構的名稱，正式為AES3轉輸協定，有 Balanced (XLR) 和 Unbalanced (BNC) 兩種，頻寬一般最大為兩聲道24/384，Data及Clock訊號整合一起傳輸，一般多用XLR插頭，使用110-ohm差動式接線，線長最多1000米，也有使用BNC插頭，使用75-ohm同軸接線，線長最多100米，兩者多為錄音室使用，亦有一種使用雙AES接線，每一條線傳一聲道，可以加大頻寬，但較少產品使用。</p>
+
+
+
+<p id="block-83947590-f906-41e1-988a-2990d929f08a">I2S：或稱IIS, Integrated Interchip Sound 是晶片與晶片之間的傳輸協定，一般會用作內部傳輸，所以傳輸距離很短，現在有不少廠家將它改成外部傳輸，用RJ-45或HDMI接頭，使用低電壓差動式或雙絞線，頻寬很大 (約八聲道32/768)，Data及Clock訊號有獨立線路傳輸，Jitter較低，最近有很多高級機種增設這種介面，但會有不兼容情況出現，由於傳輸距離短，只適合家用產品。</p>
+
+
+
+<p id="block-6597f6b8-5c24-4f4d-a40e-44f3420369e4">USB：Universal Serial Bus 常用於電腦產品，最近流行CAS多以USB作介面，初時只作低速電腦周邊產品傳輸使用，USB 1.0 最高頻寬為 12Mbps，用於音效方面最高只能傳兩聲道24/96 PCM格式，當使用 USB 2.0 時最高頻寬為 480Mbps，音效方面最高可傳約八聲道32/768 PCM格式，由於電腦內部只用PCM作聲音處理，所以並不支援DSD格式，但最近業界人士將DSD嵌入PCM內，或稱DoP DSD-over-PCM，所以現時能支援DSD播放。</p>
+
+
+
+<p id="block-dcbf8979-fdff-4966-847c-8303f563196f">PCM：Pulse Code Modulation 是一種數位訊號儲存方式，類似座標的作法，X軸為電壓，用不同高度 (bits) 轉成數字儲存，Y軸為時間，用不同頻率 (sample) 代替數字儲存，大部分錄音、製作和產品均使用PCM編碼。</p>
+
+
+
+<p id="block-fd0664f9-2cff-43fa-8946-35a9441ebee2">DSD：Direct Stream Digital 由 SONY / Philips 所制定，屬於 Pulse-density Modulation 的一種，是最接近 Analog 的儲存方式，可以直接經過電路出 Analog 訊號。現時很多DAC標榜可解DSD訊號，提升產品的賣點，不過只有少量錄音使用全DSD模式進行。</p>
+
+
+
+<p id="block-130da950-3d0b-42a3-b038-0f2e65d339ad">Sample Format：可接受的輸入格式，以PCM為例，是 bit rate 和 sample rate 的組合，CD格式為 16 bit 44.1kHz，可寫成16/44.1，一般舊款解碼最高可接受24/192格式。</p>
+
+
+
+<p id="block-a016aa17-79d2-4b09-b0f6-22fc0bda5b68">Sample Rate：主要由兩種頻率開始演化，分別是CD格式的44.1kHz，與及電腦／錄音室用的48kHz，然後再引伸至各自的倍頻，如44.1kHz的88.2、176.4或以上，48kHz的96、192或以上，而DSD64即是用44.1kHz的64倍倍頻，DSD128即128倍。</p>
+
+
+
+<p id="block-f758c0b9-cb48-4e91-bdb1-d31e8a4748b1">Bit Rate：有多bit或1 bit，通常PCM會用多bit數，DSD會用1 bit。PCM的bit數表示電壓高低，一般PCM有16 bit (CD)、20 bit (HDCD)、24 bit、32 bit 等，也可當作解像度，越高越理想。而DSD只有1 bit，表示電壓上升或下降，這是最接近 Analog 的做法。也有些會使用其他bit數，例如dCS的 Ring DAC 用5 bit。</p>
+
+
+
+<p id="block-dd0cad75-9924-433a-a6d5-d7b3bc9e2b6c">Up-sample：升頻即是將低的 sample rate (如CD的16/44.1) 升做高的 sample rate (如24/192)，通過此方法提升質素。</p>
+
+
+
+<p id="block-933d6928-0657-4720-ba20-ff699af4b993">Re-sample：可以由不同的頻率轉成其他頻率，即是 Up-sample 或者 Down-sample 處理。</p>
+
+
+
+<p id="block-10cbd07f-2090-4da4-a5b5-c5144e779314">Over-sample：較舊的數字式處理，通過此方法提升質素，一般可以是8倍、16倍或以上，用此方法可減低做 Filtering 所需的成本。</p>
+
+
+
+<p id="block-51389d5b-0b78-4ad8-950b-98ee598cefe5">NOS：Non Over Sample 所指是不使用任何升頻或倍頻，這是最早的產物。現時有些人主張要做到聲音自然，就不需要用任何升頻或倍頻，它會做成人工化的聲音。</p>
+
+
+
+<p id="block-f85b85e0-e62f-4792-8b17-5f091f566373">Filtering：分 Digital Filter 和 Analog Filter 兩種，本來 Filter 用來減低某些訊號輸出，但後來發現 Filter 有助提升聽感，以後的產品更可讓用戶選擇，用不同的 Filter 做出不同的效果。現時也有些爭論關於使用或不使用 Filter 的優劣，有些人會覺得質素改善，有些人覺得人工化了。</p>
+
+
+
+<p id="block-7bea36ad-321f-4340-96e5-b31676a6e757">DSP：Digital Signal Processing 一般將輸入重新整理，以制成所需的訊號。通過DSP可用來作升頻、Digital Filter 等。同時亦需要很高 Programming 的技巧，現時高級DAC差不多全部使用DSP。</p>
+
+
+
+<p id="block-3477d627-9a88-456b-8d1e-04f3f1d73442">Jitter：訊號在數碼傳輸時或電路內所造成的不穩定影響，以 second 做單位，100 pS 以上有明顯的失真，當然做到越低越好，所以有產品做到幾十飛秒。</p>
+
+
+
+<p id="block-70f7c119-f88b-4526-8abb-cb5c92b58f42">Clock：造成 Jitter 的主要因素在於不準確和不穩定的時鍾。時鐘在一般DAC內有兩個，支援44.1k或48k的頻率，也有的只用一個，成本和質素會有所下降。又有內置和外置之分，內置成本比較低，適合單一產品，外置時鐘可提供多件數碼器材同步參考，減低傳輸時的 jitter 產生。</p>
+
+
+
+<p id="block-ab5ead75-8024-4eea-a92e-541222f2c619">PLL：Phase Lock Loop 簡單的訊號鎖定技術，被動式設計，簡單方法減少 Jitter。</p>
+
+
+
+<p id="block-3d57f3b0-86d7-40d7-9375-cc8a12701a76">Buffering：DAC內有RAM做資料儲存，用這方法可降低 Jitter。</p>
+
+
+
+<p id="block-772a265c-4de1-466b-b2c9-9df933659150">Async USB：非同步傳輸作用和 buffering 差不多，可減少 Jitter 產生。</p>
+
+
+
+<p id="block-ea8d7207-b0fe-45d4-b17c-6f54a5fd6e52">FPGA：Field-Programmable Gate Array 可編程電路，無需用電子零件作電路，需要很高的編程知識，現在高階機流行的製作都會使用。</p>
+
+
+
+<p id="block-7371fd4b-122a-443e-b1a1-5831871a0ac2">R2R：或稱 Resistor Ladder，是一種由電阻建成的簡單數位轉換電路，只能解PCM編碼，亦是最早期所使用的解碼方式，一般會用解碼晶片作為解碼的核心，也有用一組電阻建構而成，或稱 Discrete R2R。這種方法比較直接和快速，低bit數時會很有效，但高bit數時效果會變差，因為電阻阻値誤差大，現在比較少DAC會採用。為了解決誤差問題，有些廠會用高精度電阻 (誤差 0.1~0.01%) 建構 Discrete R2R，效果很好但極之昂貴，只有極小數廠商使用，因為多1 bit 時要用多一倍電阻，24 bit 時會用上超多電阻。</p>
+
+
+
+<p id="block-518cbe18-df52-4ae1-8e94-598f49fb2488">Delta Sigma：現代常見的晶片都使用 Delta Sigma 技術，解碼方式有如 DSD 那樣，先將數碼流轉成 1 bit 後才解碼，好處是價格較低，而且加上 digital filter 後效果亦不錯，另一好處是可解PCM和DSD，所以比較多廠商使用。有些人不喜歡用 Delta Sigma 方式，因為一定要用 digital filter 才能產生 Analog 訊號，他們覺得這樣會增加人為色彩。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/03/dac-terms/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
--->

@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>T+A DAC8 DSD &#8211; JNET Blog</title>
+	<title>T+A DAC8 DSD &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/ta-dac8-dsd/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Wed, 03 Feb 2021 08:42:45 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:43:21 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【音響拼圖】&#8221;T+A DAC8 DSD&#8221; 與 &#8220;雨後初晴&#8221; 的甜蜜邂逅⋯⋯</title>
-		<link>/dac8dsd-harbeth/</link>
-					<comments>/dac8dsd-harbeth/#respond</comments>
+		<link>/2021/02/03/dac8dsd-harbeth/</link>
+					<comments>/2021/02/03/dac8dsd-harbeth/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 08:42:45 +0000</pubDate>
@@ -32,13 +32,13 @@
 		<category><![CDATA[T+A DAC8 DSD]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=47</guid>
 
-					<description><![CDATA[組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。 T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。]]></description>
+					<description><![CDATA[組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。 T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。Harbeth [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" fetchpriority="high" width="1916" height="1140" src="/wp-content/uploads/2022/06/dac8.jpg?w=1024" alt="" class="wp-image-424" srcset="/wp-content/uploads/2022/06/dac8.jpg 1916w, /wp-content/uploads/2022/06/dac8-300x178.jpg 300w, /wp-content/uploads/2022/06/dac8-1024x609.jpg 1024w, /wp-content/uploads/2022/06/dac8-768x457.jpg 768w, /wp-content/uploads/2022/06/dac8-1536x914.jpg 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /><figcaption>龍床上的 T+A DAC 8 DSD</figcaption></figure></div>
+<figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="1916" height="1140" src="/wp-content/uploads/2022/06/dac8.jpg?w=1024" alt="" class="wp-image-424" srcset="/wp-content/uploads/2022/06/dac8.jpg 1916w, /wp-content/uploads/2022/06/dac8-300x178.jpg 300w, /wp-content/uploads/2022/06/dac8-1024x609.jpg 1024w, /wp-content/uploads/2022/06/dac8-768x457.jpg 768w, /wp-content/uploads/2022/06/dac8-1536x914.jpg 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /><figcaption>龍床上的 T+A DAC 8 DSD</figcaption></figure></div>
 
 
 <p>T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。<br>Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。<br>HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。<br>龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。<br>Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。<br></p>
@@ -51,17 +51,10 @@
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/dac8dsd-harbeth/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/dac8dsd-harbeth/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
--->

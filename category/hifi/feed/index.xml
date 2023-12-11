@@ -8,61 +8,21 @@
 	>
 
 <channel>
-	<title>音響 &#8211; JNET Blog</title>
+	<title>音響 &#8211; Jack Personal Blog</title>
 	<atom:link href="/category/hifi/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Wed, 27 Apr 2022 09:46:04 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:43:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
-		<title>淺談 &#8220;鐘&#8221; 的迷思…</title>
-		<link>/clock/</link>
-					<comments>/clock/#respond</comments>
-		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Wed, 27 Apr 2022 09:46:04 +0000</pubDate>
-				<category><![CDATA[音響]]></category>
-		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=373</guid>
-
-					<description><![CDATA[時鐘有兩個重點，第一是準確性 (或叫穩定性)，第二是低 Jitter... 它對於振盪、電壓、溫度及噪音都很敏感，所以除了設計上要準確之外，對抗振、電源供應、穩定時間、噪音阻隔的設計都有要求...]]></description>
-										<content:encoded><![CDATA[
-<p>經常有師兄問：&#8221;加唔加鐘好？&#8221;，或者 &#8220;加咗都冇乜分別！&#8221;，又有 &#8220;唔加鐘唔聽得！&#8221; 之類的説話。大概有許多師兄都有一大堆圍繞鐘的問題，又因為大部分可以加鐘的器材都好似高級一點，所以加鐘便變成一種升級的迷思，亦有可能造成更加困擾的心結。</p>
-
-
-
-<p>講鍾之前，先談談關於鐘的詞彙：<br><strong>Internal Clock</strong> &#8211; 內置鐘，一般指器材內部現有的時鐘，大多數器材會使用普通水平的時鐘，有些器材會預留升級外置時鐘，也有些器材可以直接升級內部時鐘 (摩機改鐘也是其中一種)。<br><strong>External Clock</strong> &#8211; 外置鐘，多數指可升級的外接時鐘，根據不同需要，可選擇外接 Master Clock、Reference Clock 或 Word Clock。<br><strong>Master Clock</strong> &#8211; 主時鐘，可以是指內部的 (一個或多個) 主要時鐘，又或者多個器材連接一起所使用的主宰時鐘，用來同步多個器材的內部時鐘。<br><strong>Reference Clock</strong> &#8211; 參考時鐘，器材本身已有時鐘，再外接一個對準時鐘，使用外接參考時鐘來增強內部時鐘的準確性。<br><strong>Word Clock</strong> &#8211; 數字時鐘，或作取樣時鐘，提供一個參考樣本給傳輸使用，一般會用作取代內部時鐘，或接多個器材使用，例如常見的 44.1KHz / 48KHz 及其倍頻取樣。<br>Frequency Stability (Precision) &#8211; 精準度，以 ppm (10<sup>-6</sup>) 或 ppb (10<sup>-9</sup>) 作單位，即每年才出現多少個誤差，數字越低越好。<br><strong>Phase Noise</strong> &#8211; 參考《<a rel="noreferrer noopener" href="https://www.digikey.hk/en/blog/what-is-the-difference-between-timing-jitter-and-phase-noise" target="_blank">DigitKey</a>》的解釋：<em>&#8220;相位噪聲和抖動都表明信號的穩定性，並且是相互關聯的。 具體而言，相位噪聲是頻域中表示的頻率的不穩定性，而抖動是時域中信號波形的波動。&#8221;</em>  這個解釋很好，其實指的是穏定性，數字越低越好，因為所用單位為 (-) 負數，所以 -120dBc/Hz 會好過 -114dBc/Hz。<br><strong>Jitter</strong> &#8211; 參考上面的 Phase Noise，數字越低越好，單位為 ps 或 fs (飛秒)，亦即是以住被稱爲 &#8220;飛秒時鐘&#8221; 的高級產品所提及的參考穩定度。<br><strong>XO</strong> &#8211; Crystal Oscillator / Quartz Oscillator 晶體/石英 振盪器，振盪器即是波型產生器，現時普遍所使用的都是由石英晶體所產生的振動為原理的振盪器，價格低亷，體積細小，廣泛應用在不同的數碼產品內。可參考《<a rel="noreferrer noopener" href="https://zh.wikipedia.org/wiki/%E7%9F%B3%E8%8B%B1%E6%99%B6%E4%BD%93%E8%B0%90%E6%8C%AF%E5%99%A8" target="_blank">Wikipedia</a>》<br><strong>TCXO</strong> &#8211; Temperature Compensated Crystal Oscillator 溫度補償晶振，採用溫度補償電路所製造的晶體振盪器。<br><strong>OCXO</strong> &#8211; Oven Controlled Crystal Oscillator 恆溫晶振，現時比較流行的一種高級類型，相位噪聲比較低的一種時鐘。<br><strong>RbXO</strong> &#8211; Rubidium (Atomic) Crystal Oscillator 銣時鐘，比較高級的一種時鐘設計，利用原子振動原理所產生的振盪器，地球上最準確的一種時鐘。<br><strong>10MHz Clock</strong> &#8211; 10M鐘，現時大部分數碼器材都以 10MHz 作為參考頻率，好處是適用於大部分器材，但音響常用的 44.1KHz 和 48KHz 會有少少誤差 (就簡單設計而言)，需要作內部補償 (其設計會複雜些)。<br><strong>50Ω / 75Ω impedance</strong> &#8211; 所指的是 BNC 接頭或接線的阻抗為 50Ω 或 75Ω，使用不同的阻抗接頭會影響傳輸的穩定性。</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" src="/wp-content/uploads/2022/06/mutec.jpg?w=1024" alt="" class="wp-image-402" /></figure>
-
-
-
-<p>時鐘 (通常指外置鐘) 有兩個重點，第一是準確性 (或叫穩定性)，第二是低 Jitter，低 Jitter 與低 Phase Noise 有關，所以現時流行較低 Phase Noise 的 OCXO 時鐘。時鐘產生器是一種很敏感的零件(元件或部件)，它對於振盪、電壓、溫度及噪音都很敏感，所以除了設計上要準確之外，對抗振、電源供應、穩定時間 (即著機之後需要一段長時間才穏定)、噪音阻隔的設計都有要求，<a rel="noreferrer noopener" href="https://www.esoteric.jp/en/product/g-01x/feature" target="_blank">Esoteric G-01X</a> 就是一個很好的參考設計。除此之外，<strong>接時鐘的電源供應、接線的底噪及<strong>阻抗</strong>、接頭阻抗、以及調振設備都對時鐘的穩定性有所影響，用家必定要留意這些事項，這些因素會影響時鐘的發揮及效能表現。</strong></p>
-
-
-
-<p>至於各品牌設計方面，Esoteric 用上較好的振盪器、良好供電、多功能輸出、接地以及訊號處理等，各方面也照顧得到的優良設計。Mutec 及 Cybershaft 相對精簡，主力用上低噪 OCXO 及良好供電，但性能同樣優秀。Auralic 也用上銣鐘，更著重隔離處理，電源與及抗振同樣出色，可惜只能給自家產品線使用，不能作獨立產品應用於其他品牌。MSB 則堅持使用內置鐘，他們認為只有訊號最短的情況下，才有更高的精確度，所以他們旗下產品只可作內置時鐘升級。dCS 認為他們需要的是主時鐘，不用 10MHz Clock，所以只提供雙 Word Clock 產品，Playback Design 及 EMM Labs 則認為他們的內置鐘已經十分好，不需要再為外置鐘而煩惱。</p>
-
-
-
-<p>當有師兄問及是否加鐘好？首先要知道器材本身是否容許加鐘？如果沒有，可以不用考慮，如果有 Clock In，可以考慮高級的型號，低端的型號表現可能還差過原有的內置鐘。如果用的是 Transport 和 DAC 分開，可考慮 Re-clock 產品，市面上有幾款選擇，大多面向專業市場。當然部分產品未必能帶來多大改善，選擇產品亦要看現有設備，同品牌當然有其好處，但不同品牌也有其他可能性，如果有機會試，當然要試多些少不同的產品。(唔識玩) 加鐘可能是一種美麗的誤會，(識得玩) 也可能是一個升級的捷徑。</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/clock/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
 		<title>【音響拼圖】返璞歸真 的 Falcon LS3/5a 與 充滿質感 的 Jadis Diapason</title>
-		<link>/ls35a-diapason/</link>
-					<comments>/ls35a-diapason/#comments</comments>
+		<link>/2022/04/19/ls35a-diapason/</link>
+					<comments>/2022/04/19/ls35a-diapason/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 19 Apr 2022 09:51:22 +0000</pubDate>
@@ -77,7 +37,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img decoding="async" fetchpriority="high" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
+<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2022/06/ls35a.jpg?w=770" alt="" class="wp-image-410" width="578" height="767" srcset="/wp-content/uploads/2022/06/ls35a-226x300.jpg 226w, /wp-content/uploads/2022/06/ls35a-768x1021.jpg 768w" sizes="(max-width: 578px) 100vw, 578px" /><figcaption>Falcon Acoustic LS3/5a + IsoAcoustics Orea + Foundation</figcaption></figure></div>
 
 
 <p><strong>Falcon Acoustic LS3/5a 喇叭</strong><br>其實 Falcon Acoustic 這個品牌已經存在很久，主要做 LS3/5a 零件供應及改裝，到香港有了代理時正式開售，當時也開始留意，當有朋友買後，也聽多了很多 Falcon 改良的地方。比起以往的 3/5a，Falcon 更注重細節，高低伸延很好，不但保留了 3/5a 的味道，Hi Fi 性能也提升不少。但有句話要説，3/5a 確確實實是一對 Monitor 喇叭，並不是一般想像中的甜美那種，而這次試聽的參考系統，也還原了 3/5a 的真實性，有著 Studio Monitor 的參考價值。值得留意，當 3/5a 放對了位置後，高、低頻也不缺，中頻自然開放，音壓在不大的地方也十分足夠，大部分音樂類型也適合，的確是一對不可多得的經典之作。雖說是經典之作，但缺點也總會有，以現時技術水平，這對 Falcon LS3/5a 並沒有做真正的 High End 級數，沒有矩細無遺的分析力，也沒有高級喇叭的高低伸延之舉，而且對擴音機有要求，膽機較容易出到好聲，石機則不太友善，不過以這個價錢來說，真的是不可多得。</p>
@@ -122,15 +82,15 @@
 Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi 4 (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt;&nbsp;梅</em></pre>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/ls35a-diapason/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/04/19/ls35a-diapason/feed/</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【圍物論】領先 1-bit 轉換技術 &#8212; AudioByte Hydra-VOX「驚喜」之作</title>
-		<link>/audiobyte-hydra-vox/</link>
-					<comments>/audiobyte-hydra-vox/#respond</comments>
+		<link>/2021/11/12/audiobyte-hydra-vox/</link>
+					<comments>/2021/11/12/audiobyte-hydra-vox/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 12 Nov 2021 12:47:24 +0000</pubDate>
@@ -157,7 +117,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="YG Carmel 2 + Vitus SIA025 mk2 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/-0Bseoa_77I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe title="YG Carmel 2 + Vitus SIA025 mk2 + Audiobyte HydraVOX" width="640" height="360" src="https://www.youtube.com/embed/-0Bseoa_77I?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -167,7 +127,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Elac Uni-Fi U5 + NAD M10 + Audiobyte HydraVOX" width="650" height="366" src="https://www.youtube.com/embed/gdKiriHQSxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" title="Elac Uni-Fi U5 + NAD M10 + Audiobyte HydraVOX" width="640" height="360" src="https://www.youtube.com/embed/gdKiriHQSxA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -183,15 +143,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p class="has-small-font-size">*<strong><em>串流參考設定：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)</em><br><em>HydraVOX USB 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Raspberry Pi (NAA) -&gt; (USB) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> I2S 設定：<br>Mac Mini M1 (Roon+HQPlayer) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; iFi Stream (NAA) -&gt; (USB) -&gt; Singxer SU-6 -&gt; (I2S) -&gt; <em>HydraVOX</em><br><em>HydraVOX</em> SPDIF 設定：<br>Mac Mini M1 (Roon) -&gt; (Fiber) -&gt; Uptone EtherRegen -&gt; (Ethernet) -&gt; Emerson Digital (RoonBridge) -&gt; (SPDIF) -&gt; Chord M-Scaler -&gt; (SPDIF) -&gt; <em>HydraVOX</em></em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/audiobyte-hydra-vox/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/11/12/audiobyte-hydra-vox/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】音響性與音樂性兼備的組合⋯⋯ 爆得起 Elac+NCore 配合 極致升頻 M-Scaler+Hydra-VOX</title>
-		<link>/unifisystem/</link>
-					<comments>/unifisystem/#comments</comments>
+		<link>/2021/10/16/unifisystem/</link>
+					<comments>/2021/10/16/unifisystem/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 16 Oct 2021 06:21:01 +0000</pubDate>
@@ -213,21 +173,21 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1610" height="906" src="/wp-content/uploads/2022/06/elac-ncore-front.jpg?w=1024" alt="" class="wp-image-438" srcset="/wp-content/uploads/2022/06/elac-ncore-front.jpg 1610w, /wp-content/uploads/2022/06/elac-ncore-front-300x169.jpg 300w, /wp-content/uploads/2022/06/elac-ncore-front-1024x576.jpg 1024w, /wp-content/uploads/2022/06/elac-ncore-front-768x432.jpg 768w, /wp-content/uploads/2022/06/elac-ncore-front-1536x864.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /></figure></div>
 
 
 <p>同軸單元設計的優點在於可以做到類似現實生活中的單點發聲原理，對於喇叭設計當中的正確相位有著重要影響，但由於市場上同軸單元設計的喇叭選擇比較少，Elac Uni-Fi 可謂入門首選。而這對 Uni-Fi 有著傳統的美式風格 (流著 Andrew Jones 的設計理念，所以唔可以當佢係德國喇叭)，聽流行曲爆得十分過癮，聽幾件樂器的演奏亦十分出色，但某程度上比較粗獷，唔算係幼細類型，聽弦樂未必太理想。由於小弟聽古典比較多，為了改善 Uni-Fi 的搭配效果，先從平常使用的參考器材 (*見註腳) 入手配搭。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1610" height="1208" src="/wp-content/uploads/2022/06/emerson.jpg?w=1024" alt="" class="wp-image-439" srcset="/wp-content/uploads/2022/06/emerson.jpg 1610w, /wp-content/uploads/2022/06/emerson-300x225.jpg 300w, /wp-content/uploads/2022/06/emerson-1024x768.jpg 1024w, /wp-content/uploads/2022/06/emerson-768x576.jpg 768w, /wp-content/uploads/2022/06/emerson-1536x1152.jpg 1536w" sizes="(max-width: 1610px) 100vw, 1610px" /><figcaption><sup>Wattson Audio Emerson Digital 串流系統</sup></figcaption></figure></div>
 
 
 <p>由平時常聽的曲目開始試聽，發現 VA 的 Class A 輸出太過細緻幼滑，同 Uni-FI 大開大合爽直的性格有些不協調，即刻按鍵轉 Class AB，爽直性格出番嚟，但整體性格偏向比較斯文，少了些趣味。而解碼配置方面，「梅」比較率直、分析力強，但遇上分析能力較低的喇叭，太強的解碼分析能力會突顯喇叭本身的不足之處，變相做成音樂呆板，好在手上有幾套解碼系統，可以試試 Chord 解碼系統。為發掘更多可能性，這次只使用 Chord 系統中的 M-Scaler 升頻器，於是系統便成為 Emerson -&gt; M-Scaler -&gt; 「梅」，結果聲音變得細緻起來，但「梅」的聲音直接，反而感覺有些做作。之後轉至 AudioByte Hydra VOX 解碼，聽感又返回來，音樂感豐富了，細節也存在，感覺實在了。但跟以往聽開的 Uni-Fi 還有些出入，好像欠缺些什麼？於是把心一橫，用部 NAD M10 內的合併擴大功能 (即是 NCore 的放大部份) 來代替 VA 擴音機，NCore 強勁的驅動力配合爽直的 Uni-Fi 有種化學作用，書架喇叭也可以爆到七彩，連 subwoofer 也不需要使用，真係出乎意料之外。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1608" height="1206" src="/wp-content/uploads/2022/06/mscaler.jpg?w=1024" alt="" class="wp-image-440" srcset="/wp-content/uploads/2022/06/mscaler.jpg 1608w, /wp-content/uploads/2022/06/mscaler-300x225.jpg 300w, /wp-content/uploads/2022/06/mscaler-1024x768.jpg 1024w, /wp-content/uploads/2022/06/mscaler-768x576.jpg 768w, /wp-content/uploads/2022/06/mscaler-1536x1152.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption><sup>最下方是 Chord Hugo M-Scaler 升頻器</sup></figcaption></figure></div>
 
 
 <p>這個組合的串流解解碼系統有個優勢，串流部分先由簡單易用的 Emerson DIGITAL 開始，雖然 Emerson 的 SPDIF 只支援最高 24/192，但正常情況下，播 Tidal 串流已經十分足夠，而 Emerson 亦是 Roon Certified 的產品，所以 Tidal 串流音樂可以經由 Roon 系統傳送至 Emerson，再由 SPDIF 直接輸出至 M-Scaler 升頻器 ，途中可以不作任何數碼處理，而 MQA 也只用 Roon 做解碼，最高也可達到 24/96，不用擔心超出 SPDIF 的限制範圍，簡單而且直接。至於 Chord Hugo M-Scaler 升頻器的升頻效果，成效有目共睹，作為 Chord 的獨門絕技，升頻輸出頻率當然越高越好，M-Scaler 單個 BNC 輸出可達 384kHz，雙 BNC 最高可達 768kHz，不過一般只支援自家的解碼產品。但⋯ 神奇的事也出現在 Hydra VOX 解碼器上，說明書說 SPDIF 只支援 192kHz，但接了 M-Scaler 之後，發現 Hydra VOX 可以支援 384kHz 的輸入，在理想的情況下，M-Scaler 加 Hydra VOX 可以發揮出最極致的升頻表現。</p>
@@ -245,15 +205,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p class="has-small-font-size">*<strong><em>參考器材一覽：</em></strong><br><em>串流平台：Tidal, Roon Core (Mac Mini M1) + Roon Bridge + Roon Remote (iPad/MacOS), HQPlayer <em>(Mac Mini M1)</em><br>串流系統：<strong>Wattson Audio</strong>&nbsp;Emerson DIGITAL (SPDIF), <strong>iFi</strong>&nbsp;ZEN Stream<strong> </strong>(USB), <strong>Singxer</strong>&nbsp;SU-6 DDC (I2S)<br>解碼器：<strong>Holo Audio</strong>&nbsp;May, <strong>Chord</strong>&nbsp;Hugo TT2 + Hugo M-Scaler<br>擴音機：<strong>Vitus Audio&nbsp;</strong>SIA-025 mk.II<br>喇叭：<strong>STENHEIM</strong>&nbsp;Alumine THREE</em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/unifisystem/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/10/16/unifisystem/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【發燒心得】之⋯ 喇叭擺位</title>
-		<link>/speaker-positioning/</link>
-					<comments>/speaker-positioning/#respond</comments>
+		<link>/2021/02/19/speaker-positioning/</link>
+					<comments>/2021/02/19/speaker-positioning/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Fri, 19 Feb 2021 09:19:33 +0000</pubDate>
@@ -275,7 +235,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1047" height="890" src="/wp-content/uploads/2021/02/roomsim.jpg?w=1024" alt="" class="wp-image-168" srcset="/wp-content/uploads/2021/02/roomsim.jpg 1047w, /wp-content/uploads/2021/02/roomsim-300x255.jpg 300w, /wp-content/uploads/2021/02/roomsim-1024x870.jpg 1024w, /wp-content/uploads/2021/02/roomsim-768x653.jpg 768w" sizes="(max-width: 1047px) 100vw, 1047px" /><figcaption>REW Room Simulation</figcaption></figure>
 
 
 
@@ -286,13 +246,13 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <div class="wp-block-group alignfull"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
 <div class="wp-block-jetpack-layout-grid alignfull column1-desktop-grid__span-6 column1-desktop-grid__row-1 column2-desktop-grid__span-6 column2-desktop-grid__start-7 column2-desktop-grid__row-1 column1-tablet-grid__span-4 column1-tablet-grid__row-1 column2-tablet-grid__span-4 column2-tablet-grid__start-5 column2-tablet-grid__row-1 column1-mobile-grid__span-4 column1-mobile-grid__row-1 column2-mobile-grid__span-4 column2-mobile-grid__row-2">
 <div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="402" height="600" src="/wp-content/uploads/2021/02/longset1stpos.jpg?w=402" alt="" class="wp-image-172" srcset="/wp-content/uploads/2021/02/longset1stpos.jpg 402w, /wp-content/uploads/2021/02/longset1stpos-201x300.jpg 201w" sizes="(max-width: 402px) 100vw, 402px" /><figcaption>短邊擺法，最短時間的第一反射點位於側牆。</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="402" height="600" src="/wp-content/uploads/2021/02/longset1stpos.jpg?w=402" alt="" class="wp-image-172" srcset="/wp-content/uploads/2021/02/longset1stpos.jpg 402w, /wp-content/uploads/2021/02/longset1stpos-201x300.jpg 201w" sizes="(max-width: 402px) 100vw, 402px" /><figcaption>短邊擺法，最短時間的第一反射點位於側牆。</figcaption></figure>
 </div>
 
 
 
 <div class="wp-block-jetpack-layout-grid-column wp-block-jetpack-layout-grid__padding-none">
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="404" height="557" src="/wp-content/uploads/2021/02/wideset1stpos.jpg?w=404" alt="" class="wp-image-173" srcset="/wp-content/uploads/2021/02/wideset1stpos.jpg 404w, /wp-content/uploads/2021/02/wideset1stpos-218x300.jpg 218w" sizes="(max-width: 404px) 100vw, 404px" /><figcaption>長邊擺法，最短時間的第一反射點位於後牆。</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="404" height="557" src="/wp-content/uploads/2021/02/wideset1stpos.jpg?w=404" alt="" class="wp-image-173" srcset="/wp-content/uploads/2021/02/wideset1stpos.jpg 404w, /wp-content/uploads/2021/02/wideset1stpos-218x300.jpg 218w" sizes="(max-width: 404px) 100vw, 404px" /><figcaption>長邊擺法，最短時間的第一反射點位於後牆。</figcaption></figure>
 </div>
 </div>
 </div></div>
@@ -318,15 +278,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p>* 心得呢樣，未必個個都會認同，不過都可以作為小小參考對象。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/speaker-positioning/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/19/speaker-positioning/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】Chord Hugo Combo 與 Stenheim 三仔的純A類誘惑⋯⋯</title>
-		<link>/chord-stenheim-va/</link>
-					<comments>/chord-stenheim-va/#respond</comments>
+		<link>/2021/02/03/chord-stenheim-va/</link>
+					<comments>/2021/02/03/chord-stenheim-va/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 09:15:03 +0000</pubDate>
@@ -343,7 +303,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large" id="block-46035e49-9c24-4bb6-aff1-a16baa52838b"><img decoding="async" loading="lazy" width="1510" height="1134" src="/wp-content/uploads/2022/06/chordhugo.jpg?w=1024" alt="" class="wp-image-433" srcset="/wp-content/uploads/2022/06/chordhugo.jpg 1510w, /wp-content/uploads/2022/06/chordhugo-300x225.jpg 300w, /wp-content/uploads/2022/06/chordhugo-1024x769.jpg 1024w, /wp-content/uploads/2022/06/chordhugo-768x577.jpg 768w" sizes="(max-width: 1510px) 100vw, 1510px" /><figcaption>Top: Chord Hugo TT2, bottom: Chord Hugo M-Scaler</figcaption></figure></div>
+<figure class="aligncenter size-large" id="block-46035e49-9c24-4bb6-aff1-a16baa52838b"><img loading="lazy" decoding="async" width="1510" height="1134" src="/wp-content/uploads/2022/06/chordhugo.jpg?w=1024" alt="" class="wp-image-433" srcset="/wp-content/uploads/2022/06/chordhugo.jpg 1510w, /wp-content/uploads/2022/06/chordhugo-300x225.jpg 300w, /wp-content/uploads/2022/06/chordhugo-1024x769.jpg 1024w, /wp-content/uploads/2022/06/chordhugo-768x577.jpg 768w" sizes="(max-width: 1510px) 100vw, 1510px" /><figcaption>Top: Chord Hugo TT2, bottom: Chord Hugo M-Scaler</figcaption></figure></div>
 
 
 <p id="block-2b31ea50-35ec-4310-b802-8321e3010a60">解碼部分：由 Chord Hugo TT2 及 Hugo M-Scaler 組合而成的升頻解碼系統，M-Scaler 係現時比較突出的獨立升頻器，配合 Chord 解碼可以達到最高規格，令到整個解碼系統都得到提升。透過升頻出來的效果，無論係音場、定位、立體感、音質方面都有明顯改善。TT2 有著 Chord 獨門的解碼技術，亦有著 Chord 獨特的聲音，強於精細度和質感，聽人聲特別動人，細節特別豐富，久久不倦的感覺。</p>
@@ -358,21 +318,21 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large" id="block-7fbe2d9d-d09e-43e8-8c60-4cbde493172b"><img decoding="async" loading="lazy" width="1508" height="1136" src="/wp-content/uploads/2022/06/va-stenheim3.jpg?w=1024" alt="" class="wp-image-434" srcset="/wp-content/uploads/2022/06/va-stenheim3.jpg 1508w, /wp-content/uploads/2022/06/va-stenheim3-300x226.jpg 300w, /wp-content/uploads/2022/06/va-stenheim3-1024x771.jpg 1024w, /wp-content/uploads/2022/06/va-stenheim3-768x579.jpg 768w" sizes="(max-width: 1508px) 100vw, 1508px" /><figcaption>Stenheim Alumine THREE</figcaption></figure></div>
+<figure class="aligncenter size-large" id="block-7fbe2d9d-d09e-43e8-8c60-4cbde493172b"><img loading="lazy" decoding="async" width="1508" height="1136" src="/wp-content/uploads/2022/06/va-stenheim3.jpg?w=1024" alt="" class="wp-image-434" srcset="/wp-content/uploads/2022/06/va-stenheim3.jpg 1508w, /wp-content/uploads/2022/06/va-stenheim3-300x226.jpg 300w, /wp-content/uploads/2022/06/va-stenheim3-1024x771.jpg 1024w, /wp-content/uploads/2022/06/va-stenheim3-768x579.jpg 768w" sizes="(max-width: 1508px) 100vw, 1508px" /><figcaption>Stenheim Alumine THREE</figcaption></figure></div>
 
 
 <p id="block-40579935-1358-47f5-aedc-415e65e4e7b9">*註：<strong>誘惑</strong>就係&#8230; 當踫到有嘢吸引著嘅時候，而忘記所有缺點嘅存在，呢編就係以當時嘅心情寫嘅。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/chord-stenheim-va/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/chord-stenheim-va/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響比比比】三大鋁合金箱體 High End 品牌之⋯⋯ 入門座地喇叭</title>
-		<link>/aluminium-speaker/</link>
-					<comments>/aluminium-speaker/#respond</comments>
+		<link>/2021/02/03/aluminium-speaker/</link>
+					<comments>/2021/02/03/aluminium-speaker/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 08:58:13 +0000</pubDate>
@@ -400,7 +360,7 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large" id="block-e1b91ecf-4814-48b7-803a-c7c1610e8f68"><img decoding="async" loading="lazy" width="1608" height="1208" src="/wp-content/uploads/2022/06/stenheim3.jpg?w=1024" alt="" class="wp-image-429" srcset="/wp-content/uploads/2022/06/stenheim3.jpg 1608w, /wp-content/uploads/2022/06/stenheim3-300x225.jpg 300w, /wp-content/uploads/2022/06/stenheim3-1024x769.jpg 1024w, /wp-content/uploads/2022/06/stenheim3-768x577.jpg 768w, /wp-content/uploads/2022/06/stenheim3-1536x1154.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption>STENHEIM Alumine THREE 三路四單元全鋁合金喇叭</figcaption></figure></div>
+<figure class="aligncenter size-large" id="block-e1b91ecf-4814-48b7-803a-c7c1610e8f68"><img loading="lazy" decoding="async" width="1608" height="1208" src="/wp-content/uploads/2022/06/stenheim3.jpg?w=1024" alt="" class="wp-image-429" srcset="/wp-content/uploads/2022/06/stenheim3.jpg 1608w, /wp-content/uploads/2022/06/stenheim3-300x225.jpg 300w, /wp-content/uploads/2022/06/stenheim3-1024x769.jpg 1024w, /wp-content/uploads/2022/06/stenheim3-768x577.jpg 768w, /wp-content/uploads/2022/06/stenheim3-1536x1154.jpg 1536w" sizes="(max-width: 1608px) 100vw, 1608px" /><figcaption>STENHEIM Alumine THREE 三路四單元全鋁合金喇叭</figcaption></figure></div>
 
 
 <p id="block-d2913ef9-564a-413a-a544-64d118b28847">以下是主觀比較各項效果：<br>高頻：A3 &gt; Carmel2 &gt; THREE &#8230;(其實各有各好，這個比較以高頻伸延為主)<br>中頻：THREE &gt; A3 &gt; Carmel2<br>低頻：A3 &gt; THREE &gt; Carmel2<br>密度：THREE = A3 = Carmel2<br>層次感：Carmel2 &gt; THREE &gt; A3<br>透明度：Carmel2 &gt; A3 &gt; THREE<br>定位：Carmel2 &gt; A3 &gt; THREE<br>音樂感：THREE &gt; A3 &gt; Carmel2<br>分析力：A3 &gt; Carmel2 &gt; THREE<br>速度：Carmel2 &gt; A3 &gt; THREE<br>動態：A3 &gt; THREE &gt; Carmel2<br>質感：THREE &gt; A3 &gt; Carmel2<br>細節：THREE = A3 = Carmel2<br>空間感：Carmel2 &gt; THREE &gt; A3<br>平衡度：THREE &gt; Carmel2 &gt; A3</p>
@@ -422,15 +382,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p id="block-229de920-e267-4000-b538-298b7aa5892c">雖然好的設計不一定出到好的聲音，但設計不當，出到好聲音的機會較微。而無論喜歡哪一類型的設計，設計師總會依照自己的發展方向去設計産品，聲音口味也會以監聽者為依歸，即是說，看設計也能預計其聲音表現，大概多聽不同類型產品，也會有類似的結論，所以【比比比】也有其分享的目的。總結一下，其實【比比比】並不是推薦最佳產品，最主要是在於比較各產品不同的特性和效果，讓各位有多一些資訊作比較，從而選擇出心水產品。而比較內容也是個人的看法，可能和各位的意見有所不同，然而好的產品未必人人接受，靚不靚聲也是很個人的感覺，所以在㨂選的時候，最好是耳聽為實，選擇適合自己的環境和聲音，加上【比比比】的小小意見，希望大家能找到滿意的產品。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/aluminium-speaker/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/aluminium-speaker/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Pi4 比較不同 Streaming client software 的效果</title>
-		<link>/pi4-streaming-clients/</link>
-					<comments>/pi4-streaming-clients/#respond</comments>
+		<link>/2021/02/03/pi4-streaming-clients/</link>
+					<comments>/2021/02/03/pi4-streaming-clients/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 08:44:06 +0000</pubDate>
@@ -448,15 +408,15 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 <p>Roon 未出之前，大部分玩 Streaming client 都會用 LMS 的系統，至於現正，相信有部分師兄已經轉行 Roon 了，而 HQPlayer 相信比較少人會用。如果只計 client 端的話，以小弟經驗，RoonBridge 效果較差，Squeezelite 會好些，NAA 最理想，不過其實相差也不是十分明顯，如果不用 A/B 比較，未必咁容易聽得出。事實上，RoonBridge 的 software 比較複雜，太多自動化嘅嘢要行，Squeezelite 簡單好多，而 HQPlayer 提供的 NAA 已經包含系統優化，所以 HQPlayer 效果比較理想。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/pi4-streaming-clients/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/pi4-streaming-clients/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>【音響拼圖】&#8221;T+A DAC8 DSD&#8221; 與 &#8220;雨後初晴&#8221; 的甜蜜邂逅⋯⋯</title>
-		<link>/dac8dsd-harbeth/</link>
-					<comments>/dac8dsd-harbeth/#respond</comments>
+		<link>/2021/02/03/dac8dsd-harbeth/</link>
+					<comments>/2021/02/03/dac8dsd-harbeth/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 08:42:45 +0000</pubDate>
@@ -466,98 +426,143 @@ Internet Router -&gt; (network switch) -&gt; Mac Mini M1 (Roon+HQPlayer) -&gt; (
 		<category><![CDATA[T+A DAC8 DSD]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=47</guid>
 
-					<description><![CDATA[組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。 T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。]]></description>
+					<description><![CDATA[組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。 T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。Harbeth [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>組合出來是充滿 Analog 的味道，擁有非常細緻、幼滑的小提琴聲音，就像是包住糖衣的毒品。</p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1916" height="1140" src="/wp-content/uploads/2022/06/dac8.jpg?w=1024" alt="" class="wp-image-424" srcset="/wp-content/uploads/2022/06/dac8.jpg 1916w, /wp-content/uploads/2022/06/dac8-300x178.jpg 300w, /wp-content/uploads/2022/06/dac8-1024x609.jpg 1024w, /wp-content/uploads/2022/06/dac8-768x457.jpg 768w, /wp-content/uploads/2022/06/dac8-1536x914.jpg 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /><figcaption>龍床上的 T+A DAC 8 DSD</figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1916" height="1140" src="/wp-content/uploads/2022/06/dac8.jpg?w=1024" alt="" class="wp-image-424" srcset="/wp-content/uploads/2022/06/dac8.jpg 1916w, /wp-content/uploads/2022/06/dac8-300x178.jpg 300w, /wp-content/uploads/2022/06/dac8-1024x609.jpg 1024w, /wp-content/uploads/2022/06/dac8-768x457.jpg 768w, /wp-content/uploads/2022/06/dac8-1536x914.jpg 1536w" sizes="(max-width: 1916px) 100vw, 1916px" /><figcaption>龍床上的 T+A DAC 8 DSD</figcaption></figure></div>
 
 
 <p>T+A DAC DSD &#8211; 幾年前嘅 1 bit 轉換技術，到依家一樣咁動聽，有 HQPlayer 加持，也可以換然一新，非常 Analog 嘅感受。<br>Harbeth P3ESR &#8211; 播小提琴真係一絕，毒力非凡。<br>HQPlayer &#8211; Sinc-L + EC Filter 升頻到 DSD256，靚到無話可說。<br>龍床 &#8211; 有起承轉合的作用，更清晰明確的表達。<br>Bel Canto E1X Integrated &#8211; 估唔到佢個 Analog In A/D 再 D/A 之後，竟然出到咁幼細嘅 Analog 聲。<br></p>
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1914" height="1310" src="/wp-content/uploads/2022/06/streamer.jpg?w=1024" alt="" class="wp-image-425" srcset="/wp-content/uploads/2022/06/streamer.jpg 1914w, /wp-content/uploads/2022/06/streamer-300x205.jpg 300w, /wp-content/uploads/2022/06/streamer-1024x701.jpg 1024w, /wp-content/uploads/2022/06/streamer-768x526.jpg 768w, /wp-content/uploads/2022/06/streamer-1536x1051.jpg 1536w" sizes="(max-width: 1914px) 100vw, 1914px" /><figcaption>Streaming 用 NUC 加 EtherRegen Switch</figcaption></figure></div>
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1914" height="1310" src="/wp-content/uploads/2022/06/streamer.jpg?w=1024" alt="" class="wp-image-425" srcset="/wp-content/uploads/2022/06/streamer.jpg 1914w, /wp-content/uploads/2022/06/streamer-300x205.jpg 300w, /wp-content/uploads/2022/06/streamer-1024x701.jpg 1024w, /wp-content/uploads/2022/06/streamer-768x526.jpg 768w, /wp-content/uploads/2022/06/streamer-1536x1051.jpg 1536w" sizes="(max-width: 1914px) 100vw, 1914px" /><figcaption>Streaming 用 NUC 加 EtherRegen Switch</figcaption></figure></div>
 
 
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/dac8dsd-harbeth/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/dac8dsd-harbeth/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Roon 要點開始⋯⋯玩？</title>
-		<link>/roon-starting/</link>
-					<comments>/roon-starting/#respond</comments>
+		<title>【圍物論】超級多合一DAC/Amp 之&#8230; Bel Canto E1X Integrated</title>
+		<link>/2021/02/03/bel-canto-e1e-int/</link>
+					<comments>/2021/02/03/bel-canto-e1e-int/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Wed, 03 Feb 2021 08:39:11 +0000</pubDate>
-				<category><![CDATA[音響]]></category>
-		<category><![CDATA[CAS]]></category>
-		<category><![CDATA[Roon]]></category>
-		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=45</guid>
+		<pubDate>Wed, 03 Feb 2021 08:37:40 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[All-in-One]]></category>
+		<category><![CDATA[Bel Canto E1X Integrated]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=43</guid>
 
-					<description><![CDATA[好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯ [...]]]></description>
+					<description><![CDATA[佢係一部多功能合併機，有串流、解碼以及唱頭放大功能，可以駁 Line in，有內置 Bass Management 可以接 Subwoofer，支援MM/MC唱頭，可以駁標準數碼輸入，包括同軸、光纖、AES等，可以接有線或無線網路，有 UPnP/DLNA、Roon 或 Tidal、Qobuz 串流服務可選，也支援MQA解碼，iOS 可下載 seek app 控制及選服務，絕對一部機攪掂。 [...]]]></description>
 										<content:encoded><![CDATA[
-<p id="block-bff4dbea-d7b9-4699-8844-d9a60ace58cc"><br>好多想開始玩CAS嘅師兄都有問我呢個問題，我都答咗好多次，不如喺度講吓點玩啦⋯⋯</p>
+<figure class="wp-block-image size-large" id="block-3a3b8082-5013-4ae7-ba95-8fa71330239c"><img loading="lazy" decoding="async" width="1000" height="200" src="/wp-content/uploads/2021/02/e1x-dac-main-front.png?w=809" alt="" class="wp-image-67" srcset="/wp-content/uploads/2021/02/e1x-dac-main-front.png 1000w, /wp-content/uploads/2021/02/e1x-dac-main-front-300x60.png 300w, /wp-content/uploads/2021/02/e1x-dac-main-front-768x154.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 
 
 
-<p id="block-5125dc6d-357b-419c-9a1f-864a88e66965">Roon 其實係一個音樂檔案管理系統 (Music Library)，有音樂播放功能，支援串流服務，有個好好用嘅使用者介面，分月費及永久付費計劃。<a href="https://roonlabs.com/howroonworks">https://roonlabs.com/howroonworks</a> 而 Roon 主要分成三個部分，Roon Core 係 Roon 軟件的主要部分，可以安裝在任何硬件上，包括 Windows, Mac, Linux, NAS。Roon Control Apps 就係控制程式，可以裝喺 iOS, Android, Windows, Mac 上。另外可以加埋 Roon Outputs (又叫 End Points)，亦即係 Roon Ready 嘅 Streamer/Speaker/Player 等，合埋便組成一套完整的 Roon 系統。</p>
+<p id="block-15579363-5197-4246-8a49-80bf23cbf402">各位師兄，如果想退燒，又想簡單地一部機攪掂，或者冇太多空間放機的話，呢部多功能一體機就係一個好選擇。e1X 系列直接由旗艦 Black 下放技術，數碼技術領先其他大廠，其聲音保持應有水平。小弟以為這個產品對準 Devialet 合併機，功能相差無幾，不過推動力及數碼技術分別頗大。</p>
 
 
 
-<div id="block-3a152c75-45a1-41aa-bed0-1f6903c7ec91" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1286" height="884" src="/wp-content/uploads/2021/02/roon-library.jpg?w=809" alt="" class="wp-image-75" srcset="/wp-content/uploads/2021/02/roon-library.jpg 1286w, /wp-content/uploads/2021/02/roon-library-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-library-1024x704.jpg 1024w, /wp-content/uploads/2021/02/roon-library-768x528.jpg 768w" sizes="(max-width: 1286px) 100vw, 1286px" /><figcaption>Roon 的使用者介面非常方便好用</figcaption></figure></div>
+<figure class="wp-block-image size-large" id="block-64804d66-de6f-441b-be26-ce9e104df111"><img loading="lazy" decoding="async" width="1000" height="200" src="/wp-content/uploads/2021/02/e1x-int-main-back.png?w=809" alt="" class="wp-image-73" srcset="/wp-content/uploads/2021/02/e1x-int-main-back.png 1000w, /wp-content/uploads/2021/02/e1x-int-main-back-300x60.png 300w, /wp-content/uploads/2021/02/e1x-int-main-back-768x154.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 
 
 
-<p id="block-6ce5276c-bb27-459e-bb6e-f6a1c840a01b">玩 Roon 第一樣要考慮裝喺邊？Roon Core 可以裝喺任何電腦上，如果冇電腦，可能要買一部 Roon Core 專用電腦，當然可以買支援 Roon 嘅專用 Music Server 例如 Roon Nucleus <a href="https://roonlabs.com/nucleus">https://roonlabs.com/nucleus</a>、或者 Innuos Music Server <a href="https://innuos.com/en/catalog/go/music-servers-mk3">https://innuos.com/en/catalog/go/music-servers-mk3</a> 之類的產品。如果有電腦，可以裝喺自己電腦上面，不過用專用電腦絶對好過普通電腦。另外，如果NAS支援的話，可以裝入NAS上面，不過因爲 Roon 行 Library 嘅時候，需要快速存取資料，所以最好行SSD。如果能力許可的話，最好當然係行專用電腦啦，但如果覺得音響品牌太貴的話，自組電腦也可以的。</p>
+<p id="block-ebb1badc-7903-4a34-86fe-b10489758b37">佢係一部多功能合併機，有串流、解碼以及唱頭放大功能，可以駁 Line in，有內置 Bass Management 可以接 Subwoofer，支援MM/MC唱頭，可以駁標準數碼輸入，包括同軸、光纖、AES等，可以接有線或無線網路，有 UPnP/DLNA、Roon 或 Tidal、Qobuz 串流服務可選，也支援MQA解碼，iOS 可下載 seek app 控制及選服務，絕對一部機攪掂。</p>
 
 
-
-<p id="block-580726e5-eb1f-4896-8b1e-f8d66892d868">如果決定自組電腦的話，首先要清楚這個 Music Library 有多大？如果有大量音樂檔，可能裝硬碟的位置未必足夠，假設這部電腦只可以放一隻硬碟，我建議最好行SSD，依家買 2TB SSD 價錢都可以接受，所以音樂檔少過 2TB的話，其實一隻SSD便足夠。雖然大部分電腦可以行外置硬碟，但小弟就唔建議，因為外置硬碟比較容易出問題。還有，這部電腦要多快？這取決於是否要行 Roon 升頻，如果唔行升頻，i5 已經足夠，如果行升頻，可能要用到 i7。不過小弟覺得可以唔行升頻，用部低耗電CPU和靜音電腦會理想啲。但如果這部電腦冇足夠位放硬碟，可能要考慮加NAS，而 Roon 加NAS係比較方便，有時還方便過內置硬碟。</p>
-
-
-
-<p id="block-3fe2939a-2dd7-41f8-8942-13442c8c3f57">至於點控制部 Roon，其實好簡單，只要裝個 Roon Remote 落平板電腦就得，如果未有平板電腦的話，可以買部平平地嘅就得，其實手機也可以，但小弟建議要行 iOS，iOS 比較好用。如果已經裝咗 Roon 落 Windows 或 Mac 電腦嘅師兄，同樣地可以用 Windows/Mac 嘅 Roon 去控制聽歌，控制介面是一樣的。</p>
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-225869a8-17f6-426e-b82c-84f53a0873ab"><img loading="lazy" decoding="async" width="1606" height="1206" src="/wp-content/uploads/2022/06/e1x-inside-full.jpg?w=1024" alt="" class="wp-image-414" srcset="/wp-content/uploads/2022/06/e1x-inside-full.jpg 1606w, /wp-content/uploads/2022/06/e1x-inside-full-300x225.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-full-1024x769.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-full-768x577.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-full-1536x1153.jpg 1536w" sizes="(max-width: 1606px) 100vw, 1606px" /><figcaption>內部公開：左上面輸入處理、右上面解碼、左下面輸入和解碼線性供電、右下面後級放大部分。</figcaption></figure></div>
 
 
-
-<p id="block-1a4eb68e-fe09-4335-a85f-95d377c00a7a">還有最終連接音響系統的地方，首選當然係 Roon Ready 嘅 Streamers，如果只有 USB DAC，也可以用 Roon Core 電腦的USB接DAC。不過還可以用低耗電腦做 End Point (行 Roon Bridge 軟件)，Rasberry Pi 係一個好選擇，<a href="https://ropieee.org/">https://ropieee.org/</a> RoPieee 係一個專門行 Rasberry Pi 的OS，簡單易用。至於 Roon Ready 嘅 Streamers 又可以分為有解碼功能或沒有解碼功能，冇解碼功能的 Streamer 要外接DAC，有 SPDIF/AES、USB 和 I2S 的連接方式，當然行 I2S 比較好，不過就唔多選擇，又有兼容問題，而USB連線也可能出現不兼容情況，SPDIF/AES 最穩陣，不過音樂檔最高只兼容24/192，各有優劣。當然也有其他方式出聲，電腦 sound card 也好，HDMI 駁 AV Amp 也好，都係一種方式，不過效果並不是太理想。</p>
-
+<p id="block-40f8517e-a9f3-425d-9ef1-f39d77a18b11">上網睇資料 E1X 用上六粒處理器，兩粒XMOS、兩粒ARM、再加兩粒獨立DSP而成，用上非同步處理每個輸入裝置，超低噪時鐘系統，所有輸入包括模擬、唱頭都經由自家數碼處理，確保低失真、低抖動、高動態，而自家數碼處理可控音量、EQ、RIAA、低頻管理以及數位濾波等。好明顯佢對自家數碼處理非常有信心，而事實上佢嘅聲音非常實在、動態強、背景靜、分析力高。</p>
 
 
-<div id="block-a8ea0046-7806-46b0-bcb4-6b08aa5c8ab7" class="wp-block-image"><figure class="aligncenter size-large"><img decoding="async" loading="lazy" width="1288" height="883" src="/wp-content/uploads/2021/02/roon-supports-mqa.jpg?w=809" alt="" class="wp-image-76" srcset="/wp-content/uploads/2021/02/roon-supports-mqa.jpg 1288w, /wp-content/uploads/2021/02/roon-supports-mqa-300x206.jpg 300w, /wp-content/uploads/2021/02/roon-supports-mqa-1024x702.jpg 1024w, /wp-content/uploads/2021/02/roon-supports-mqa-768x527.jpg 768w" sizes="(max-width: 1288px) 100vw, 1288px" /><figcaption>用 Roon 聽 Tidal 很理想，可能比只有簡單支援 Tidal 的 Streamers 還好，而且 Roon 直接支援 24/96 的 MQA Core Decoder。</figcaption></figure></div>
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-aba18345-21af-4611-b7ff-9b832bdbb083"><img loading="lazy" decoding="async" width="1612" height="1208" src="/wp-content/uploads/2022/06/e1x-inside-digital.jpg?w=1024" alt="" class="wp-image-415" srcset="/wp-content/uploads/2022/06/e1x-inside-digital.jpg 1612w, /wp-content/uploads/2022/06/e1x-inside-digital-300x225.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-digital-1024x767.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-digital-768x576.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-digital-1536x1151.jpg 1536w" sizes="(max-width: 1612px) 100vw, 1612px" /><figcaption>輸入部分：有線網路/USB-A無線網路、USB-B、SFDIP/TOSLink/AES數碼輪入，每個輸入都各自獨立，右邊是模擬輸入，會經過A/D處理，中間偏右是兩粒低噪主時鐘。</figcaption></figure></div>
 
 
-
-<p id="block-49cddea9-19b7-49be-ae86-dd1c11f52268">實際例子，我和幾位朋友都係咁做：</p>
-
+<p id="block-ba61ab2a-e960-4e23-a00c-aa49dfb9b156">如果以音頻數碼處理能力嚟講，呢部機比 Devialet 好好多，有分析力得嚟聲音又自然。雖然推動力唔差，但比起 Devialet 就差一截，Devialet 嘅 A+D 唔可以睇少，不過要去到 D200 以上先好，D140 以下推動力同 E1X 差唔多。雖然 Devialet 200 推動力強，但就唔可以開太大聲，開超過 0 啲聲會爭啲。E1X 內置最大音量為 85，可改到最大 100，同樣地低過 85 會好聽啲，唔知係咪同大家都係數位音量有關呢？</p>
 
 
-<ol id="block-eccfbe30-2cf8-48f5-98b1-c0624ac35fe7"><li>NAS 裝音樂檔</li><li>獨立組裝電腦行 Roon Core + SSD 硬碟</li><li>Streamer + DAC 駁音響系統</li><li>LPS 做供電</li><li>光纖網路 + 隔離功能網路交換器 接 Streamer、Roon Core 電腦和NAS</li><li>電處 + 地盒</li></ol>
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-587fe732-08c5-4612-a34c-b2cbccd89acc"><img loading="lazy" decoding="async" width="1606" height="1208" src="/wp-content/uploads/2022/06/e1x-inside-dac.jpg?w=1024" alt="" class="wp-image-417" srcset="/wp-content/uploads/2022/06/e1x-inside-dac.jpg 1606w, /wp-content/uploads/2022/06/e1x-inside-dac-300x226.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-dac-1024x770.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-dac-768x578.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-dac-1536x1155.jpg 1536w" sizes="(max-width: 1606px) 100vw, 1606px" /><figcaption>解碼部分：整部機核心，DSP、另一個主時鐘、PCM1792解碼晶片</figcaption></figure></div>
 
 
+<p id="block-0716497d-d971-474e-b0db-41fb384f7736">開聲嘅時候係接 Falcon 3/5a，15Ω 嘅 3/5a 要求都唔低，除非用有 15/16Ω 嘅膽機推，否則要用到 150W 以上嘅石機先推到，不過 E1X 都唔失禮，有足夠力量去推 3/5a，但係推大座地喇叭要推得好，佢就顯得吃力。部機嘅分離度、立體感都好好，推 3/5a 明顯出到 3/5a 嘅優點，大件頭、細件頭都難唔到佢地。不過 E1X 同 Devialet 一樣，開始用嘅時候，聽感上數碼味比較重，要用一段時間之後，或者處理好電源方面嘅問題，咁啲聲就自然好多。</p>
 
-<p id="block-44276175-bd67-4172-b187-c7a328b78c06">想玩CAS玩得好聲，唔係一件易事，不過依家有 Roon 可以用，其實比以前方便了很多，亦因爲有 Roon Ready 嘅 Streamers 出現，亦已經簡單很多。有CD機當然好，不過現時的高清或串流未必玩到，而且現時網上音樂平台資源，如 Tidal, Qobuz 的串流服務或下載服務已經盛行，音樂格式亦比CD好，所以係時候要計劃點玩好CAS了。</p>
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized" id="block-9160ddf0-8e68-4d8c-8ef0-18562834a380"><img loading="lazy" decoding="async" src="/wp-content/uploads/2022/06/e1x-inside-power.jpg?w=768" alt="" class="wp-image-418" width="576" height="767" srcset="/wp-content/uploads/2022/06/e1x-inside-power.jpg 908w, /wp-content/uploads/2022/06/e1x-inside-power-225x300.jpg 225w, /wp-content/uploads/2022/06/e1x-inside-power-768x1023.jpg 768w" sizes="(max-width: 576px) 100vw, 576px" /><figcaption>線性供電給輸入部分及數碼處理部分</figcaption></figure></div>
+
+
+<p id="block-58b62d19-069f-4726-b3a0-36ee73cced78">開始聽嘅時候聲音完全冇驚喜、好普通，不過玩機一定熱身，開返一、兩個星期先啦！唔使熄機係一個好處 (可能係壞處)，冇聲之後就 stand by。而過咗一段時間啲聲又好番啲，不過就喺駁電處、地盒之後，啲聲終於自然番好多，可以正式聽吓歌仔啦。佢有個另外一個好處，就係只需要用一對喇叭線、一條電線，咁就可以開聲，但唔好嘅就係&#8230; 少咗玩線嘅樂趣。上網用 Roon 行 Tidal，試咗有線網路，由光隔到 EtherRegen 用LPS加鐘再接AIM網線，比較只係跟機嚟嘅 WiFi dongle，無線只係質感差少少，但透明度又比有線高番少少，相比之下，無線似乎適合啲、簡單啲。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large" id="block-d549edab-1d49-41e3-8703-4b87f4a313e2"><img loading="lazy" decoding="async" width="1612" height="1210" src="/wp-content/uploads/2022/06/e1x-inside-amp.jpg?w=1024" alt="" class="wp-image-419" srcset="/wp-content/uploads/2022/06/e1x-inside-amp.jpg 1612w, /wp-content/uploads/2022/06/e1x-inside-amp-300x225.jpg 300w, /wp-content/uploads/2022/06/e1x-inside-amp-1024x769.jpg 1024w, /wp-content/uploads/2022/06/e1x-inside-amp-768x576.jpg 768w, /wp-content/uploads/2022/06/e1x-inside-amp-1536x1153.jpg 1536w" sizes="(max-width: 1612px) 100vw, 1612px" /><figcaption>NCore NC252 後級部分：8Ω 180W、4Ω 250W、最低去到 2Ω</figcaption></figure></div>
+
+
+<p id="block-0bd28dcb-5a4e-4184-8fc7-7aea17b1c44d">之所以玩呢部機，因為佢簡單，駁對喇叭插電就可以出聲，亦因為佢支援 Roon，唔使理其他嘢，喺 Roon 度設定好就可以，<s>不過佢個 Roon 唔支援DSD，Roon-Ready 可能要再等吓</s> 新 Firmware 已經支援DSD，亦已經係 Roon-Ready。講真現時多功能嘅機種唔算好特別，Devialet 多年前已經有產品，而元祖有 Linn，高新科技有NAD，但講到解碼最強就係佢。如果唔想駁多機及線，呢部真正簡簡單單乜都得，聲音當然有保證。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/roon-starting/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/bel-canto-e1e-int/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>【圍物論】網絡交換器之爭… 論 Uptone EtherRegen</title>
+		<link>/2021/02/03/uptone-etherregen/</link>
+					<comments>/2021/02/03/uptone-etherregen/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 03 Feb 2021 08:30:05 +0000</pubDate>
+				<category><![CDATA[圍物論]]></category>
+		<category><![CDATA[EtherRegen]]></category>
+		<category><![CDATA[Network Switch]]></category>
+		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=41</guid>
+
+					<description><![CDATA[其實呢件嘢主要係駁網絡用，亦主要用喺串流上面，而串流畀人感覺差，係因為網絡設計冇理會作為音響用途，而好多干擾來自網絡上，所以便需要呢類網絡隔離系統。如果你問我呢件嘢有冇用？我只會答："聽串流好聽過CD"，我知好多人會反對，但係我有啲朋友已經放棄玩CD，只玩串流。如果你玩串流玩得唔好，我只可以話："你冇用心去玩啫" ！ [...]]]></description>
+										<content:encoded><![CDATA[
+<p>當下有很多關於網絡交換器 (Network Switch) 成效的爭議，小弟有感而發，對於未曾使用過 Audio Grade Network Switch 的同好，請真正試清楚才下判斷，唔好人云亦云。</p>
+
+
+
+<p>對於有自我見解的同好，請不要用普通 IT &#8220;常識&#8221; 去判斷音響產品效果 (如果你只講 0 1 ，咁肯定係普通，連電壓高低都唔講，或者傳輸干擾也不提)，因為各家產品應用唔同，普通 Switch 係處理數據，唔需要理會對音響器材的干擾，而音響用 Switch 需要減少對音響器材造成影響。音響用 Switch 唔單只針對資料完整性 (呢㨾嘢求其一隻 Switch 都做到，所以誤以為資料正確係王道) ，而設計主要以減低干擾為原則。對於那些『Switch 無用論』的同好，其實同『線材無用論』的理念一樣，真心恭喜你。</p>
+
+
+
+<p>呢次「論物」主角係 Uptone 嘅 EtherRegen，佢有幾樣特點，有光纖插座、四個 1GbE、一個物理隔離嘅 10/100MbE，可以落地線，可以駁外置鐘，一件多玩味嘅產品，又唔貴，值得一試。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1025" height="927" src="/wp-content/uploads/2021/02/etherregen-inside.jpg?w=809" alt="" class="wp-image-65" srcset="/wp-content/uploads/2021/02/etherregen-inside.jpg 1025w, /wp-content/uploads/2021/02/etherregen-inside-300x271.jpg 300w, /wp-content/uploads/2021/02/etherregen-inside-768x695.jpg 768w" sizes="(max-width: 1025px) 100vw, 1025px" /></figure></div>
+
+
+<p>再嚟睇內涵，既然叫得做 Regen，本身就有 signal regeneration 功能，可以見到有條河喺 B頭附近，有兩條橋喺中間，完全係 isolation 嘅標準示範，另外可以見到右上邊有獨立穩壓，Isolation 做到足，再對落嘅都係穩壓，可見穩定度相當高，如果覺得呢樣隔離效果唔夠好，可以用埋光隔，咁樣應該更加理想。</p>
+
+
+
+<p>跟嚟隻SMPS已經唔錯，想更好可以換LPS，好嘅 Ethernet 線守後門當然唔少得，加埋鐘就更理想，唔好問點樣至好，有能力當然玩到盡。不過，佢亦有不足之處，佢對輸入電壓高低有反應，即係話穩壓未做得夠好，所以供電要畀好啲；佢比較熱，有啲用家會加散熱；佢比較輕，插粗嘅網線可能升起，要加重，又因為輕，墊嘢比較少選擇。</p>
+
+
+
+<p>其實呢件嘢主要係駁網絡用，亦主要用喺串流上面，而串流畀人感覺差，係因為網絡設計冇理會作為音響用途，而好多干擾來自網絡上，所以便需要呢類網絡隔離系統。如果你問我呢件嘢有冇用？我只會答：&#8221;聽串流好聽過CD&#8221;，我知好多人會反對，但係我有啲朋友已經放棄玩CD，只玩串流。如果你玩串流玩得唔好，我只可以話：&#8221;你冇用心去玩啫&#8221; ！</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2021/02/03/uptone-etherregen/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:21 by W3 Total Cache
--->

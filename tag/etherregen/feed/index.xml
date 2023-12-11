@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>EtherRegen &#8211; JNET Blog</title>
+	<title>EtherRegen &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/etherregen/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Wed, 03 Feb 2021 08:30:05 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:43:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【圍物論】網絡交換器之爭… 論 Uptone EtherRegen</title>
-		<link>/uptone-etherregen/</link>
-					<comments>/uptone-etherregen/#respond</comments>
+		<link>/2021/02/03/uptone-etherregen/</link>
+					<comments>/2021/02/03/uptone-etherregen/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 08:30:05 +0000</pubDate>
@@ -45,7 +45,7 @@
 
 
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><img decoding="async" fetchpriority="high" width="1025" height="927" src="/wp-content/uploads/2021/02/etherregen-inside.jpg?w=809" alt="" class="wp-image-65" srcset="/wp-content/uploads/2021/02/etherregen-inside.jpg 1025w, /wp-content/uploads/2021/02/etherregen-inside-300x271.jpg 300w, /wp-content/uploads/2021/02/etherregen-inside-768x695.jpg 768w" sizes="(max-width: 1025px) 100vw, 1025px" /></figure></div>
+<figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="1025" height="927" src="/wp-content/uploads/2021/02/etherregen-inside.jpg?w=809" alt="" class="wp-image-65" srcset="/wp-content/uploads/2021/02/etherregen-inside.jpg 1025w, /wp-content/uploads/2021/02/etherregen-inside-300x271.jpg 300w, /wp-content/uploads/2021/02/etherregen-inside-768x695.jpg 768w" sizes="(max-width: 1025px) 100vw, 1025px" /></figure></div>
 
 
 <p>再嚟睇內涵，既然叫得做 Regen，本身就有 signal regeneration 功能，可以見到有條河喺 B頭附近，有兩條橋喺中間，完全係 isolation 嘅標準示範，另外可以見到右上邊有獨立穩壓，Isolation 做到足，再對落嘅都係穩壓，可見穩定度相當高，如果覺得呢樣隔離效果唔夠好，可以用埋光隔，咁樣應該更加理想。</p>
@@ -59,17 +59,10 @@
 <p>其實呢件嘢主要係駁網絡用，亦主要用喺串流上面，而串流畀人感覺差，係因為網絡設計冇理會作為音響用途，而好多干擾來自網絡上，所以便需要呢類網絡隔離系統。如果你問我呢件嘢有冇用？我只會答：&#8221;聽串流好聽過CD&#8221;，我知好多人會反對，但係我有啲朋友已經放棄玩CD，只玩串流。如果你玩串流玩得唔好，我只可以話：&#8221;你冇用心去玩啫&#8221; ！</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/uptone-etherregen/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/uptone-etherregen/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
--->

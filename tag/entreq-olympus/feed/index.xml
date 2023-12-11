@@ -8,21 +8,21 @@
 	>
 
 <channel>
-	<title>Entreq Olympus &#8211; JNET Blog</title>
+	<title>Entreq Olympus &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/entreq-olympus/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Tue, 18 Oct 2022 08:31:20 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:40:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>【Hi Fi 雜談】農夫地盒</title>
-		<link>/entreq-groundbox/</link>
-					<comments>/entreq-groundbox/#respond</comments>
+		<link>/2022/10/18/entreq-groundbox/</link>
+					<comments>/2022/10/18/entreq-groundbox/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 18 Oct 2022 08:31:20 +0000</pubDate>
@@ -59,17 +59,10 @@
 <p>總括來說，玩地盒不是一件容易的事，想系統調整得好，需要花很多時間及心思，在不同的配置中，尋找最適合的選項，以現時家居種種不同的電磁波干擾下，地盒已經變成最不可或缺的音響基礎建設。(P.S. 也許因爲現今的系統多數以高分析力為主，越是走高分析力的系統，越需要低噪的環境及音響基建去提升細節及音質；但如果覺得系統太高分析力而不耐聽，地盒也未必適合這類系統的人。)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/entreq-groundbox/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/10/18/entreq-groundbox/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:25 by W3 Total Cache
--->

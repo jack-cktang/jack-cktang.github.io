@@ -8,25 +8,25 @@
 	>
 
 <channel>
-	<title>DAC &#8211; JNET Blog</title>
+	<title>DAC &#8211; Jack Personal Blog</title>
 	<atom:link href="/tag/dac/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description></description>
-	<lastBuildDate>Wed, 03 Feb 2021 07:22:54 +0000</lastBuildDate>
+	<description>HiFi。品味。生活</description>
+	<lastBuildDate>Wed, 06 Dec 2023 04:44:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.3</generator>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
 	<item>
 		<title>淺談各品牌解碼器的技術特點</title>
-		<link>/dac-tech/</link>
-					<comments>/dac-tech/#respond</comments>
+		<link>/2021/02/03/dac-tech/</link>
+					<comments>/2021/02/03/dac-tech/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 07:22:54 +0000</pubDate>
-				<category><![CDATA[音響]]></category>
+				<category><![CDATA[Hi Fi 雜談]]></category>
 		<category><![CDATA[CAS]]></category>
 		<category><![CDATA[DAC]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=38</guid>
@@ -40,19 +40,19 @@
 <figure class="wp-block-table alignleft"><table><tbody><tr><td class="has-text-align-left" data-align="left">當大家考慮玩CAS嘅時候，通常都會以解碼(器)開始著手，其中要考慮的因素太多，解碼的質數、功能、輸入方式、有沒有內置 Streamer 等，但更多情況係考慮該器材的音質，而各大品牌也有自家特色解碼，選擇很豐富，要從中挑選適合自己的會很花時間，小弟嘗試將部分認識的品牌，分析其中的特色及專長，給大家作參考。<br><br>要了解其中特色，先要清楚解碼的方式和技術，解碼方式主要分為 Ladder DAC (R2R) 和 Delta-Sigma 兩種，而大多數解碼都以解碼芯片作為 D/A 轉換核心，也有一些廠商會用 Discrete 方式去做 D/A 轉換。近年流行升頻技術，以住有些廠商以升頻作賣點，而現時的芯片已經有內置升頻功能，但這種功能不能滿足現時高端用家的需求，繼而有些廠家開發出新的升頻技術，這些技術足以令到現今解碼質素作進一步提升。不過也有些廠商以不升頻 (NOS) 為主，有些則使用更原始的解碼芯片，或用其他方式使到音質提升，例如供電、模擬濾波及放大 (I/V轉換) 等部分。<br><br><span style="text-decoration:underline;"><strong>升頻技術形</strong>&nbsp;&#8211; 大多使用自家技術，自行編程，用以製作高品質音效</span><br><strong>dCS</strong>&nbsp;&#8211; 將所有輸入訊號 (包括 PCM 及 DSD) 升頻為 DSD128 (可選升頻PCM384)，再用自家 discrete 方式的 RingDAC 作 D/A 轉換。<em>(所有組件自家開發，成本極高，價錢最貴，做工、技術已經無可挑剔，適合高端用戶使用。)</em><br><strong>EMM Labs</strong>&nbsp;&#8211; 將所有輸入訊號用 FPGA 升頻至 16xDSD，再用自家 discrete 方式作 D/A 轉換。<em>(DSD 數碼專家，技術和應用都已經很成熟。)</em><br><strong>Playback Designs</strong>&nbsp;&#8211; 和 EMM Labs 方法差不多，但只升頻至 4xDSD。<em>(技術和 EMM Labs 差不多，只是調聲不同。)</em><br><strong>CH Precision</strong>&nbsp;&#8211; 使用 Anagram 技術升頻至 705.6kHz，DSD 會轉成 PCM，再用現成芯片作 D/A 轉換。<em>(新一代升頻科技，Anagram 開發者的重要成果，只能親身體驗。)</em><br><strong>Chord</strong>&nbsp;&#8211; 使用 FPGA 方式作多 tap (1M) 升頻至 705.6/768kHz，DSD 會轉成 PCM。<em>(Watts 的升頻方式很好，高效的 FPGA 可能提升效能，但可是換湯不換藥。)</em><br><strong>Weiss</strong>&nbsp;&#8211; 使用自家專業程式行 DSP 作升頻，DSD 會轉成 PCM，再用現成芯片作 D/A 轉換。<em>(專業程式應用在自家產品上，效果出眾，但 DSP 的處理能力有限，如果用上高效的 DSP 芯片，效果可能更好。)</em><br><strong>Bricasti Design</strong>&nbsp;&#8211; 使用自家方式運行 DSP 作升頻，DSD/PCM 使用現成芯片作 Delta-Sigma 或 Ladder 型式 D/A 轉換、亦可使用 DSD 直解等三種轉換方式。<em>(產品很完整，使用現時最有效解碼方式製作，提升空間大。 [28-Sep-2021 Updates])</em><br><strong>PS Audio</strong>&nbsp;&#8211; 將所有輸入訊號用 FPGA 升頻為 10xDSD，再以 1 bit 方式作 D/A 轉換。<em>(設計師很花心思，升級新的 firmware 好似換了新機一樣，將來的升級空間很大。)</em><br><strong>Esoteric</strong>&nbsp;&#8211; 使用 FPGA 方式升頻，再用自家 discrete 方式作 D/A 轉換。<em>(新一代升頻解碼技術使得老牌產品換然一新，再加上原有的成熟技術，可以作為頂級參考之列。<em>[28-Sep-2021 Updates]</em>)</em><br><strong>Auralic</strong>&nbsp;&#8211; 使用自家程式行 Tesla CPU 作升頻，再用現成芯片作 D/A 轉換。<em>(雖然用上易於編程的系統，但升頻品質<em>(不包含升頻器)</em>只是點到即止 ，將來還有大大空間可以提升。)</em><br><br><span style="text-decoration:underline;"><strong>R2R Discrete 方式</strong>&nbsp;&#8211; 最早的 PCM D/A 轉換方式，簡單直接，要精準便成本高，品質難控制</span><br><strong>MSB</strong>&nbsp;&#8211; 使用高精度電阻以 R2R 方式作 D/A 轉換，因 discrete 方式使用高電壓，所以不需作 I/V 轉換，可直驅後級。<em>(MSB 以 R2R 出名，經歷多代產品之後更見精練，加上新品可同時作 DSD 轉換，效果出眾，於市場領先位置。)</em><br><strong>TotalDAC</strong>&nbsp;&#8211; 和 MSB 差不多，不過使用更高精度的電阻。<em>(可說是一鳴驚人，用上高精度電阻效果出眾，反而是如何再作突破呢？)</em><br><strong>HoloAudio</strong>&nbsp;&#8211; 可用內置升頻芯片或 NOS 模式運作，PCM 和 DSD 使用不同方式作 D/A 轉換。<em>(效果好，售價低，理想的入門產品，各式輸入可滿足用家需要，只是高品質效果停留於 NOS 模式中，其他方面要再突破一下。)</em><br><br><span style="text-decoration:underline;"><strong>特色雙解碼</strong>&nbsp;&#8211; 有別於一般解碼方式，不需要轉成某一種特定解碼方式，各自有獨立模式作 D/A 轉換</span><br><strong>Nagra</strong>&nbsp;&#8211; 處理 DSD 訊號用 Playback Designs 的方式，不過只升頻至 2xDSD，PCM 則使用另一組 D/A 轉換。<em>(技術似乎有些落伍，新品售價更高，雖然雙解碼效果好，但似乎要加些新技術才能滿足需求。)</em><br><strong>T+A</strong>&nbsp;&#8211; 處理 PCM 訊號用自家方式 DSP 作升頻，再用現成芯片作 D/A 轉換，DSD 則使用 1 bit discrete 方式作 D/A 轉換。<em>(PCM 升頻不到位，反而 DSD 1 bit 轉換做得幾好，最佳配置為 HQPlayer 軟件升頻 DSD512，比起其他高級解碼也不會失色。)</em><br><br><span style="text-decoration:underline;"><strong>傳統方式</strong>&nbsp;&#8211; 使用現芯片，沒有加添數字處理</span><br><s><strong>Esoteric</strong>&nbsp;&#8211; 使用多塊現成芯片並聯作 D/A 轉換，以提升訊噪比。<em>(日本解碼最高成就，只求高訊噪比的傳統用戶會十分喜愛，不過已經到了一個樽頸位置。)</em></s><br><strong>LampizatOr</strong>&nbsp;&#8211; 使用現成芯片、或 R2R 模組、以及 USB 上的 Delta-Sigma 輸出來作 D/A 轉換，以膽 I/V 轉換為主。<em>(以膽輸出作賣點，再加上可自由組合嘅模組，可玩性大增，唯獨是沒有自主開發嘅技術，很容易被超越。)</em><br><br><span style="text-decoration:underline;"><strong>NOS 方式</strong>&nbsp;&#8211; 以最原始的方式作 D/A 轉換，沒有使用任何數字處理</span><br><strong>Audio Note</strong>&nbsp;&#8211; 完全舊式作風，以膽 I/V 轉換為主。<em>(絶對係以膽聞，高價零件，原始做法，品味之選。)</em><br><strong>Aqua</strong>&nbsp;&#8211; 以自家 FPGA 編程，沒有升頻或數字濾波處理，訊號直接以 R2R 方式作 D/A 轉換。<em>(用舊有的方式，注入新的思維，做好各個部分，效果顯著。)</em><br><br>以上嘅分類，只係方便了解各種解器嘅特點，亦唔代表只可以這樣歸類，這種分類方式可以簡單評估現今解碼的技術取向，不同用家各取所需，方便各自選擇。<br><br>話說這個文章只係小弟嘅個人見解，不代表這些內容完全正確，亦不是購買建議，所以看完有所不滿，笑吓就算，多多包函！</td></tr></tbody></table></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/dac-tech/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/dac-tech/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>DAC相關用詞及基礎知識</title>
-		<link>/dac-terms/</link>
-					<comments>/dac-terms/#respond</comments>
+		<link>/2021/02/03/dac-terms/</link>
+					<comments>/2021/02/03/dac-terms/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 03 Feb 2021 07:10:57 +0000</pubDate>
-				<category><![CDATA[音響]]></category>
+				<category><![CDATA[Hi Fi 雜談]]></category>
 		<category><![CDATA[CAS]]></category>
 		<category><![CDATA[DAC]]></category>
 		<guid isPermaLink="false">https://jacknetcf.wordpress.com/?p=34</guid>
@@ -166,17 +166,10 @@
 <p id="block-518cbe18-df52-4ae1-8e94-598f49fb2488">Delta Sigma：現代常見的晶片都使用 Delta Sigma 技術，解碼方式有如 DSD 那樣，先將數碼流轉成 1 bit 後才解碼，好處是價格較低，而且加上 digital filter 後效果亦不錯，另一好處是可解PCM和DSD，所以比較多廠商使用。有些人不喜歡用 Delta Sigma 方式，因為一定要用 digital filter 才能產生 Analog 訊號，他們覺得這樣會增加人為色彩。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/dac-terms/feed/</wfw:commentRss>
+					<wfw:commentRss>/2021/02/03/dac-terms/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-
-Served from: jacknetcf.jnet.tk @ 2023-08-11 16:14:26 by W3 Total Cache
--->
